@@ -1,0 +1,1617 @@
+{
+  "scraper": "wusa",
+  "scraped_at": "2025-08-15T00:28:16.108694",
+  "count": 161,
+  "data": [
+    {
+      "name": "Club from /clubs/240",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/240",
+      "scraped_at": "2025-08-15 00:28:14.097002"
+    },
+    {
+      "name": "Club from /clubs/489",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/489",
+      "scraped_at": "2025-08-15 00:28:14.097047"
+    },
+    {
+      "name": "Club from /clubs/6",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/6",
+      "scraped_at": "2025-08-15 00:28:14.097069"
+    },
+    {
+      "name": "Club from /clubs/225",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/225",
+      "scraped_at": "2025-08-15 00:28:14.097087"
+    },
+    {
+      "name": "Club from /clubs/436",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/436",
+      "scraped_at": "2025-08-15 00:28:14.097103"
+    },
+    {
+      "name": "Club from /clubs/12",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/12",
+      "scraped_at": "2025-08-15 00:28:14.097119"
+    },
+    {
+      "name": "Club from /clubs/280",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/280",
+      "scraped_at": "2025-08-15 00:28:14.097134"
+    },
+    {
+      "name": "Club from /clubs/302",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/302",
+      "scraped_at": "2025-08-15 00:28:14.097147"
+    },
+    {
+      "name": "Club from /clubs/15",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/15",
+      "scraped_at": "2025-08-15 00:28:14.097160"
+    },
+    {
+      "name": "Club from /clubs/354",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/354",
+      "scraped_at": "2025-08-15 00:28:14.097171"
+    },
+    {
+      "name": "Club from /clubs/360",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/360",
+      "scraped_at": "2025-08-15 00:28:14.238663"
+    },
+    {
+      "name": "Club from /clubs/23",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/23",
+      "scraped_at": "2025-08-15 00:28:14.238702"
+    },
+    {
+      "name": "Club from /clubs/25",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/25",
+      "scraped_at": "2025-08-15 00:28:14.238724"
+    },
+    {
+      "name": "Club from /clubs/565",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/565",
+      "scraped_at": "2025-08-15 00:28:14.238744"
+    },
+    {
+      "name": "Club from /clubs/28",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/28",
+      "scraped_at": "2025-08-15 00:28:14.238761"
+    },
+    {
+      "name": "Club from /clubs/533",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/533",
+      "scraped_at": "2025-08-15 00:28:14.238777"
+    },
+    {
+      "name": "Club from /clubs/30",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/30",
+      "scraped_at": "2025-08-15 00:28:14.238793"
+    },
+    {
+      "name": "Club from /clubs/544",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/544",
+      "scraped_at": "2025-08-15 00:28:14.238808"
+    },
+    {
+      "name": "Club from /clubs/34",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/34",
+      "scraped_at": "2025-08-15 00:28:14.238823"
+    },
+    {
+      "name": "Club from /clubs/36",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/36",
+      "scraped_at": "2025-08-15 00:28:14.238839"
+    },
+    {
+      "name": "Club from /clubs/523",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/523",
+      "scraped_at": "2025-08-15 00:28:14.352286"
+    },
+    {
+      "name": "Club from /clubs/40",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/40",
+      "scraped_at": "2025-08-15 00:28:14.352367"
+    },
+    {
+      "name": "Club from /clubs/235",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/235",
+      "scraped_at": "2025-08-15 00:28:14.352394"
+    },
+    {
+      "name": "Club from /clubs/44",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/44",
+      "scraped_at": "2025-08-15 00:28:14.352412"
+    },
+    {
+      "name": "Club from /clubs/47",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/47",
+      "scraped_at": "2025-08-15 00:28:14.352427"
+    },
+    {
+      "name": "Club from /clubs/48",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/48",
+      "scraped_at": "2025-08-15 00:28:14.352441"
+    },
+    {
+      "name": "Club from /clubs/49",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/49",
+      "scraped_at": "2025-08-15 00:28:14.352455"
+    },
+    {
+      "name": "Club from /clubs/51",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/51",
+      "scraped_at": "2025-08-15 00:28:14.352468"
+    },
+    {
+      "name": "Club from /clubs/462",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/462",
+      "scraped_at": "2025-08-15 00:28:14.352482"
+    },
+    {
+      "name": "Club from /clubs/53",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/53",
+      "scraped_at": "2025-08-15 00:28:14.352495"
+    },
+    {
+      "name": "Club from /clubs/64",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/64",
+      "scraped_at": "2025-08-15 00:28:14.452981"
+    },
+    {
+      "name": "Club from /clubs/59",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/59",
+      "scraped_at": "2025-08-15 00:28:14.453006"
+    },
+    {
+      "name": "Club from /clubs/61",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/61",
+      "scraped_at": "2025-08-15 00:28:14.453018"
+    },
+    {
+      "name": "Club from /clubs/572",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/572",
+      "scraped_at": "2025-08-15 00:28:14.453029"
+    },
+    {
+      "name": "Club from /clubs/559",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/559",
+      "scraped_at": "2025-08-15 00:28:14.453038"
+    },
+    {
+      "name": "Club from /clubs/76",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/76",
+      "scraped_at": "2025-08-15 00:28:14.453048"
+    },
+    {
+      "name": "Club from /clubs/78",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/78",
+      "scraped_at": "2025-08-15 00:28:14.453056"
+    },
+    {
+      "name": "Club from /clubs/81",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/81",
+      "scraped_at": "2025-08-15 00:28:14.453065"
+    },
+    {
+      "name": "Club from /clubs/82",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/82",
+      "scraped_at": "2025-08-15 00:28:14.453073"
+    },
+    {
+      "name": "Club from /clubs/261",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/261",
+      "scraped_at": "2025-08-15 00:28:14.453082"
+    },
+    {
+      "name": "Club from /clubs/252",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/252",
+      "scraped_at": "2025-08-15 00:28:14.553363"
+    },
+    {
+      "name": "Club from /clubs/323",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/323",
+      "scraped_at": "2025-08-15 00:28:14.553388"
+    },
+    {
+      "name": "Club from /clubs/439",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/439",
+      "scraped_at": "2025-08-15 00:28:14.553404"
+    },
+    {
+      "name": "Club from /clubs/418",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/418",
+      "scraped_at": "2025-08-15 00:28:14.553414"
+    },
+    {
+      "name": "Club from /clubs/100",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/100",
+      "scraped_at": "2025-08-15 00:28:14.553424"
+    },
+    {
+      "name": "Club from /clubs/477",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/477",
+      "scraped_at": "2025-08-15 00:28:14.553434"
+    },
+    {
+      "name": "Club from /clubs/390",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/390",
+      "scraped_at": "2025-08-15 00:28:14.553444"
+    },
+    {
+      "name": "Club from /clubs/494",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/494",
+      "scraped_at": "2025-08-15 00:28:14.553455"
+    },
+    {
+      "name": "Club from /clubs/102",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/102",
+      "scraped_at": "2025-08-15 00:28:14.553463"
+    },
+    {
+      "name": "Club from /clubs/257",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/257",
+      "scraped_at": "2025-08-15 00:28:14.553473"
+    },
+    {
+      "name": "Club from /clubs/246",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/246",
+      "scraped_at": "2025-08-15 00:28:14.659450"
+    },
+    {
+      "name": "Club from /clubs/425",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/425",
+      "scraped_at": "2025-08-15 00:28:14.659477"
+    },
+    {
+      "name": "Club from /clubs/106",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/106",
+      "scraped_at": "2025-08-15 00:28:14.659491"
+    },
+    {
+      "name": "Club from /clubs/107",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/107",
+      "scraped_at": "2025-08-15 00:28:14.659503"
+    },
+    {
+      "name": "Club from /clubs/293",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/293",
+      "scraped_at": "2025-08-15 00:28:14.659518"
+    },
+    {
+      "name": "Club from /clubs/396",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/396",
+      "scraped_at": "2025-08-15 00:28:14.659529"
+    },
+    {
+      "name": "Club from /clubs/249",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/249",
+      "scraped_at": "2025-08-15 00:28:14.659543"
+    },
+    {
+      "name": "Club from /clubs/328",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/328",
+      "scraped_at": "2025-08-15 00:28:14.659556"
+    },
+    {
+      "name": "Club from /clubs/115",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/115",
+      "scraped_at": "2025-08-15 00:28:14.659567"
+    },
+    {
+      "name": "Club from /clubs/116",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/116",
+      "scraped_at": "2025-08-15 00:28:14.659578"
+    },
+    {
+      "name": "Club from /clubs/537",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/537",
+      "scraped_at": "2025-08-15 00:28:14.763924"
+    },
+    {
+      "name": "Club from /clubs/555",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/555",
+      "scraped_at": "2025-08-15 00:28:14.763978"
+    },
+    {
+      "name": "Club from /clubs/484",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/484",
+      "scraped_at": "2025-08-15 00:28:14.763999"
+    },
+    {
+      "name": "Club from /clubs/536",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/536",
+      "scraped_at": "2025-08-15 00:28:14.764012"
+    },
+    {
+      "name": "Club from /clubs/123",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/123",
+      "scraped_at": "2025-08-15 00:28:14.764023"
+    },
+    {
+      "name": "Club from /clubs/125",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/125",
+      "scraped_at": "2025-08-15 00:28:14.764033"
+    },
+    {
+      "name": "Club from /clubs/259",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/259",
+      "scraped_at": "2025-08-15 00:28:14.764043"
+    },
+    {
+      "name": "Club from /clubs/524",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/524",
+      "scraped_at": "2025-08-15 00:28:14.764054"
+    },
+    {
+      "name": "Club from /clubs/131",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/131",
+      "scraped_at": "2025-08-15 00:28:14.764064"
+    },
+    {
+      "name": "Club from /clubs/244",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/244",
+      "scraped_at": "2025-08-15 00:28:14.764074"
+    },
+    {
+      "name": "Club from /clubs/419",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/419",
+      "scraped_at": "2025-08-15 00:28:14.868995"
+    },
+    {
+      "name": "Club from /clubs/133",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/133",
+      "scraped_at": "2025-08-15 00:28:14.869026"
+    },
+    {
+      "name": "Club from /clubs/573",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/573",
+      "scraped_at": "2025-08-15 00:28:14.869044"
+    },
+    {
+      "name": "Club from /clubs/552",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/552",
+      "scraped_at": "2025-08-15 00:28:14.869060"
+    },
+    {
+      "name": "Club from /clubs/553",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/553",
+      "scraped_at": "2025-08-15 00:28:14.869074"
+    },
+    {
+      "name": "Club from /clubs/143",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/143",
+      "scraped_at": "2025-08-15 00:28:14.869087"
+    },
+    {
+      "name": "Club from /clubs/144",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/144",
+      "scraped_at": "2025-08-15 00:28:14.869100"
+    },
+    {
+      "name": "Club from /clubs/531",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/531",
+      "scraped_at": "2025-08-15 00:28:14.869112"
+    },
+    {
+      "name": "Club from /clubs/286",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/286",
+      "scraped_at": "2025-08-15 00:28:14.869123"
+    },
+    {
+      "name": "Club from /clubs/149",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/149",
+      "scraped_at": "2025-08-15 00:28:14.869137"
+    },
+    {
+      "name": "Club from /clubs/262",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/262",
+      "scraped_at": "2025-08-15 00:28:14.978787"
+    },
+    {
+      "name": "Club from /clubs/541",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/541",
+      "scraped_at": "2025-08-15 00:28:14.978824"
+    },
+    {
+      "name": "Club from /clubs/554",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/554",
+      "scraped_at": "2025-08-15 00:28:14.978844"
+    },
+    {
+      "name": "Club from /clubs/162",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/162",
+      "scraped_at": "2025-08-15 00:28:14.978860"
+    },
+    {
+      "name": "Club from /clubs/535",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/535",
+      "scraped_at": "2025-08-15 00:28:14.978875"
+    },
+    {
+      "name": "Club from /clubs/237",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/237",
+      "scraped_at": "2025-08-15 00:28:14.978888"
+    },
+    {
+      "name": "Club from /clubs/167",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/167",
+      "scraped_at": "2025-08-15 00:28:14.978902"
+    },
+    {
+      "name": "Club from /clubs/170",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/170",
+      "scraped_at": "2025-08-15 00:28:14.978916"
+    },
+    {
+      "name": "Club from /clubs/468",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/468",
+      "scraped_at": "2025-08-15 00:28:14.978929"
+    },
+    {
+      "name": "Club from /clubs/313",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/313",
+      "scraped_at": "2025-08-15 00:28:14.978942"
+    },
+    {
+      "name": "Club from /clubs/188",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/188",
+      "scraped_at": "2025-08-15 00:28:15.087301"
+    },
+    {
+      "name": "Club from /clubs/564",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/564",
+      "scraped_at": "2025-08-15 00:28:15.087331"
+    },
+    {
+      "name": "Club from /clubs/449",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/449",
+      "scraped_at": "2025-08-15 00:28:15.087351"
+    },
+    {
+      "name": "Club from /clubs/243",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/243",
+      "scraped_at": "2025-08-15 00:28:15.087368"
+    },
+    {
+      "name": "Club from /clubs/388",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/388",
+      "scraped_at": "2025-08-15 00:28:15.087383"
+    },
+    {
+      "name": "Club from /clubs/295",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/295",
+      "scraped_at": "2025-08-15 00:28:15.087397"
+    },
+    {
+      "name": "Club from /clubs/242",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/242",
+      "scraped_at": "2025-08-15 00:28:15.087411"
+    },
+    {
+      "name": "Club from /clubs/348",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/348",
+      "scraped_at": "2025-08-15 00:28:15.087424"
+    },
+    {
+      "name": "Club from /clubs/464",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/464",
+      "scraped_at": "2025-08-15 00:28:15.087437"
+    },
+    {
+      "name": "Club from /clubs/374",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/374",
+      "scraped_at": "2025-08-15 00:28:15.087453"
+    },
+    {
+      "name": "Club from /clubs/569",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/569",
+      "scraped_at": "2025-08-15 00:28:15.292592"
+    },
+    {
+      "name": "Club from /clubs/258",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/258",
+      "scraped_at": "2025-08-15 00:28:15.292634"
+    },
+    {
+      "name": "Club from /clubs/247",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/247",
+      "scraped_at": "2025-08-15 00:28:15.292655"
+    },
+    {
+      "name": "Club from /clubs/373",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/373",
+      "scraped_at": "2025-08-15 00:28:15.292671"
+    },
+    {
+      "name": "Club from /clubs/283",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/283",
+      "scraped_at": "2025-08-15 00:28:15.292688"
+    },
+    {
+      "name": "Club from /clubs/488",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/488",
+      "scraped_at": "2025-08-15 00:28:15.292704"
+    },
+    {
+      "name": "Club from /clubs/497",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/497",
+      "scraped_at": "2025-08-15 00:28:15.292718"
+    },
+    {
+      "name": "Club from /clubs/473",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/473",
+      "scraped_at": "2025-08-15 00:28:15.292733"
+    },
+    {
+      "name": "Club from /clubs/461",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/461",
+      "scraped_at": "2025-08-15 00:28:15.292747"
+    },
+    {
+      "name": "Club from /clubs/346",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/346",
+      "scraped_at": "2025-08-15 00:28:15.292761"
+    },
+    {
+      "name": "Club from /clubs/557",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/557",
+      "scraped_at": "2025-08-15 00:28:15.407002"
+    },
+    {
+      "name": "Club from /clubs/444",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/444",
+      "scraped_at": "2025-08-15 00:28:15.407043"
+    },
+    {
+      "name": "Club from /clubs/579",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/579",
+      "scraped_at": "2025-08-15 00:28:15.407065"
+    },
+    {
+      "name": "Club from /clubs/340",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/340",
+      "scraped_at": "2025-08-15 00:28:15.407084"
+    },
+    {
+      "name": "Club from /clubs/317",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/317",
+      "scraped_at": "2025-08-15 00:28:15.407101"
+    },
+    {
+      "name": "Club from /clubs/368",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/368",
+      "scraped_at": "2025-08-15 00:28:15.407118"
+    },
+    {
+      "name": "Club from /clubs/566",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/566",
+      "scraped_at": "2025-08-15 00:28:15.407135"
+    },
+    {
+      "name": "Club from /clubs/580",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/580",
+      "scraped_at": "2025-08-15 00:28:15.407151"
+    },
+    {
+      "name": "Club from /clubs/139",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/139",
+      "scraped_at": "2025-08-15 00:28:15.407167"
+    },
+    {
+      "name": "Club from /clubs/345",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/345",
+      "scraped_at": "2025-08-15 00:28:15.407186"
+    },
+    {
+      "name": "Club from /clubs/443",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/443",
+      "scraped_at": "2025-08-15 00:28:15.516991"
+    },
+    {
+      "name": "Club from /clubs/453",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/453",
+      "scraped_at": "2025-08-15 00:28:15.517026"
+    },
+    {
+      "name": "Club from /clubs/574",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/574",
+      "scraped_at": "2025-08-15 00:28:15.517045"
+    },
+    {
+      "name": "Club from /clubs/476",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/476",
+      "scraped_at": "2025-08-15 00:28:15.517064"
+    },
+    {
+      "name": "Club from /clubs/406",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/406",
+      "scraped_at": "2025-08-15 00:28:15.517081"
+    },
+    {
+      "name": "Club from /clubs/576",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/576",
+      "scraped_at": "2025-08-15 00:28:15.517097"
+    },
+    {
+      "name": "Club from /clubs/251",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/251",
+      "scraped_at": "2025-08-15 00:28:15.517112"
+    },
+    {
+      "name": "Club from /clubs/512",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/512",
+      "scraped_at": "2025-08-15 00:28:15.517127"
+    },
+    {
+      "name": "Club from /clubs/561",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/561",
+      "scraped_at": "2025-08-15 00:28:15.517143"
+    },
+    {
+      "name": "Club from /clubs/196",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/196",
+      "scraped_at": "2025-08-15 00:28:15.517158"
+    },
+    {
+      "name": "Club from /clubs/567",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/567",
+      "scraped_at": "2025-08-15 00:28:15.637824"
+    },
+    {
+      "name": "Club from /clubs/465",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/465",
+      "scraped_at": "2025-08-15 00:28:15.637859"
+    },
+    {
+      "name": "Club from /clubs/446",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/446",
+      "scraped_at": "2025-08-15 00:28:15.637880"
+    },
+    {
+      "name": "Club from /clubs/232",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/232",
+      "scraped_at": "2025-08-15 00:28:15.637899"
+    },
+    {
+      "name": "Club from /clubs/526",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/526",
+      "scraped_at": "2025-08-15 00:28:15.637916"
+    },
+    {
+      "name": "Club from /clubs/80",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/80",
+      "scraped_at": "2025-08-15 00:28:15.637933"
+    },
+    {
+      "name": "Club from /clubs/260",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/260",
+      "scraped_at": "2025-08-15 00:28:15.637949"
+    },
+    {
+      "name": "Club from /clubs/513",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/513",
+      "scraped_at": "2025-08-15 00:28:15.637964"
+    },
+    {
+      "name": "Club from /clubs/392",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/392",
+      "scraped_at": "2025-08-15 00:28:15.637980"
+    },
+    {
+      "name": "Club from /clubs/522",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/522",
+      "scraped_at": "2025-08-15 00:28:15.637995"
+    },
+    {
+      "name": "Club from /clubs/577",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/577",
+      "scraped_at": "2025-08-15 00:28:15.811402"
+    },
+    {
+      "name": "Club from /clubs/499",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/499",
+      "scraped_at": "2025-08-15 00:28:15.811421"
+    },
+    {
+      "name": "Club from /clubs/551",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/551",
+      "scraped_at": "2025-08-15 00:28:15.811431"
+    },
+    {
+      "name": "Club from /clubs/137",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/137",
+      "scraped_at": "2025-08-15 00:28:15.811439"
+    },
+    {
+      "name": "Club from /clubs/204",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/204",
+      "scraped_at": "2025-08-15 00:28:15.811446"
+    },
+    {
+      "name": "Club from /clubs/182",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/182",
+      "scraped_at": "2025-08-15 00:28:15.811454"
+    },
+    {
+      "name": "Club from /clubs/372",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/372",
+      "scraped_at": "2025-08-15 00:28:15.811461"
+    },
+    {
+      "name": "Club from /clubs/375",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/375",
+      "scraped_at": "2025-08-15 00:28:15.811468"
+    },
+    {
+      "name": "Club from /clubs/510",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/510",
+      "scraped_at": "2025-08-15 00:28:15.811475"
+    },
+    {
+      "name": "Club from /clubs/208",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/208",
+      "scraped_at": "2025-08-15 00:28:15.811482"
+    },
+    {
+      "name": "Club from /clubs/581",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/581",
+      "scraped_at": "2025-08-15 00:28:15.917974"
+    },
+    {
+      "name": "Club from /clubs/279",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/279",
+      "scraped_at": "2025-08-15 00:28:15.918001"
+    },
+    {
+      "name": "Club from /clubs/575",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/575",
+      "scraped_at": "2025-08-15 00:28:15.918013"
+    },
+    {
+      "name": "Club from /clubs/528",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/528",
+      "scraped_at": "2025-08-15 00:28:15.918022"
+    },
+    {
+      "name": "Club from /clubs/211",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/211",
+      "scraped_at": "2025-08-15 00:28:15.918031"
+    },
+    {
+      "name": "Club from /clubs/370",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/370",
+      "scraped_at": "2025-08-15 00:28:15.918039"
+    },
+    {
+      "name": "Club from /clubs/459",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/459",
+      "scraped_at": "2025-08-15 00:28:15.918047"
+    },
+    {
+      "name": "Club from /clubs/284",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/284",
+      "scraped_at": "2025-08-15 00:28:15.918054"
+    },
+    {
+      "name": "Club from /clubs/424",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/424",
+      "scraped_at": "2025-08-15 00:28:15.918062"
+    },
+    {
+      "name": "Club from /clubs/367",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/367",
+      "scraped_at": "2025-08-15 00:28:15.918070"
+    },
+    {
+      "name": "Club from /clubs/297",
+      "org_type": "wusa",
+      "description": "Placeholder description",
+      "social_media": {},
+      "tags": [],
+      "is_active": true,
+      "source_url": "https://clubs.wusa.ca/clubs/297",
+      "scraped_at": "2025-08-15 00:28:16.012174"
+    }
+  ]
+}
