@@ -12,6 +12,8 @@ import aiofiles
 import os
 from urllib.parse import urlparse
 from pathlib import Path
+import instaloader
+import re
 
 load_dotenv()
 
@@ -70,6 +72,13 @@ class WUSAScraper(BaseScraper):
         results = await asyncio.gather(*tasks, return_exceptions=True)
         
         organizations = [org for org in results if isinstance(org, Organization)]
+
+        # Scrape club images
+        for org in organizations:
+            if org.social_media:
+                image_path = await self.scrape_club_image(session, org.name, org.social_media)
+                await asyncio.sleep(5)
+
         return organizations
     
     async def scrape_single_club(self, session: aiohttp.ClientSession, club_path: str) -> Organization:
@@ -122,10 +131,10 @@ class WUSAScraper(BaseScraper):
                     # Find all links within this container
                     links = icon_container.find_all('a', href=True)
                     for link in links:
-                        contacts_for_llm.append(link['href'])
-                        link_text = link.get_text(strip=True)
-                        if link_text:
-                            contacts_for_llm.append(link_text)
+                        if link.get('title'):
+                            contacts_for_llm.append(f"{link['title']}: {link['href']}")
+                        else:
+                            contacts_for_llm.append(link['href'])
                 
                 # Get description
                 description_for_llm = ""
@@ -174,6 +183,7 @@ You are tasked with cleaning and formatting club information. Please:
 
 {{
     "cleaned_description": "cleaned description text with fixed spacing but same wording",
+    "cleaned_contacts": "cleaned contact information with fixed spacing but same wording",
     "social_media": {{
         "instagram": ["list of instagram URLs"],
         "facebook": ["list of facebook URLs"], 
@@ -193,6 +203,7 @@ Important rules:
 - Remove ALL contact information from the cleaned_description
 - Only include social_media categories that have actual content
 - Remove duplicates
+- If there are obvious typos in description and social media links, fix them
 
 
 Description to clean:
@@ -206,7 +217,7 @@ Contact information to process:
             client = AsyncOpenAI()
             
             response = await client.chat.completions.create(
-                model="gpt-4o-mini",
+                model="gpt-4o",
                 messages=[
                     {"role": "system", "content": "You are a helpful assistant that cleans and formats club information. Always respond with valid JSON."},
                     {"role": "user", "content": prompt}
@@ -215,7 +226,6 @@ Contact information to process:
             )
             
             response_content = response.choices[0].message.content
-            logger.info(f"LLM Response: {response_content[:200]}...")
             
             if not response_content or response_content.strip() == "":
                 logger.warning("Empty response from LLM")
@@ -254,105 +264,112 @@ Contact information to process:
     
     async def scrape_club_image(self, session: aiohttp.ClientSession, club_name: str, social_media: dict) -> str:
         """
-        Scrape club profile image using Playwright and save to watclub/watclub/public/wusa/
+        Scrape club profile image using Instaloader for Instagram and Playwright for Facebook
         Returns the public URL path for the frontend
         """
-        try:
-            async with async_playwright() as p:
-                browser = await p.chromium.launch(headless=True)
-                page = await browser.new_page()
-                
-                # Set user agent to avoid detection
-                await page.set_extra_http_headers({
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-                })
-                
-                image_url = None
-
-                # Try Instagram first
-                if 'instagram' in social_media and social_media['instagram']:
-                    try:
-                        instagram_url = social_media['instagram'][0]
-                        logger.info(f"Trying Instagram: {instagram_url}")
-                        
-                        await page.goto(instagram_url, wait_until='networkidle', timeout=10000)
-                        await page.wait_for_timeout(2000)  # Wait for content to load
-                        
-                        # Instagram profile image selectors
-                        selectors = [
-                            'img[alt*="profile picture"]',
-                            'header img',
-                            'img[data-testid="user-avatar"]',
-                            'img[style*="150px"]'
-                        ]
-                        
-                        for selector in selectors:
-                            img_element = await page.query_selector(selector)
-                            if img_element:
-                                img_src = await img_element.get_attribute('src')
-                                if img_src and 'profile' in img_src.lower():
-                                    image_url = img_src
-                                    break
-                        
-                        if image_url:
-                            logger.info(f"Found Instagram image: {image_url[:100]}...")
-                    
-                    except Exception as e:
-                        logger.error(f"Instagram scraping failed for {club_name}: {e}")
-                
-                if not image_url and 'facebook' in social_media and social_media['facebook']:
-                    try:
-                        facebook_url = social_media['facebook'][0]
-                        logger.info(f"Trying Facebook: {facebook_url}")
-                        
-                        await page.goto(facebook_url, wait_until='networkidle', timeout=10000)
-                        await page.wait_for_timeout(2000)
-                        
-                        # Facebook profile image selectors
-                        selectors = [
-                            'image[role="img"]',
-                            'img[data-imgperflogname="profileCoverPhoto"]',
-                            'img[alt*="profile picture"]',
-                            'svg image'
-                        ]
-                        
-                        for selector in selectors:
-                            img_element = await page.query_selector(selector)
-                            if img_element:
-                                img_src = await img_element.get_attribute('src')
-                                if img_src:
-                                    image_url = img_src
-                                    break
-                        
-                        if image_url:
-                            logger.info(f"Found Facebook image: {image_url[:100]}...")
-                    
-                    except Exception as e:
-                        logger.error(f"Facebook scraping failed for {club_name}: {e}")
-                
-                await browser.close()
-
-                if image_url:
-                    return await self.download_and_save_club_image(session, image_url, club_name)
-                else:
-                    logger.warning(f"No profile image found for {club_name}")
-                    return None
+        image_url = None
         
-        except Exception as e:
-            logger.error(f"Playwright scraping failed for {club_name}: {e}")
+        # Try Instagram first with Instaloader
+        if 'instagram' in social_media and social_media['instagram']:
+            try:
+                instagram_url = social_media['instagram'][-1]
+                logger.info(f"Trying Instagram with Instaloader: {instagram_url}")
+                
+                # Extract username from Instagram URL
+                username = None
+                patterns = [
+                    r'instagram\.com/([^/?]+)',
+                    r'instagram\.com/([^/?]+)/',
+                    r'@([a-zA-Z0-9_.]+)'
+                ]
+                
+                for pattern in patterns:
+                    match = re.search(pattern, instagram_url)
+                    if match:
+                        username = match.group(1).split('/')[0].split('?')[0]
+                        break
+                
+                if username:
+                    L = instaloader.Instaloader()
+                    L.download_pictures = False
+                    L.download_videos = False
+                    L.download_video_thumbnails = False
+                    L.download_geotags = False
+                    L.download_comments = False
+                    L.save_metadata = False
+                    
+                    try:
+                        profile = instaloader.Profile.from_username(L.context, username)
+                        image_url = profile.profile_pic_url
+                        logger.info(f"Found Instagram image with Instaloader: {image_url[:100]}...")
+                    except instaloader.exceptions.ProfileNotExistsException:
+                        logger.warning(f"Instagram profile {username} does not exist")
+                    except instaloader.exceptions.ConnectionException:
+                        logger.error(f"Instagram connection error for {username}")
+                    except Exception as e:
+                        logger.error(f"Instaloader error for {username}: {e}")
+                
+            except Exception as e:
+                logger.error(f"Instagram scraping failed for {club_name}: {e}")
+
+        # Try Facebook if Instagram fails (keep Playwright for Facebook)
+        if not image_url and 'facebook' in social_media and social_media['facebook']:
+            try:
+                async with async_playwright() as p:
+                    browser = await p.chromium.launch(headless=True)
+                    page = await browser.new_page()
+                    
+                    await page.set_extra_http_headers({
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                    })
+                    
+                    facebook_url = social_media['facebook'][-1]
+                    logger.info(f"Trying Facebook: {facebook_url}")
+                    
+                    await page.goto(facebook_url, wait_until='networkidle', timeout=15000)
+                    await page.wait_for_timeout(3000)
+                    
+                    selectors = [
+                        'img[data-imgperflogname*="profilePhoto"]',
+                        '[data-pagelet="ProfilePhoto"] img',
+                        '[data-pagelet="ProfilePhoto"] image', 
+                        'svg image[style*="profile"]',
+                        'img[alt*="profile picture"]',
+                        '[role="img"][style*="profile"] image',
+                        'image[data-imgperflogname*="profile"]'
+                    ]
+                    
+                    for selector in selectors:
+                        img_element = await page.query_selector(selector)
+                        if img_element:
+                            img_src = await img_element.get_attribute('src')
+                            if img_src:
+                                image_url = img_src
+                                logger.info(f"Found Facebook image: {image_url[:100]}...")
+                                break
+                    
+                    await browser.close()
+                    
+            except Exception as e:
+                logger.error(f"Facebook scraping failed for {club_name}: {e}")
+
+        if image_url:
+            return await self.download_and_save_club_image(session, image_url, club_name)
+        else:
+            logger.warning(f"No profile image found for {club_name}")
             return None
     
     async def download_and_save_club_image(self, session: aiohttp.ClientSession, image_url: str, club_name: str) -> str:
         """Download and save club image to watclub/watclub/public/wusa/"""
         try:
-            # Create safe filename from club name
+
             safe_name = "".join(c if c.isalnum() or c in ('-', '_', ' ') else '' for c in club_name)
             safe_name = safe_name.replace(' ', '-').lower().strip('-')
             
             # Use pathlib to find the project root and create the path
             current_file = Path(__file__)
             project_root = current_file.parent.parent.parent
-            image_dir = project_root / "watclub" / "watclub" / "public" / "wusa"
+            image_dir = project_root / "watclub" / "public" / "wusa"
             image_dir.mkdir(parents=True, exist_ok=True)
             
             # Determine file extension from image URL

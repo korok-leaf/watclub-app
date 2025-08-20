@@ -7,6 +7,15 @@ resolution-markers = [
 ]
 
 [[package]]
+name = "aiofiles"
+version = "24.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/0b/03/a88171e277e8caa88a4c77808c20ebb04ba74cc4681bf1e9416c862de237/aiofiles-24.1.0.tar.gz", hash = "sha256:22a075c9e5a3810f0c2e48f3008c94d68c65d763b9b03857924c99e57355166c", size = 30247, upload-time = "2024-06-24T11:02:03.584Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a5/45/30bb92d442636f570cb5651bc661f52b610e2eec3f891a5dc3a4c3667db0/aiofiles-24.1.0-py3-none-any.whl", hash = "sha256:b4ec55f4195e3eb5d7abd1bf7e061763e864dd4954231fb8539a0ef8bb8260e5", size = 15896, upload-time = "2024-06-24T11:02:01.529Z" },
+]
+
+[[package]]
 name = "aiohappyeyeballs"
 version = "2.6.1"
 source = { registry = "https://pypi.org/simple" }
@@ -442,6 +451,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/f2/97/ebf4da567aa6827c909642694d71c9fcf53e5b504f2d96afea02718862f3/iniconfig-2.1.0.tar.gz", hash = "sha256:3abbd2e30b36733fee78f9c7f7308f2d0050e88f0087fd25c2645f63c773e1c7", size = 4793, upload-time = "2025-03-19T20:09:59.721Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl", hash = "sha256:9deba5723312380e77435581c6bf4935c94cbfab9b1ed33ef8d238ea168eb760", size = 6050, upload-time = "2025-03-19T20:10:01.071Z" },
+]
+
+[[package]]
+name = "instaloader"
+version = "4.14.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/54/c3/55d75581c322a58adb3a9b10dd50a232b47cd7afb5feac86c47496d6e1d9/instaloader-4.14.2.tar.gz", hash = "sha256:e9205098e6ec494cdfe2aef6c56805084cef4008a06d4d78504301f42f8e4d33", size = 65978, upload-time = "2025-07-18T05:51:13.8Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d5/78/6d8b2dc432c98ff4592be740826605986846d866c53587f2e14937255642/instaloader-4.14.2-py3-none-any.whl", hash = "sha256:e8c72410405fcbfd16c6e0034a10bccce634d91d59b1b0664b7de813be9d27fd", size = 67970, upload-time = "2025-07-18T05:51:12.512Z" },
 ]
 
 [[package]]
@@ -1206,10 +1227,12 @@ name = "watclub-scraping"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "aiofiles" },
     { name = "aiohttp" },
     { name = "beautifulsoup4" },
     { name = "chromium" },
     { name = "httpx" },
+    { name = "instaloader" },
     { name = "loguru" },
     { name = "openai" },
     { name = "pandas" },
@@ -1231,11 +1254,13 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "aiofiles", specifier = ">=24.1.0" },
     { name = "aiohttp", specifier = ">=3.9.0" },
     { name = "beautifulsoup4", specifier = ">=4.12.0" },
     { name = "black", marker = "extra == 'dev'", specifier = ">=23.0.0" },
     { name = "chromium", specifier = ">=0.0.0" },
     { name = "httpx", specifier = ">=0.25.0" },
+    { name = "instaloader", specifier = ">=4.14.2" },
     { name = "loguru", specifier = ">=0.7.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.7.0" },
     { name = "openai", specifier = ">=1.100.2" },
