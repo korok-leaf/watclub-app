@@ -25,10 +25,9 @@ class Organization(BaseModel):
     
     # Contact info
     website: Optional[str] = Field(None, description="Main website URL")
-    email: Optional[str] = Field(None, description="Contact email")
-    social_media: Dict[str, str] = Field(
+    social_media: Dict[str, list[str]] = Field(
         default_factory=dict, 
-        description="Social media links (platform: url)"
+        description="Social media links (instagram: [url1, url2, ...], facebook: [url1, url2, ...])"
     )
     
     # Organization details
@@ -40,6 +39,7 @@ class Organization(BaseModel):
     meeting_info: Optional[str] = Field(None, description="Meeting details")
     membership_info: Optional[str] = Field(None, description="How to join")
     is_active: bool = Field(True, description="Currently active")
+    last_active: str = Field(..., description="Last active date")
     
     # Scraping metadata
     source_url: str = Field(..., description="Where data was scraped from")
