@@ -99,7 +99,7 @@ const ArcGalleryHero: React.FC<ArcGalleryHeroProps> = ({
                   <img
                     src={src}
                     alt=""
-                    className="block w-full h-full object-cover"
+                    className="block max-w-full max-h-full object-contain"
                     draggable={false}
                   />
                 </div>

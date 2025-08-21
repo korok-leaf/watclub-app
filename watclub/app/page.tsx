@@ -1,19 +1,18 @@
 import ArcGalleryHero from "@/components/arc-gallery-hero"
 
 export default function Home() {
-  // Using actual images from public folder
   const images = [
-    "/freepik__enhance__98192.png",
-    "/LS.png",
-    "/freepik__a-closeup-shot-features-a-glossy-purple-crossshape__48873.png",
-    "/freepik__the-style-is-3d-model-with-octane-render-volumetri__57555.png",
-    "/eqirGoRIJPaIMgEUeliWpNxeFmI.jpg",
-    "/ultra-detailed_close-up_side_profile_of_a_dark-skinned_model_wearing_futuristic_chrome_wraparound_s_ps17q5ms2ptu5t6bdru6_2.png",
-    "/slide.png",
-    "/freepik__abstract-digital-art-featuring-a-series-of-horizon__489.png",
-    "/abstract-blue-gradient.webp",
-    "/VkvvhXlWo3hEBzcqwTpjd_aa4bf9ee998f4ec0b17a8bf16fe3e9e2.jpg",
-    "/hyperrealistic_commercial_product_photography_of_luxury_chrome_sunglasses_on_male_model_extreme_chi_fanguv2w9zx489lcivwa_2.png",
+    "/design/uw-blueprint.png",
+    "/design/waterloop.png", 
+    "/design/watai.jpeg",
+    "/design/uw-formula-electric.png",
+    "/design/robotics-team-uwrt.png",
+    "/design/uw-reality-labs.png",
+    "/wusa/tech-uw.jpg",
+    "/wusa/ascend-canada-waterloo-chapter.jpg",
+    "/faculty/engsoc/uwaterloo-engiqueers.png",
+    "/faculty/engsoc/women-in-engineering.png",
+    "/design/electrium-mobility.png",
   ]
 
   return (
