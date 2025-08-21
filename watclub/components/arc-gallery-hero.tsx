@@ -93,7 +93,7 @@ const ArcGalleryHero: React.FC<ArcGalleryHeroProps> = ({
                 }}
               >
                 <div 
-                  className="rounded-2xl shadow-xl overflow-hidden ring-1 ring-border bg-card transition-transform hover:scale-105 w-full h-full"
+                  className="rounded-2xl shadow-xl overflow-hidden ring-1 ring-border bg-card transition-transform hover:scale-105 w-full h-full flex items-center justify-center"
                   style={{ transform: `rotate(${angle / 4}deg)` }}
                 >
                   <img

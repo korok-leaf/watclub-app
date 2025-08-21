@@ -2,17 +2,18 @@ import ArcGalleryHero from "@/components/arc-gallery-hero"
 
 export default function Home() {
   const images = [
-    "/design/uw-blueprint.png",
-    "/design/waterloop.png", 
     "/design/watai.jpeg",
-    "/design/uw-formula-electric.png",
-    "/design/robotics-team-uwrt.png",
-    "/design/uw-reality-labs.png",
-    "/wusa/tech-uw.jpg",
-    "/wusa/ascend-canada-waterloo-chapter.jpg",
-    "/faculty/engsoc/uwaterloo-engiqueers.png",
-    "/faculty/engsoc/women-in-engineering.png",
-    "/design/electrium-mobility.png",
+    "/design/watonomous.jpeg", 
+    "/wusa/chinese-students-association-csa-uw.jpg",
+    "/wusa/uw-poker-studies-club.jpg",
+    "/design/uw-blueprint.png",
+    "/faculty/mathsoc/computer-science-club.png",
+    "/faculty/engsoc/women-in-engineering.avif",
+    "/design/wat-street.jpeg",
+    "/sports/uwdbc.avif",
+    "/sports/badminton.png",
+    "/wusa/human-vs-zombies.jpg"
+
   ]
 
   return (
