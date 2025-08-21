@@ -77,7 +77,6 @@ class WUSAScraper(BaseScraper):
         for org in organizations:
             if org.social_media:
                 image_path = await self.scrape_club_image(session, org.name, org.social_media)
-                await asyncio.sleep(5)
 
         return organizations
     
@@ -156,8 +155,6 @@ class WUSAScraper(BaseScraper):
                     description=llm_result.get("cleaned_description", ""),
                     last_active=last_active,
                     source_url=club_url,
-                    email=llm_result.get("email", [None])[0] if llm_result.get("email") else None,
-                    website=llm_result.get("social_media", {}).get("website", [None])[0] if llm_result.get("social_media", {}).get("website") else None,
                     social_media=llm_result.get("social_media", {}),
                     membership_info="; ".join(llm_result.get("other_contacts", [])) if llm_result.get("other_contacts") else None
                 )
@@ -194,8 +191,7 @@ You are tasked with cleaning and formatting club information. Please:
         "youtube": ["list of youtube URLs"],
         "email": ["list of email addresses"],
         ...
-    }},
-    "other_contacts": ["any other contact info that doesn't fit above categories"]
+    }}
 }}
 
 Important rules:
@@ -267,6 +263,22 @@ Contact information to process:
         Scrape club profile image using Instaloader for Instagram and Playwright for Facebook
         Returns the public URL path for the frontend
         """
+        # Check if image already exists first
+        safe_name = "".join(c if c.isalnum() or c in ('-', '_', ' ') else '' for c in club_name)
+        safe_name = safe_name.replace(' ', '-').lower().strip('-')
+        
+        # Use pathlib to find the project root and create the path
+        current_file = Path(__file__)
+        project_root = current_file.parent.parent.parent
+        image_dir = project_root / "watclub" / "public" / "wusa"
+        
+        # Check for existing files with common extensions
+        for ext in ['.jpg', '.jpeg', '.png', '.gif', '.webp']:
+            filepath = image_dir / f"{safe_name}{ext}"
+            if filepath.exists():
+                logger.info(f"Image already exists for {club_name}: {filepath.name}")
+                return f"/wusa/{filepath.name}"
+        
         image_url = None
         
         # Try Instagram first with Instaloader
@@ -358,11 +370,10 @@ Contact information to process:
         else:
             logger.warning(f"No profile image found for {club_name}")
             return None
-    
+
     async def download_and_save_club_image(self, session: aiohttp.ClientSession, image_url: str, club_name: str) -> str:
         """Download and save club image to watclub/watclub/public/wusa/"""
         try:
-
             safe_name = "".join(c if c.isalnum() or c in ('-', '_', ' ') else '' for c in club_name)
             safe_name = safe_name.replace(' ', '-').lower().strip('-')
             
@@ -382,6 +393,11 @@ Contact information to process:
             
             filename = f"{safe_name}{ext}"
             filepath = image_dir / filename
+            
+            # Double-check if file exists before downloading
+            if filepath.exists():
+                logger.info(f"Image already exists for {club_name}: {filename}")
+                return f"/wusa/{filename}"
             
             # Download the image
             async with session.get(image_url) as response:

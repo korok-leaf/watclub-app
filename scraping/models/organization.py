@@ -24,7 +24,6 @@ class Organization(BaseModel):
     description: Optional[str] = Field(None, description="Organization description")
     
     # Contact info
-    website: Optional[str] = Field(None, description="Main website URL")
     social_media: Dict[str, list[str]] = Field(
         default_factory=dict, 
         description="Social media links (instagram: [url1, url2, ...], facebook: [url1, url2, ...])"

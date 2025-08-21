@@ -1,0 +1,475 @@
+{
+  "scraper": "faculty",
+  "scraped_at": "2025-08-20T00:25:16.468768",
+  "count": 23,
+  "data": [
+    {
+      "name": "Computer Science Club",
+      "org_type": "faculty",
+      "description": "Promotes knowledge of and interest in computer science by providing a space for members to meet, a library of computer science books, computer accounts on club machines, and frequent events such as talks, tutorials and demonstrations.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:06.330892"
+    },
+    {
+      "name": "Double Degree Club",
+      "org_type": "faculty",
+      "description": "An official UW and WLU registered, student-run organization that enhances the experience of Double Degree students through social events, networking and mentorship opportunities, academic resources, and collaboration with administration at both universities.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:06.668066"
+    },
+    {
+      "name": "Statistics Club",
+      "org_type": "faculty",
+      "description": "The official student-run club serving Waterloo’s statistics undergraduates, dedicated to uniting the statistics community by providing a friendly environment and resources for the academic pursuit of statistics.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:06.968888"
+    },
+    {
+      "name": "Actuarial Sciences Club",
+      "org_type": "faculty",
+      "description": "The official student organization for actuarial science undergraduates, offering weekly social and informative events, a lending library of actuarial exam study manuals, a mentorship program, and up-to-date actuarial news from its office in M3 1003.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:07.303584"
+    },
+    {
+      "name": "Financial Analysis or Risk Management Student Association",
+      "org_type": "faculty",
+      "description": "A non-profit student club open to all Math students that encourages academic pursuits related to the Math/FARM program, provides academic and professional services, fosters program cohesiveness, and promotes the reputation and quality of Math/FARM.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:07.745105"
+    },
+    {
+      "name": "Pure Math, Applied Math and Combinatorics & Optimization Club",
+      "org_type": "faculty",
+      "description": "A non-profit student club open to anyone interested in mathematics that organizes academic and social events such as professor and student talks, math contests, and term-based socials. The club office (MC 3033) provides workspace with boards, reference books, and computing resources.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:08.219501"
+    },
+    {
+      "name": "Data Science Club",
+      "org_type": "faculty",
+      "description": "Supports Waterloo in producing top data scientists by creating a platform for discussion on data science topics and events, and by building a network for learning and job-search support.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:08.733197"
+    },
+    {
+      "name": "MathSoc Cartoons",
+      "org_type": "faculty",
+      "description": "A student-run comic series that explains undergraduate math and computer science concepts, available online and through social media platforms.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:09.270994"
+    },
+    {
+      "name": "Math Ambassadors",
+      "org_type": "faculty",
+      "description": "A volunteer program that lets students share their pride and knowledge of the Faculty of Mathematics with prospective students and parents, while developing leadership skills and campus knowledge.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:10.329597"
+    },
+    {
+      "name": "Math Endowment Fund",
+      "org_type": "faculty",
+      "description": "An income-generating fund that finances projects benefiting undergraduate math students at the University of Waterloo.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:10.729026"
+    },
+    {
+      "name": "Math Orientation",
+      "org_type": "faculty",
+      "description": "A program designed to help new students find community and pride within the Faculty of Mathematics and beyond, fostering success both academically and socially.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:11.188320"
+    },
+    {
+      "name": "mathNEWS",
+      "org_type": "faculty",
+      "description": "Waterloo’s semi-official student publication known as the “Bastion of Erudite Thought.”",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:11.933925"
+    },
+    {
+      "name": "Women in Math",
+      "org_type": "faculty",
+      "description": "A committee that encourages and advocates for women interested in studying mathematics and pursuing math careers, engaging with issues of under-representation and striving for gender diversity in mathematics.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:12.572129"
+    },
+    {
+      "name": "Women in Computer Science",
+      "org_type": "faculty",
+      "description": "Dedicated to promoting women interested in studying computer science and pursuing careers in computing.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:13.022324"
+    },
+    {
+      "name": "Mathematics Graduation Committee",
+      "org_type": "faculty",
+      "description": "Organizes events for graduating Mathematics students, including the Grad Ball and yearbook production.",
+      "social_media": {
+        "website": [],
+        "email": [
+          "mgc@mathsoc.uwaterloo.ca"
+        ],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "mathsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://mathsoc.uwaterloo.ca/community/community",
+      "scraped_at": "2025-08-20 00:25:13.520249"
+    },
+    {
+      "name": "Waterloo Engineering Endowment Fund",
+      "org_type": "faculty",
+      "description": "Founded in 1990 by engineering students Avi Belinsky and John Vellinga, the Waterloo Engineering Endowment Fund (WEEF) collects donations, invests the principal, and spends the annual interest to continuously improve the undergraduate engineering educational environment through new laboratory equipment, student projects, computer upgrades, and academic tools—truly \"the gift that keeps on giving.\"",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "engsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
+      "scraped_at": "2025-08-20 00:25:16.466975"
+    },
+    {
+      "name": "The Iron Warrior",
+      "org_type": "faculty",
+      "description": "The Iron Warrior (IW) is the official newspaper of the Waterloo Engineering Society. Operated and produced by society members, it serves as a forum for thought-provoking and informative articles and opinions from the Society, the Faculty of Engineering, and the wider University of Waterloo community.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "engsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
+      "scraped_at": "2025-08-20 00:25:16.467185"
+    },
+    {
+      "name": "UWaterloo EngiQueers",
+      "org_type": "faculty",
+      "description": "UWaterloo EngiQueers is a drop-in, anonymous chapter of the not-for-profit EngiQueers Canada that connects LGBTQ+ engineering students and offers them a welcoming, accepting space. Weekly informal meetings typically feature a queer-themed movie alongside discussion and board games.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "engsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
+      "scraped_at": "2025-08-20 00:25:16.467340"
+    },
+    {
+      "name": "Women In Engineering",
+      "org_type": "faculty",
+      "description": "Women In Engineering (WiE) has been part of the University of Waterloo since 1992 and aims to create an inclusive, intersectional community for engineering students of all genders. WiE supports and encourages the next generation of students—especially women, including trans and non-binary students—through social events and initiatives held every term.",
+      "social_media": {
+        "website": [],
+        "email": [
+          "wie@engsoc.uwaterloo.ca"
+        ],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "engsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
+      "scraped_at": "2025-08-20 00:25:16.467492"
+    },
+    {
+      "name": "National Society of Black Engineers",
+      "org_type": "faculty",
+      "description": "NSBE UW is the University of Waterloo collegiate chapter of the National Society of Black Engineers. It fosters an active community to support the academic and professional success of Black engineering students through speaker series, Black Study Hall sessions, mentorship programs, and networking with alumni.",
+      "social_media": {
+        "website": [],
+        "email": [
+          "nsbe.waterloo@gmail.com"
+        ],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "engsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
+      "scraped_at": "2025-08-20 00:25:16.467636"
+    },
+    {
+      "name": "American Indian Science and Engineering Society",
+      "org_type": "faculty",
+      "description": "The University of Waterloo chapter of the American Indian Science and Engineering Society (AISES) builds community for Indigenous, Métis, and Inuit students in STEM fields. It offers professional and academic growth opportunities and, starting in Fall 2023, is forming a rocketry team to compete in the First Nations Launch competition.",
+      "social_media": {
+        "website": [],
+        "email": [
+          "caises@engsoc.uwaterloo.ca"
+        ],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "engsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
+      "scraped_at": "2025-08-20 00:25:16.467784"
+    },
+    {
+      "name": "Engineering Student Societies' Council of Ontario",
+      "org_type": "faculty",
+      "description": "The Engineering Student Societies' Council of Ontario (ESSCO) represents engineering societies from 16 Ontario universities, linking engineering students with professional associations, academia, and government while promoting unity, continuity, and visibility among Ontario engineering students since 1987.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "engsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
+      "scraped_at": "2025-08-20 00:25:16.467920"
+    },
+    {
+      "name": "Canadian Federation of Engineering Students",
+      "org_type": "faculty",
+      "description": "The Canadian Federation of Engineering Students (CFES) is a national, bilingual organization representing approximately 81,000 engineering students across Canada. It provides opportunities that support a comprehensive education and represents Canadian undergraduate engineering students on national and international stages.",
+      "social_media": {
+        "website": [],
+        "email": [],
+        "facebook": [],
+        "instagram": [],
+        "twitter": [],
+        "linkedin": [],
+        "discord": []
+      },
+      "faculty": "engsoc",
+      "tags": [],
+      "is_active": true,
+      "last_active": "Current",
+      "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
+      "scraped_at": "2025-08-20 00:25:16.468056"
+    }
+  ]
+}
