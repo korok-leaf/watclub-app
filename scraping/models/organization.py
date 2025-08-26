@@ -9,10 +9,7 @@ class OrgType(str, Enum):
     WUSA = "wusa"
     FACULTY = "faculty" 
     DESIGN_TEAM = "design_team"
-    ATHLETICS = "athletics"
-    ADVOCACY = "advocacy"
-    ENTREPRENEURSHIP = "entrepreneurship"
-    MEDIA = "media"
+    SPORTS = "sports"
 
 
 class Organization(BaseModel):
@@ -34,7 +31,7 @@ class Organization(BaseModel):
     tags: List[str] = Field(default_factory=list, description="Searchable tags")
     
     # Activity info
-    meeting_info: Optional[str] = Field(None, description="Meeting details")
+    meeting_info: Optional[Dict[str, Any]] = Field(None, description="Meeting details")
     membership_info: Optional[str] = Field(None, description="How to join")
     is_active: bool = Field(True, description="Currently active")
     last_active: str = Field(..., description="Last active date")

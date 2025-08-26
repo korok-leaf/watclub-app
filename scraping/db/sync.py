@@ -53,8 +53,8 @@ async def main():
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--types", nargs="+", 
-                       choices=["wusa", "design", "faculty"],
-                       default=["wusa", "design", "faculty"])
+                       choices=["wusa", "design", "faculty", "sports"],
+                       default=["wusa", "design", "faculty", "sports"])
     args = parser.parse_args()
     
     sync = SupabaseSync()

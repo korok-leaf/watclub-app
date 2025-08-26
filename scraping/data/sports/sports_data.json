@@ -1,6 +1,966 @@
 {
   "scraper": "sports",
-  "scraped_at": "2025-08-25T20:25:08.215293",
-  "count": 0,
-  "data": []
+  "scraped_at": "2025-08-25T22:13:03.677297",
+  "count": 37,
+  "data": [
+    {
+      "name": "Muay Thai Club",
+      "org_type": "sports",
+      "description": "Muay Thai is a striking martial art that weaponizes fists, elbows, knees and legs. This art of 8 limbs increases speed, endurance, strength, coordination and flexibility. Aimed at beginner to intermediates, classes include a fun, challenging workout and the basics of standup fighting. Expect skipping, calisthenics, shadowboxing and partner work - so bring a friend! The club strives to build mentally and physically high performing student athletes with a strong sense of philanthropy and the maturity to handle their martial art appropriately. Above all, don't be intimidated! Anyone can do Muay Thai with a little hard work! Tell your friends!",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/uwmuaythai/"
+        ],
+        "facebook": [
+          "https://www.facebook.com/muaythai.uw"
+        ],
+        "discord": [
+          "https://discord.com/invite/SDFbGVsWQV"
+        ],
+        "email": [
+          "mailto:uwmuaythai@gmail.com",
+          "mailto:kmcdonel@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "membership_info": "Muay Thai Membership - 1 Class / Week: $70.00 + HST / term, Muay Thai Membership - 2 Classes / Week: $135.00 + HST / term, Muay Thai Membership - 3+ Classes / Week: $200.00 + HST / term.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/22/rec-landing-page-muay-thai-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.077855"
+    },
+    {
+      "name": "Curling Club",
+      "org_type": "sports",
+      "description": "The Warrior Recreation Curling Club offers a social and recreational mixed league for both experienced and beginner curlers. Join above and you can be placed on a team with other individuals or with 2-4 other people if you know they will be joining.",
+      "social_media": {
+        "email": [
+          "mailto:uwcurlingclub@uwaterloo.ca"
+        ],
+        "discord": [
+          "https://discord.com/invite/4U6D3wV29C"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Sundays 6:00pm - 8:00pm",
+        "location": "KW Granite Curling Club"
+      },
+      "membership_info": "$90 per term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/12/11/rec-landing-page-curling-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:37.313969"
+    },
+    {
+      "name": "Table Tennis Club",
+      "org_type": "sports",
+      "description": "Looking to sharpen your reflexes and elevate your skill in table tennis? Join the Warrior Recreation Table Tennis Club! Whether you're a beginner or an experienced player, our club offers a fun, welcoming environment for all skill levels. We provide 8 high-quality tables, professional nets, rackets and balls, along with a lot of space for up to 32 players each session. It’s the perfect way to boost your agility and enjoy great competition in a friendly, relaxed setting.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/uwaterloottc/"
+        ],
+        "facebook": [
+          "https://www.facebook.com/groups/uwtabletennis/"
+        ],
+        "email": [
+          "mailto:uwtabletennis@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Sundays 1:00pm - 4:00pm, Wednesdays 6:00pm - 8:00pm",
+        "location": "PAC Activity Area"
+      },
+      "membership_info": "$22.50 per term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/19/table-tennis-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:38.486664"
+    },
+    {
+      "name": "Underwater Hockey",
+      "org_type": "sports",
+      "description": "Underwater Hockey is a co-ed, student-run club that aims to introduce students to the sport of Underwater Hockey. It is a sport that combines swimming, diving, and hockey skills in a pool. The players wear masks, snorkels, fins, and protective gloves while playing with a weighted puck. The sport is non-contact and requires speed, stamina, and strategy.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wloo_underwaterhockey/"
+        ],
+        "email": [
+          "mailto:underwaterhockey@uwaterloo.ca",
+          "mailto:karin.browne@uwaterloo.ca"
+        ],
+        "discord": [
+          "https://discord.gg/THwmN2cY"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Mondays 8-10 PM, Friday 9-10 PM",
+        "location": "PAC Pool"
+      },
+      "membership_info": "Approximately $21.00 per player. This fee is per semester. All clubs memberships require a prerequisite base athletics membership.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2024/3/1/underwater-hockey.aspx",
+      "last_scraped_at": "2025-08-25 22:12:38.856713"
+    },
+    {
+      "name": "Kendo Club",
+      "org_type": "sports",
+      "description": "Welcome to the UWaterloo Kendo Club! Our club was founded in 1987 by Taro Ariga sensei. Kendo means 'the way of the sword' and has evolved from 2000 years of Japanese Samurai tradition. At UWaterloo kendo club, we have a diverse group of visiting instructors from the GTA. Participants can expect to begin learning the basics ranging from footwork to swings and slowly progress into full-contact sparring with the armor (bogu). Hope to see you there!",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wlookendo/"
+        ],
+        "facebook": [
+          "https://www.facebook.com/uwkendo/?ref=embed_page"
+        ],
+        "email": [
+          "mailto:uwkendo@gmail.com",
+          "mailto:kmcdonel@uwaterloo.ca"
+        ],
+        "website": [
+          "https://uwkendo.ca/"
+        ],
+        "linktree": [
+          "https://linktr.ee/wlookendo"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Try a class for FREE on Wednesday, May 14th, 2025 from 8-11 pm",
+        "location": "PAC Studio 1"
+      },
+      "membership_info": "$50.00 + HST / term. All club memberships require a prerequisite athletics membership. Currently enrolled students already have this prerequisite membership.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/22/rec-landing-page-kendo-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:37.954993"
+    },
+    {
+      "name": "Badminton Club",
+      "org_type": "sports",
+      "description": "The University of Waterloo Badminton Club is for those who love the sport or would like to play with others at their skill level. We have multiple weekly drop-in sessions, exclusive to members, with skill level matching and a number of casual and competitive events throughout the term such as club intramurals, tournaments, and much more!",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wloobadmintonclub/"
+        ],
+        "discord": [
+          "https://discord.gg/tjfTnryX7v"
+        ],
+        "email": [
+          "mailto:badmintonclub@uwaterloo.ca"
+        ],
+        "website": [
+          "http://badmintonclub.uwaterloo.ca/"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Mondays 9:30pm - 12:15am, Tuesdays 5:30pm - 7:30pm, Wednesdays 9:30pm - 12:15am, Fridays 9:30pm - 12:15am, Saturdays 9:30pm - 12:15am",
+        "location": "CIF Gyms 1 & 2"
+      },
+      "membership_info": "$22.00",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/6/badminton-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:38.536311"
+    },
+    {
+      "name": "Juggling Club",
+      "org_type": "sports",
+      "description": "Newton was wrong! Come and defy the laws of gravity with the Campus Recreation Juggling Club. Unicycles, rubber chickens, flaming torches, balls, clubs, rings - we have it all! No special fitness or coordination required, just a sense of fun. Whether you can juggle 1 or 10 balls, we welcome you to join us! If you are looking to learn any type of juggling current members are always ready to lend a helping hand!",
+      "social_media": {
+        "email": [
+          "mailto:uwjugglingclub@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Wednesdays from 4:00pm - 6:00pm",
+        "location": "PAC Activity Area"
+      },
+      "membership_info": "FREE EACH TERM",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/12/8/rec-landing-page-juggling-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:38.699911"
+    },
+    {
+      "name": "Archery Club",
+      "org_type": "sports",
+      "description": "Welcome to the UW Archery Club! If you are a new member (regardless of skill level), please book your first session on a Sunday, as those are our designated training days. Saturday sessions are reserved for Advanced Shooters ONLY.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wloo.archery/"
+        ],
+        "email": [
+          "mailto:uwarcheryclub@uwaterloo.ca"
+        ],
+        "discord": [
+          "https://discord.gg/vzSkE4EH72"
+        ],
+        "website": [
+          "https://archery.uwaterloo.ca/"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": {
+          "Sunday": "7:00pm - 9:00pm (Training)",
+          "Monday": "8:00pm - 10:30pm (General)",
+          "Wednesday": "8:30pm - 10:30pm (General)",
+          "Fridays": "6:00pm - 9:00pm (Advanced)",
+          "Saturday": "9:30am - 1:00pm (Advanced)"
+        },
+        "location": "PAC Activity Area"
+      },
+      "membership_info": "$25.00 per term (Prices do not include HST or cost of the facility space)",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/14/archery-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:37.714344"
+    },
+    {
+      "name": "Dragon Boat Club",
+      "org_type": "sports",
+      "description": "Hey Warriors! This term, dragon boat practices are going be 2 dryland practices (in CIF and PAC Warrior Zone) and 1 pool practice in PAC. We welcome people of all skill ranges! If you have any questions or concerns, please reach out to us at info@uwdbc.com! We hope to see you all there! Paddles Up!",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wloo.dboat"
+        ],
+        "email": [
+          "mailto:info@uwdbc.com",
+          "mailto:dragonboat@uwaterloo.ca"
+        ],
+        "discord": [
+          "https://discord.com/invite/aQzCK9Gfez"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Times will vary, but a schedule is provided.",
+        "location": "CIF, PAC Warrior Zone, and PAC"
+      },
+      "membership_info": "Approximately $35.00 + tax per player. This fee is per semester. All club memberships require a prerequisite base athletics membership.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/21/rec-landing-page-dragon-boat-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:36.642138"
+    },
+    {
+      "name": "Cycling Club",
+      "org_type": "sports",
+      "description": "The University of Waterloo Cycling Club, affiliated with the University of Waterloo Athletics, is a diverse, dynamic, and active group that primarily caters to students, alumni, faculty, and staff of the university. Our club offers a platform for road, mtb, track, commuter, and other cycling enthusiasts to connect, share experiences, and engage in cycling activities. Our club provides a mix of activities catering to all levels of cyclists, including group rides, training sessions, and workshops that help improve cycling skills and safety knowledge (weather dependent). We also participate in competitive events like the University Cup and other racing series (based on members' interests), providing an opportunity to represent the University of Waterloo in the cycling community.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/uwaterloocycling"
+        ],
+        "email": [
+          "mailto:cycling@uwaterloo.ca"
+        ],
+        "discord": [
+          "https://discord.com/invite/AccydUNSKT",
+          "https://discord.gg/ZTPhQfyqFD"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Times will vary, but ride schedule is provided in the Discord server."
+      },
+      "membership_info": "Approximately $10.50 per player. This fee is per semester. All clubs memberships require a prerequisite base athletics membership. Currently enrolled, on-campus students already have this prerequisite membership during the Fall and Winter semesters. For all other community participants and students attending classes in the summer months, a monthly base membership is required for purchase before enrolling into a club.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/22/rec-landing-page-cycling-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.373765"
+    },
+    {
+      "name": "SERVE Volleyball Club",
+      "org_type": "sports",
+      "description": "UW SERVE is a volleyball club that runs drop-in sessions, tournaments and socials throughout the term! Our club is open to all UW students (undergraduates, graduates, or masters) with a valid athletics membership.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wlooserve/"
+        ],
+        "email": [
+          "mailto:serve@uwaterloo.ca"
+        ],
+        "discord": [
+          "https://discord.gg/zqxzkG9BHC"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Mondays to Thursdays 8:30pm - 11:30pm, Fridays 3:00pm - 8:00pm, from May 6th until August 1st",
+        "location": "PAC Small Gym (Mon-Thurs) and CIF Gyms 1 & 2 (Fri)"
+      },
+      "membership_info": "$12.00 per term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/19/serve-volleyball-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:38.723024"
+    },
+    {
+      "name": "Ballroom Club",
+      "org_type": "sports",
+      "description": "The Ballroom Dance Club is a great place to learn ballroom AND Latin dancing in a relaxed and social atmosphere. We cover a range of dances throughout the year (Ballroom dances such as the Waltz, Tango, and Foxtrot, Latin dances such as the Cha Cha, Samba, and Jive) so we definitely have a dance for you!",
+      "social_media": {
+        "email": [
+          "mailto:uwballroom@gmail.com",
+          "mailto:kmcdonel@uwaterloo.ca"
+        ],
+        "instagram": [
+          "https://www.instagram.com/uwballroom/"
+        ],
+        "discord": [
+          "https://discord.gg/zYyEfHPUhT"
+        ],
+        "website": [
+          "https://www.uwballroom.ca/"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Friday, May 23rd, 6-7:30 pm",
+        "location": "CIF Gym 3"
+      },
+      "membership_info": "$45 for one beginner class for the term, $80 for both beginner classes for the term (Latin and Standard)",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/19/ballroom-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.504545"
+    },
+    {
+      "name": "Softball Club",
+      "org_type": "sports",
+      "description": "Softball is a game similar to baseball played with a larger ball on a smaller field, with only underhand pitches permitted.",
+      "social_media": {
+        "instagram": [
+          "https://instagram.com/wloo_softball"
+        ],
+        "facebook": [
+          "https://www.facebook.com/WaterlooWarriorsSoftball"
+        ],
+        "email": [
+          "mailto:sclub@uwaterloo.ca",
+          "mailto:karin.browne@uwaterloo.ca"
+        ],
+        "twitter": [
+          "https://x.com/i/flow/login?redirect_after_login=%2Fcanadaclassic24"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Wednesdays 7:30-9 PM",
+        "location": null
+      },
+      "membership_info": "Approximately $12.00 per player. This fee is for one semester. All clubs memberships require a prerequisite base athletics membership. Currently enrolled, on-campus students already have this prerequisite membership during the Fall and Winter semesters. For all other community participants and students attending classes in the summer months, a monthly base membership is required for purchase before enrolling into a club.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/21/rec-landing-page-softball.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.462904"
+    },
+    {
+      "name": "Waterloo Quadball Club",
+      "org_type": "sports",
+      "description": "The Waterloo Quadball Club is focused on the sport of Quadball, previously known as Quidditch, which is derived from the fictional sport in Harry Potter. Quadball is a co-ed, full contact sport that is a mix of handball, dodgeball, and rugby. We run both casual and competitive practices so everyone can find a level that suits them. Our competitive team competes against universities across Canada. Only equipment necessary to get started is athletic wear (cleats recommended)—brooms, balls, and hoops are supplied.",
+      "social_media": {
+        "instagram": [
+          "https://instagram.com/wlooquadball"
+        ],
+        "email": [
+          "mailto:quadball@uwaterloo.ca",
+          "mailto:karin.browne@uwaterloo.ca"
+        ],
+        "discord": [
+          "https://discord.gg/VbbfSDnymM"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Mondays, Wednesdays & Thursdays 6-8 PM",
+        "location": "Village Green"
+      },
+      "membership_info": "Approximately $26.25 per player. This fee is per semester. All clubs memberships require a prerequisite base athletics membership.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/21/rec-landing-page-quad-ball.aspx",
+      "last_scraped_at": "2025-08-25 22:12:38.832575"
+    },
+    {
+      "name": "Karate & Jujitsu Club",
+      "org_type": "sports",
+      "description": "The Karate and Jujitsu Club focuses on teaching a core curriculum of traditional Okinawan Goju-Ryu Karate-Doh and Shindo Ryu Jujitsu, with occasional classes in Kung Fu and Weapons. The club emphasizes community, courtesy, safety, friendship, martial arts proficiency, and the spirit of Budo (way of the Warrior).",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wlookarate"
+        ],
+        "email": [
+          "mailto:sckarate@uwaterloo.ca",
+          "mailto:kmcdonel@uwaterloo.ca"
+        ],
+        "website": [
+          "http://www.uwkarate.ca/"
+        ],
+        "discord": [
+          "https://discord.com/invite/sUJQ5GzNNy"
+        ],
+        "linktree": [
+          "https://linktr.ee/uwkarate"
+        ]
+      },
+      "tags": [],
+      "membership_info": "$40.00 + HST / term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/22/rec-landing-page-karate-jujitsu-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:40.110742"
+    },
+    {
+      "name": "Artistic Swimming",
+      "org_type": "sports",
+      "description": "Welcome to Artistic Swimming! Previously known as synchronized swimming, this sport is a combination of dance, swimming, and gymnastics. We welcome both seasoned swimmers and those new to the sport, no experience required! Come to our try-it practices at the beginning of the term and stay to learn a routine and compete with us across the country.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wlooartisticswimming/"
+        ],
+        "facebook": [
+          "https://www.facebook.com/WarriorsSynchro/"
+        ],
+        "email": [
+          "mailto:artisticswimming@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Sundays 6-9 PM, Tuesdays 7-10 PM, Thursdays 8-10 PM",
+        "location": "PAC pool, Studio 4"
+      },
+      "membership_info": "Approximately $65.10 per player per semester. *All clubs memberships require a prerequisite base athletics membership.*",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/19/artistic-synchronized-swimming-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.548417"
+    },
+    {
+      "name": "Figure Skating Club",
+      "org_type": "sports",
+      "description": "Register and join the Figure Skating Club! We meet weekly to skate!",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/uwfigureskatingclub/"
+        ],
+        "email": [
+          "mailto:uwfigureskatingclub@uwaterloo.ca"
+        ],
+        "discord": [
+          "https://discord.gg/PN7NsXGkat"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Sundays 11:00am - 12:00pm",
+        "location": "CIF Arena"
+      },
+      "membership_info": "$45 per term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/12/8/rec-landing-page-figure-skating.aspx",
+      "last_scraped_at": "2025-08-25 22:12:37.656319"
+    },
+    {
+      "name": "Tennis Club",
+      "org_type": "sports",
+      "description": "UW Tennis Club is a Warrior Recreation club and partners with Waterloo Tennis Club and Courts Plus. All of our tennis sessions are held on indoor courts at the Waterloo Tennis Club on Seagram Drive within Waterloo Park. It is a three minute walk from UWP. The club is for registered University of Waterloo students of all skill levels. Whether this is your first time playing tennis or you are a competitive player, UW Tennis Club is the place for you. Come out, have fun, and meet new people that love tennis as much as you do!",
+      "social_media": {
+        "facebook": [
+          "https://www.facebook.com/uwtennisclub/"
+        ],
+        "email": [
+          "mailto:uwtennisclub@uwaterloo.ca"
+        ],
+        "discord": [
+          "https://discord.gg/X9jeTZk2Sj"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Sundays 8:00pm - 10:00pm, Thursdays 10:00pm - 12:00am, Saturdays 8:00pm - 11:00pm",
+        "location": "Waterloo Tennis Club"
+      },
+      "membership_info": "$22.50 per term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/19/tennis-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.745616"
+    },
+    {
+      "name": "Women's Football Club",
+      "org_type": "sports",
+      "description": "The Waterloo Warriors Women’s Football team provides an opportunity for women-identifying athletes to join our amazing football family and play flag football against other university teams in Ontario. We are a group of fun, dedicated ladies who want to develop our football skills, get active, and represent UWaterloo on the provincial scale.",
+      "social_media": {
+        "email": [
+          "mailto:womensfootball@uwaterloo.ca"
+        ],
+        "instagram": [
+          "https://www.instagram.com/wloowomensfootball/"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Practice times are Sundays 10:30-12:00 PM (CIF Warrior Field) and Thursdays 7-9 PM (Field B).",
+        "location": "CIF Warrior Field, Field B"
+      },
+      "membership_info": "$136.50 per semester. All clubs memberships require a prerequisite base athletics membership.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/21/rec-landing-page-womens-football.aspx",
+      "last_scraped_at": "2025-08-25 22:12:37.969455"
+    },
+    {
+      "name": "Taekwondo Club",
+      "org_type": "sports",
+      "description": "Embark on a transformative journey of self-discovery and physical prowess with WT Taekwondo! Whether you're a beginner seeking discipline, an experienced martial artist refining your skills, or aiming for high-performance levels, our Taekwondo academy caters to all. Our holistic approach combines traditional values with intensive high-performance training, following the World Taekwondo guidelines. Join our community dedicated to fostering resilience, focus, and camaraderie. Connect with us on Instagram for inspiring stories, training tips, and updates. Whether you're getting tournament-ready or engaging in sparring-intensive high-performance training, unleash your potential with Taekwondo – where mind, body, and spirit converge in harmony!",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/uwtaekwondoacademy/"
+        ],
+        "email": [
+          "mailto:kmcdonel@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "membership_info": "$55.00 + HST / Term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/12/15/tae-kwon-do-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.048863"
+    },
+    {
+      "name": "Strength Club",
+      "org_type": "sports",
+      "description": "Strength Club is a community of like-minded strength athletes across a variety of disciplines including Powerlifting, Bodybuilding, Olympic weightlifting and General strength. This club is a great opportunity to meet new people who share your passion for fitness at the variety of events we offer each term",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/uwstrengthclub/"
+        ],
+        "email": [
+          "mailto: uwstrength@uwaterloo.ca"
+        ],
+        "website": [
+          "https://uwstrengthclub.online"
+        ]
+      },
+      "tags": [],
+      "membership_info": "For $10 per Term you get access to all strength club events and exclusive strength club equipment at PAC including a Power bar, Oly bar, mag grips and more!",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2024/7/18/strength-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.201435"
+    },
+    {
+      "name": "Chinese Martial Arts Club",
+      "org_type": "sports",
+      "description": "The Chinese Martial Arts Club strives to encourage an appreciation for Chinese martial arts and promote fitness, mental focus, and self-defense. Members from all experience levels are welcome to try any of our classes at any time!",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wloochinesemartialarts/",
+          "https://www.instagram.com/wloochinesemartialarts?igsh=MThyNTg0OG5mMTgybw%3D%3D"
+        ],
+        "email": [
+          "mailto:uwchinesemartialarts@gmail.com",
+          "mailto:kmcdonel@uwaterloo.ca"
+        ],
+        "discord": [
+          "https://discord.com/invite/d9MtnXQXVx"
+        ],
+        "linktree": [
+          "https://linktr.ee/wloochinesemartialarts"
+        ]
+      },
+      "tags": [],
+      "membership_info": "30.00 + HST / term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/22/rec-landing-page-chinese-martial-arts.aspx",
+      "last_scraped_at": "2025-08-25 22:12:37.772261"
+    },
+    {
+      "name": "Wrestling Club",
+      "org_type": "sports",
+      "description": "Wrestling Club welcomes all students to participate in learning wrestling techniques and skills, as well as improving their body awareness and fitness levels. Suitable for beginners (little to no experience), and intermediate (previous wrestling experience and competition). Sessions will cover the fundamentals of wrestling and aims to also develop strength and conditioning. Classes will cover proper wrestling stance, a variety of offensive and defensive attacks, ground technique and mat strategy. Classes incorporate individual practice, partner work, scrimmage, and fitness/conditioning.",
+      "social_media": {
+        "instagram": [
+          "https://instagram.com/uw.wrestling"
+        ],
+        "email": [
+          "mailto:uwwrestling.club@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Thursday 8-10pm",
+        "location": "PAC Activity Area"
+      },
+      "membership_info": "$66.00 + HST / term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2025/2/1/wrestling-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.075678"
+    },
+    {
+      "name": "Warriors Band",
+      "org_type": "sports",
+      "description": "The Warriors Band is a student-run pep band for the University of Waterloo. Main events where the band makes lots of noise include football, basketball, hockey, volleyball, soccer, and even the odd rugby game. Join the fun! No auditions required, and many instruments are provided.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wlooband/"
+        ],
+        "email": [
+          "mailto:warriorsband@gmail.com"
+        ],
+        "discord": [
+          "https://discord.com/invite/rAZweTdPMe"
+        ],
+        "website": [
+          "https://warriorsband.uwaterloo.ca/"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Wednesdays 6:30 - 8:00 pm, Thursdays 6:00 - 7:30 pm, Sundays 12:00 - 3:00 pm",
+        "location": "PAC 1001"
+      },
+      "membership_info": "$10.00 + HST / term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2024/7/18/warriors-band.aspx",
+      "last_scraped_at": "2025-08-25 22:12:37.143728"
+    },
+    {
+      "name": "Cricket Club",
+      "org_type": "sports",
+      "description": "The University of Waterloo Cricket Club (UWCC) welcomes all players from beginner to competitive. We hold Competitive tournaments and practices throughout the term. Our matches are short and exciting. We ensure that everyone has a fair chance at participation. Attendance is necessary for scheduled tournament games, however, teams are allowed rosters in case players are unable to attend certain games.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wloocricket/"
+        ],
+        "facebook": [
+          "https://www.facebook.com/UWCricketClub/"
+        ],
+        "email": [
+          ""
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Mondays 8:00 PM-12:00 AM, Wednesdays 8:00 PM-12:00 AM, Fridays 8:00 PM-12:00 AM",
+        "location": "Field House - Field C"
+      },
+      "membership_info": "$40.00 per term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/19/cricket-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.262981"
+    },
+    {
+      "name": "Running & Marathon Club",
+      "org_type": "sports",
+      "description": "Looking to take your running to the next level? Whether you're an experienced marathoner, a beginner with big dreams, or just eager to meet fellow UW students who share your passion for running, the UW Running and Marathon Club (UWR&M) is the perfect fit for you! UWR&M is a vibrant community of runners at all levels, from dedicated marathon competitors to those who simply love the thrill of the run. We're here to support and challenge each other, offering casual runs and more challenging long distance training to cater to all our members' needs. Don't forget your trusty pair of running shoes, and join us on a run! Let's lace up, hit the pavement, and chase our running goals together! Please note that our club does not operate for the winter terms.",
+      "social_media": {
+        "instagram": [
+          "https://instagram.com/wloorunning"
+        ],
+        "discord": [
+          "https://discord.gg/K8dAGTzm7a"
+        ],
+        "email": [
+          "mailto:runningandmara@uwaterloo.ca",
+          "mailto:karin.browne@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Mondays, Wednesday, Friday: 7 PM; Thursday: 6 PM",
+        "location": null
+      },
+      "membership_info": "Approximately $12.60 per player. This fee is per semester. All clubs memberships require a prerequisite base athletics membership. Currently enrolled, on-campus students already have this prerequisite membership during the Fall and Winter semesters. For all other community participants and students attending classes in the summer months, a monthly base membership is required for purchase before enrolling into a club.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/11/17/rec-landing-page-running-marathon-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:37.887711"
+    },
+    {
+      "name": "Equestrian Club",
+      "org_type": "sports",
+      "description": "The University of Waterloo Equestrian Team competes on the Ontario Collegiate Equestrian Association circuit. The OCEA is a student-run group that allows university students from all over Ontario to compete in hunter equitation classes on unfamiliar horses. In addition to competing, the team also organizes social events and activities throughout the year.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/waterlooequestrian?igsh=ajl4MmRoa3NtNTk0"
+        ],
+        "email": [
+          "mailto:equestrian@uwaterloo.ca"
+        ],
+        "tiktok": [
+          "https://www.tiktok.com/@waterlooequestrian"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Tuesdays 6:30-7:30 PM",
+        "location": null
+      },
+      "membership_info": "Approximately $73.50 per player per semester. All clubs memberships require a prerequisite base athletics membership. Currently enrolled, on-campus students already have this membership during the Fall and Winter semesters. For others, a monthly base membership is required before joining.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/11/17/rec-landing-page-equestrian-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:37.886318"
+    },
+    {
+      "name": "Triathlon Club",
+      "org_type": "sports",
+      "description": "The Warriors Triathlon Club is open to University of Waterloo students, staff, faculty, and members of the UW community at large who have memberships at the University of Waterloo’s Athletics Department. The club will create a group training environment in which athletes of a wide range of ability levels can improve. In addition, our group training sessions will build a community of athletes, in which individuals may establish friendships and training partnerships that continue outside of club programming. Our events and activities will include (but are not limited to) weekly swimming and indoor cycling training sessions. The swimming sessions will be planned and supervised by a qualified swimming coach, to ensure that the full spectrum of abilities attending the sessions can benefit through the development of both technique and fitness. The indoor cycling training sessions will be led by club members. Members participating in the swimming sessions should be able to swim at least 100m (4 pool lengths) of continuous freestyle.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/uoft_tri_club/reel/C2slhM-voNC/?img_index=uoft_tri_club"
+        ],
+        "facebook": [
+          "https://www.facebook.com/warriorstriclub/"
+        ],
+        "email": [
+          "mailto: triclub@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Tuesdays 8AM: Open Rec swim, Wednesdays 5:30 PM: Bike rides, Fridays 4:30 PM: Run",
+        "location": "Outside at PAC West doors for Rides & by the Peter Russel Rock Garden"
+      },
+      "membership_info": "$16.50 for club membership for the Spring 2025 term. All club memberships require a prerequisite base athletics membership.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/21/rec-landing-page-triathlon-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:38.942735"
+    },
+    {
+      "name": "Ringette Club",
+      "org_type": "sports",
+      "description": "Ready to Glide into Victory? Join The University of Waterloo Ringette Team! Are you searching for an exciting team sport that combines speed, strategy, and friendships? Look no further! Joining our ringette team offers you the chance to be part of a tight-knit family where you'll make lifelong friendships while sharpening your skills on the ice. With our experienced coaches guiding you, there's a place for you to thrive. We play against other universities, and compete in different tournaments that allow us to experience the rush of teamwork. Plus, staying in shape, improving agility, and building endurance have never been more fun. We welcome full-time students at UW from all different skill levels. Join us today to make unforgettable memories both on and off the ice!",
+      "social_media": {
+        "instagram": [
+          "https://instagram.com/wlooringette"
+        ],
+        "email": [
+          "mailto:ringette@uwaterloo.ca",
+          "mailto:karin.browne@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Monday 8-9 PM, Saturday 1-2 PM",
+        "location": null
+      },
+      "membership_info": "Ringette Practice Roster: $60.92, Ringette Playing Roster: $275.68. All clubs memberships require a prerequisite base athletics membership. Currently enrolled, on-campus students already have this prerequisite membership during the Fall and Winter semesters. For all other community participants and students attending classes in the summer months, a monthly base membership is required for purchase before enrolling into a club. Memberships can be purchased here: https://warrior.uwaterloo.ca/Program/GetProgramDetails?courseId=ea0c28fc-e0d0-4db1-88d7-82b2bcb2317f.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/19/ringette-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:40.105081"
+    },
+    {
+      "name": "Waterloo Dance Company",
+      "org_type": "sports",
+      "description": "The UW Dance Company is the University of Waterloo's only competitive dance team. As a club we compete in 3 varsity competitions each year against University and College teams from across Canada. We are currently ranked in the top 10 University teams at all competitions and we also hold the title of 2015 Rhythm Cup Winners. We choreograph, train, and perform in a variety of styles including tap, jazz, ballet, pointe, acro, hip-hop, lyrical, and contemporary. All of our routines are choreographed by current students on the team and we take pride in the amazing talent of our dancers. Each member of our team is hardworking, dedicated, and passionate about dance. We train and rehearse for numerous hours a week. The club runs from September to April each year.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/uwaterloodance/"
+        ],
+        "facebook": [
+          "https://www.facebook.com/UWDanceCompany/?fref=ts"
+        ],
+        "twitter": [
+          "https://twitter.com/UWDANCECOMPANY"
+        ],
+        "email": [
+          "mailto:uwdanceco@hotmail.com"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Fall 2024 Auditions will take place on Sunday, September 8th starting at 9 am.",
+        "location": null
+      },
+      "membership_info": "Auditions occur ONLY at the beginning of September on a weekend. Team commitment is for the entire season (Sept-Apr). Participants must register with the sports clubs directly at any one of their sessions listed.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/19/dance-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.480732"
+    },
+    {
+      "name": "Lacrosse Club",
+      "org_type": "sports",
+      "description": "Looking for a fast-paced, competitive, and tight-knit team experience? Whether you’re a seasoned player or new to the game, our University of Waterloo Lacrosse Club is the perfect place to make new friends and develop your lacrosse skills with coaching from enthusiastic lacrosse players! We welcome players of all skill levels, offering structured practices, exciting games, and a supportive team environment. We guarantee a fun, safe, inclusive, and encouraging team environment that will suit your current abilities! No equipment or previous experience is required to join this club! Join us today!",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wloolacrosse/"
+        ],
+        "email": [
+          "mailto:lacrosse@uwaterloo.ca",
+          "mailto:karin.browne@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Mondays: 7-8:30 PM, Wednesdays: 4-5:30 PM",
+        "location": "CIF Fieldhouse"
+      },
+      "membership_info": "Approximately $31.50 per player. This fee is per semester. All clubs memberships require a prerequisite base athletics membership. Currently enrolled, on-campus students already have this prerequisite membership during the Fall and Winter semesters. For all other community participants and students attending classes in the summer months, a monthly base membership is required for purchase before enrolling into a club.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/21/rec-landing-page.aspx",
+      "last_scraped_at": "2025-08-25 22:12:38.824341"
+    },
+    {
+      "name": "Judo Club",
+      "org_type": "sports",
+      "description": "Judo is a modern Japanese martial art and practised all over the world (Olympic sport since 1960). In Judo, we use the opponents' strength against them in throwing or ground techniques instead of kicks or punches. It is great to improve self-defence, confidence, endurance and concentration. All levels are welcome.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wloojudo/"
+        ],
+        "email": [
+          "mailto:judo.uwaterloo@gmail.com"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Tuesday: 5:00-7:00pm, Thursdays: 5:00-7:00pm, Sundays: 4:30-6:00pm",
+        "location": "CIF Studio"
+      },
+      "membership_info": "$55.00 + HST / term",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/22/rec-landing-page-judo.aspx",
+      "last_scraped_at": "2025-08-25 22:12:37.657655"
+    },
+    {
+      "name": "Lifesaving Club",
+      "org_type": "sports",
+      "description": "Welcome to the Lifesaving Sport club based at the University of Waterloo. Everyone is welcome! Join in and practice and compete in Lifesaving Sport. Members practice and compete in three disciplines – Lifeguarding (Water Rescue, First Aid and Priority Assessment), Pool Lifesaving (sport based on the lifeguarding skills), and Surf/Waterfront Lifesaving (paddle boards, surf skis, surf swim, beach flags, beach sprint, etc). Club members successfully compete regionally, provincially and nationally and even internationally, throughout the year and are four-time 2014 Champions. Members can choose which discipline to “play” in and when and if to compete. Lifesaving Sport is an official Commonwealth and World Games event and is recognized as a competitive sport by the IOC. Come out and show your stuff! All lifeguards/future lifeguards and swimmers are welcome to attend practices.",
+      "social_media": {
+        "instagram": [
+          "https://instagram.com/wloo.lifesaving"
+        ],
+        "facebook": [
+          "https://www.facebook.com/uwaterloo.lifesaving/"
+        ],
+        "email": [
+          "mailto:lifesaving@uwaterloo.ca",
+          "mailto:karin.browne@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Mondays 8-10 PM, Wednesdays 8-9:30 PM",
+        "location": "PAC pool"
+      },
+      "membership_info": "Approximately $63.00 per player. This fee is per semester. *All clubs memberships require a prerequisite base athletics membership. Currently enrolled, on-campus students already have this prerequisite membership during the Fall and Winter semesters. For all other community participants and students attending classes in the summer months, a monthly base membership is required for purchase before enrolling into a club*",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/21/rec-landing-page-lifesaving.aspx",
+      "last_scraped_at": "2025-08-25 22:12:40.282891"
+    },
+    {
+      "name": "Ultimate Club",
+      "org_type": "sports",
+      "description": "UW Ultimate is a co-ed, student-run club that aims to provide students with a fun environment to learn and enhance their ultimate (frisbee) skills. The club features a diverse range of skill levels and experience, and we warmly welcome new members, including those with no experience.",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/waterloo_ultimate/?hl=en"
+        ],
+        "email": [
+          "mailto:u2club@uwaterloo.ca",
+          "mailto:karin.browne@uwaterloo.ca"
+        ],
+        "slack": [
+          "https://uwaterlooultimate.slack.com/join/shared_invite/zt-2nt3xd9f7-OOtXBU72ewGceGoy5JJE6Q#/shared-invite/email"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Wednesdays 7-9 AM, Thursdays 5:50-8 PM",
+        "location": "Time will vary, please see full schedule"
+      },
+      "membership_info": "Approximately $21.00 per player per semester. All club memberships require a prerequisite base athletics membership. Memberships can be purchased here: https://warrior.uwaterloo.ca/Program/GetProgramDetails?courseId=a5804994-5948-4ea0-b057-83ac1e09b931",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2024/1/18/ultimate-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.949663"
+    },
+    {
+      "name": "Ball Hockey",
+      "org_type": "sports",
+      "description": "We are a competitive men's ball hockey club that participates in various tournaments hosted by the OUBHL (Ontario University Ball Hockey League). We play a mix of University and Men's teams at the \"C\" level. 4-5 tournaments are expected throughout the school year (September-April).",
+      "social_media": {
+        "instagram": [
+          "https://www.instagram.com/wlooballhockey/"
+        ],
+        "email": [
+          "mailto:ballhockey@uwaterloo.ca",
+          "mailto:Karin.browne@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "membership_info": "Approximately $12.60 per player. This fee is per semester. All clubs memberships require a prerequisite base athletics membership. Currently enrolled, on-campus students already have this prerequisite membership during the Fall and Winter semesters. For all other community participants and students attending classes in the summer months, a monthly base membership is required for purchase before enrolling into a club. Memberships can be purchased here: https://warrior.uwaterloo.ca/membership/GetMembershipSummary?membershipProductId=108aa14b-1564-4d8c-a6d1-5479a267000b",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2023/9/21/rec-landing-page-ball-hockey.aspx",
+      "last_scraped_at": "2025-08-25 22:12:38.482931"
+    },
+    {
+      "name": "Fencing Club",
+      "org_type": "sports",
+      "description": "Join the University of Waterloo Fencing Club and discover the exhilarating sport of fencing! Incorporating athleticism, strategy, and lightning-quick thinking, fencing is a challenging and highly rewarding sport where you're fighting your opponent for every single point. Whether you're a seasoned fencer with national-team experience or have never held a fencing weapon before, our club offers a welcoming environment for you to hone your skills. Train with experienced coaches, put your skills to the test on the piste against other members (including the Varsity athletes), and forge lasting friendships with fellow students. The club also hosts multiple social activities each term. Every term we run a 10-week introductory course where we teach you all the basics, before ending the course with a small tournament. After this course you'll be ready to fence all the other members in the club, and participate in provincial tournaments if you want to.",
+      "social_media": {
+        "facebook": [
+          "https://www.facebook.com/groups/UWaterlooFencingClub/"
+        ],
+        "instagram": [
+          "https://www.instagram.com/wloofencing/"
+        ],
+        "discord": [
+          "https://discord.gg/HFP79yn7HN"
+        ],
+        "email": [
+          "mailto:fencing@uwaterloo.ca"
+        ]
+      },
+      "tags": [],
+      "meeting_info": {
+        "schedule": "Beginner: Thursdays 5 - 6 PM. Intermediate & Advanced: Mondays 5-7:30 PM, Thursdays 6 - 8 PM.",
+        "location": "Activity Area"
+      },
+      "membership_info": "We have three membership tiers: Fencing Introductory: $84, Fencing with Personal Equipment: $147, Fencing with Rental Equipment: $252. All memberships require a prerequisite base athletics membership.",
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2022/12/19/fencing-club.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.376131"
+    },
+    {
+      "name": "University of Waterloo Esports",
+      "org_type": "sports",
+      "description": "University of Waterloo Esports provides community tournaments, and access to competitive collegiate leagues. We also offer opportunities for students to get involved in volunteer positions.",
+      "social_media": {
+        "Discord": [
+          "https://t.co/F4tpdsB61d",
+          "https://discord.gg/7gV8PpgQkz"
+        ]
+      },
+      "tags": [],
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://athletics.uwaterloo.ca/sports/2021/7/29/about-us-esports.aspx",
+      "last_scraped_at": "2025-08-25 22:12:39.061695"
+    }
+  ]
 }
