@@ -1,6 +1,6 @@
 {
   "scraper": "faculty",
-  "scraped_at": "2025-08-25T17:18:14.846200",
+  "scraped_at": "2025-08-25T18:02:14.837563",
   "count": 23,
   "data": [
     {
@@ -24,7 +24,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.723824"
+      "last_scraped_at": "2025-08-25 17:57:52.335011"
     },
     {
       "name": "Double Degree Club",
@@ -47,7 +47,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.723938"
+      "last_scraped_at": "2025-08-25 17:57:52.335075"
     },
     {
       "name": "Statistics Club",
@@ -70,7 +70,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.723995"
+      "last_scraped_at": "2025-08-25 17:57:52.335098"
     },
     {
       "name": "Actuarial Sciences Club",
@@ -93,12 +93,12 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724049"
+      "last_scraped_at": "2025-08-25 17:57:52.335119"
     },
     {
       "name": "Financial Analysis or Risk Management Student Association",
       "org_type": "faculty",
-      "description": "FARMSA is a non-profit student club open to all Math students at the UW, even those not in the Math/FARM program.\nThe goals of the club:\n• To encourage academic pursuits and interests of the Math/FARM program internally and externally.\n• To provide services that will benefit Math/FARM students and other interested individuals academically and professionally.\n• To improve the cohesiveness between individuals of the Math/FARM program.\n• Provide a framework to build, improve and promote the reputation and quality of the Math/FARM program.",
+      "description": "FARMSA is a non-profit student club open to all Math students at the UW, even those not in the Math/FARM program. The goals of the club: • To encourage academic pursuits and interests of the Math/FARM program internally and externally. • To provide services that will benefit Math/FARM students and other interested individuals academically and professionally. • To improve the cohesiveness between individuals of the Math/FARM program. • Provide a framework to build, improve and promote the reputation and quality of the Math/FARM program.",
       "social_media": {
         "website": [],
         "email": [],
@@ -111,12 +111,13 @@
       "faculty": "mathsoc",
       "tags": [
         "Finance",
-        "Math"
+        "Math",
+        "Academic"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724089"
+      "last_scraped_at": "2025-08-25 17:57:52.335138"
     },
     {
       "name": "Pure Math, Applied Math and Combinatorics & Optimization Club",
@@ -139,7 +140,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724123"
+      "last_scraped_at": "2025-08-25 17:57:52.335157"
     },
     {
       "name": "Data Science Club",
@@ -163,7 +164,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724154"
+      "last_scraped_at": "2025-08-25 17:57:52.335176"
     },
     {
       "name": "MathSoc Cartoons",
@@ -186,7 +187,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724185"
+      "last_scraped_at": "2025-08-25 17:57:52.335195"
     },
     {
       "name": "Math Ambassadors",
@@ -204,12 +205,13 @@
       "faculty": "mathsoc",
       "tags": [
         "Math",
-        "Volunteer"
+        "Volunteer",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724216"
+      "last_scraped_at": "2025-08-25 17:57:52.335213"
     },
     {
       "name": "Math Endowment Fund",
@@ -226,13 +228,13 @@
       },
       "faculty": "mathsoc",
       "tags": [
-        "Math",
-        "Finance"
+        "Finance",
+        "Math"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724249"
+      "last_scraped_at": "2025-08-25 17:57:52.335233"
     },
     {
       "name": "Math Orientation",
@@ -249,13 +251,13 @@
       },
       "faculty": "mathsoc",
       "tags": [
-        "Academic",
-        "Math"
+        "Math",
+        "Academic"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724280"
+      "last_scraped_at": "2025-08-25 17:57:52.335266"
     },
     {
       "name": "mathNEWS",
@@ -272,13 +274,13 @@
       },
       "faculty": "mathsoc",
       "tags": [
-        "Academic",
-        "Math"
+        "Math",
+        "Media"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724309"
+      "last_scraped_at": "2025-08-25 17:57:52.335284"
     },
     {
       "name": "Women in Math",
@@ -301,7 +303,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724339"
+      "last_scraped_at": "2025-08-25 17:57:52.335302"
     },
     {
       "name": "Women in Computer Science",
@@ -318,13 +320,13 @@
       },
       "faculty": "mathsoc",
       "tags": [
-        "Advocacy",
+        "Academic",
         "Software"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724393"
+      "last_scraped_at": "2025-08-25 17:57:52.335348"
     },
     {
       "name": "Mathematics Graduation Committee",
@@ -343,13 +345,13 @@
       },
       "faculty": "mathsoc",
       "tags": [
-        "Academic",
-        "Math"
+        "Math",
+        "Arts"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://mathsoc.uwaterloo.ca/community/community",
-      "scraped_at": "2025-08-25 15:51:00.724432"
+      "last_scraped_at": "2025-08-25 17:57:52.335372"
     },
     {
       "name": "Waterloo Engineering Endowment Fund",
@@ -366,18 +368,18 @@
       },
       "faculty": "engsoc",
       "tags": [
-        "Finance",
-        "Academic"
+        "Academic",
+        "Finance"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
-      "scraped_at": "2025-08-25 15:50:58.862050"
+      "last_scraped_at": "2025-08-25 17:57:34.432110"
     },
     {
       "name": "The Iron Warrior",
       "org_type": "faculty",
-      "description": "The IW is the official newspaper of the Society and is operated and produced by members of the Society. The IW is intended as a forum for thought-provoking and informative articles and opinions presented by the Society, the Faculty of Engineering, and by the academic community of the University.",
+      "description": "The IW is the official newspaper of the Society and is operated and produced by members of the Society.  The IW is intended as a forum for thought-provoking and informative articles and opinions presented by the Society, the Faculty of Engineering, and by the academic community of the University.",
       "social_media": {
         "website": [],
         "email": [],
@@ -395,7 +397,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
-      "scraped_at": "2025-08-25 15:50:58.862099"
+      "last_scraped_at": "2025-08-25 17:57:34.432163"
     },
     {
       "name": "UWaterloo EngiQueers",
@@ -413,12 +415,13 @@
       "faculty": "engsoc",
       "tags": [
         "LGBTQ",
+        "Cultural",
         "Boardgames"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
-      "scraped_at": "2025-08-25 15:50:58.862126"
+      "last_scraped_at": "2025-08-25 17:57:34.432193"
     },
     {
       "name": "Women In Engineering",
@@ -443,7 +446,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
-      "scraped_at": "2025-08-25 15:50:58.862147"
+      "last_scraped_at": "2025-08-25 17:57:34.432217"
     },
     {
       "name": "National Society of Black Engineers",
@@ -463,12 +466,12 @@
       "faculty": "engsoc",
       "tags": [
         "Academic",
-        "Advocacy"
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
-      "scraped_at": "2025-08-25 15:50:58.862168"
+      "last_scraped_at": "2025-08-25 17:57:34.432241"
     },
     {
       "name": "American Indian Science and Engineering Society",
@@ -488,12 +491,13 @@
       "faculty": "engsoc",
       "tags": [
         "Science",
+        "Engineering",
         "Cultural"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
-      "scraped_at": "2025-08-25 15:50:58.862186"
+      "last_scraped_at": "2025-08-25 17:57:34.432261"
     },
     {
       "name": "Engineering Student Societies' Council of Ontario",
@@ -516,7 +520,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
-      "scraped_at": "2025-08-25 15:50:58.862204"
+      "last_scraped_at": "2025-08-25 17:57:34.432281"
     },
     {
       "name": "Canadian Federation of Engineering Students",
@@ -533,13 +537,13 @@
       },
       "faculty": "engsoc",
       "tags": [
-        "Academic",
-        "Leadership"
+        "Leadership",
+        "Advocacy"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://www.engsoc.uwaterloo.ca/about-us/affiliates/",
-      "scraped_at": "2025-08-25 15:50:58.862223"
+      "last_scraped_at": "2025-08-25 17:57:34.432301"
     }
   ]
 }

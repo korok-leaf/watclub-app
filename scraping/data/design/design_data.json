@@ -1,6 +1,6 @@
 {
   "scraper": "design",
-  "scraped_at": "2025-08-25T17:18:14.967331",
+  "scraped_at": "2025-08-25T18:02:14.710634",
   "count": 38,
   "data": [
     {
@@ -17,12 +17,13 @@
       },
       "tags": [
         "Engineering",
-        "Robotics"
+        "Robotics",
+        "Outdoors"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.446098"
+      "last_scraped_at": "2025-08-25 17:56:57.353156"
     },
     {
       "name": "Battery Workforce Challenge",
@@ -30,7 +31,7 @@
       "description": "We are a student-run design team focused on designing, building, and integrating an electric vehicle (EV) battery pack into a Ram ProMaster cargo van. Our team is part of the Battery Workforce Challenge (BWC), an Advanced Vehicle Technology Competition (AVTC) series sponsored by the U.S. Department of Energy and Stellantis and managed by Argonne National Laboratory.",
       "social_media": {
         "website": [
-          "https://uwevolution.com/"
+          "https://uwevolution.com"
         ],
         "email": [
           "bwc.uwlc@hotmail.com"
@@ -41,12 +42,13 @@
       },
       "tags": [
         "Hardware",
-        "Sustainability"
+        "Sustainability",
+        "Engineering"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.561390"
+      "last_scraped_at": "2025-08-25 17:56:57.759489"
     },
     {
       "name": "Concrete Canoe Team",
@@ -62,12 +64,13 @@
       },
       "tags": [
         "Engineering",
-        "Sustainability"
+        "Sustainability",
+        "Recreation"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:23.984743"
+      "last_scraped_at": "2025-08-25 17:56:58.841801"
     },
     {
       "name": "Concrete Toboggan Team",
@@ -83,12 +86,13 @@
       },
       "tags": [
         "Engineering",
-        "Recreation"
+        "Recreation",
+        "Outdoors"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.978527"
+      "last_scraped_at": "2025-08-25 17:56:57.739401"
     },
     {
       "name": "Electrium Mobility",
@@ -112,12 +116,12 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.912154"
+      "last_scraped_at": "2025-08-25 17:56:57.677960"
     },
     {
       "name": "Engineers Without Borders",
       "org_type": "design_team",
-      "description": "Engineers Without Borders (EWB) is a non-governmental organization founded by Waterloo graduates that work towards ending poverty within the world. With 34 professional and student chapters across Canada, we work to support initiatives in Ghana, Malawi, Uganda, Zambia, and many more countries. The University of Waterloo EWB chapter is committed to developing leaders with the skills and perspective necessary to create sustainable social change in local, national, and international communities, especially focusing on Indigenous communities within Canada. The UW chapter of EWB is also working towards a globalization of engineering curriculum and encourage growth within the fair trade market.",
+      "description": "Engineers Without Borders (EWB) is an non-governmental organization founded by Waterloo graduates that work towards ending poverty within the world. With 34 professional and student chapters across Canada, we work to support initiatives in Ghana, Malawi, Uganda, Zambia, and many more countries. The University of Waterloo EWB chapter is committed to developing leaders with the skills and perspective necessary to create sustainable social change in local, national, and international communities, especially focusing on Indigenous communities within Canada. The UW chapter of EWB is also working towards a globalization of engineering curriculum and encourage growth within the fair trade market.",
       "social_media": {
         "facebook": [
           "https://www.facebook.com/ewbuw/"
@@ -131,7 +135,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:23.441984"
+      "last_scraped_at": "2025-08-25 17:56:57.485057"
     },
     {
       "name": "F_rmlab",
@@ -146,13 +150,14 @@
         ]
       },
       "tags": [
-        "Arts",
-        "Software"
+        "Architecture",
+        "Design",
+        "Technology"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.936094"
+      "last_scraped_at": "2025-08-25 17:56:57.818768"
     },
     {
       "name": "Formula Nano",
@@ -176,7 +181,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.353302"
+      "last_scraped_at": "2025-08-25 17:56:57.554823"
     },
     {
       "name": "UW Formula Electric",
@@ -198,13 +203,13 @@
       },
       "tags": [
         "Engineering",
-        "Hardware",
-        "Robotics"
+        "Robotics",
+        "Hardware"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:23.247064"
+      "last_scraped_at": "2025-08-25 17:56:57.950043"
     },
     {
       "name": "Hacker Fab",
@@ -225,7 +230,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.265135"
+      "last_scraped_at": "2025-08-25 17:56:57.678370"
     },
     {
       "name": "Industry 4.0 Team",
@@ -237,14 +242,14 @@
         ]
       },
       "tags": [
-        "Leadership",
-        "Entrepreneurship",
-        "Engineering"
+        "Engineering",
+        "Education",
+        "Competition"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:23.869431"
+      "last_scraped_at": "2025-08-25 17:56:58.070656"
     },
     {
       "name": "International Genetically Engineered Machine Team (iGEM)",
@@ -260,12 +265,12 @@
       },
       "tags": [
         "Science",
-        "Engineering"
+        "Academic"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:23.083343"
+      "last_scraped_at": "2025-08-25 17:56:57.507671"
     },
     {
       "name": "MedTechResolve",
@@ -280,13 +285,14 @@
         ]
       },
       "tags": [
+        "Healthcare",
         "AI",
-        "Healthcare"
+        "Design"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.596484"
+      "last_scraped_at": "2025-08-25 17:56:57.297037"
     },
     {
       "name": "Midnight Sun Solar Car Team",
@@ -305,12 +311,13 @@
       },
       "tags": [
         "Sustainability",
-        "Engineering"
+        "Engineering",
+        "Innovation"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.968636"
+      "last_scraped_at": "2025-08-25 17:56:57.889479"
     },
     {
       "name": "Robotics Team (UWRT)",
@@ -326,12 +333,13 @@
       },
       "tags": [
         "Robotics",
-        "Hardware"
+        "Hardware",
+        "AI"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.300955"
+      "last_scraped_at": "2025-08-25 17:56:57.507918"
     },
     {
       "name": "Steel Bridge Design Team",
@@ -347,12 +355,13 @@
       },
       "tags": [
         "Engineering",
-        "Hardware"
+        "Design",
+        "Competition"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.736813"
+      "last_scraped_at": "2025-08-25 17:56:57.586504"
     },
     {
       "name": "The Waterloo Alternative Protein Project",
@@ -374,7 +383,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.510058"
+      "last_scraped_at": "2025-08-25 17:56:57.601558"
     },
     {
       "name": "UWAFT",
@@ -390,12 +399,13 @@
       },
       "tags": [
         "Sustainability",
-        "Engineering"
+        "Engineering",
+        "Innovation"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.513474"
+      "last_scraped_at": "2025-08-25 17:56:57.297404"
     },
     {
       "name": "UWATERLOO IISE",
@@ -416,7 +426,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.433017"
+      "last_scraped_at": "2025-08-25 17:56:57.300105"
     },
     {
       "name": "UW ASIC",
@@ -424,7 +434,7 @@
       "description": "UWASIC is a student design team at the University of Waterloo dedicated to exploring the world of ASIC and FPGA development. Our mission is to bridge the gap between academic learning and industry practice, preparing the next generation of chip designers.",
       "social_media": {
         "website": [
-          "https://uwasic.com/"
+          "https://uwasic.com"
         ],
         "email": [
           "uwasic.waterloo@gmail.com"
@@ -437,7 +447,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.228779"
+      "last_scraped_at": "2025-08-25 17:56:57.466008"
     },
     {
       "name": "UW Biomechatronics Design Team",
@@ -459,7 +469,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.709287"
+      "last_scraped_at": "2025-08-25 17:56:57.701331"
     },
     {
       "name": "UW Blueprint",
@@ -478,12 +488,13 @@
       },
       "tags": [
         "Software",
-        "Volunteer"
+        "Volunteer",
+        "Advocacy"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.717697"
+      "last_scraped_at": "2025-08-25 17:56:57.716900"
     },
     {
       "name": "UW NanoRobotics Group",
@@ -505,7 +516,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.468836"
+      "last_scraped_at": "2025-08-25 17:56:58.178725"
     },
     {
       "name": "UW Orbital",
@@ -521,12 +532,13 @@
       },
       "tags": [
         "Science",
-        "Robotics"
+        "Robotics",
+        "Hardware"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.703985"
+      "last_scraped_at": "2025-08-25 17:56:57.857832"
     },
     {
       "name": "UW REACT - FIRST Robotics",
@@ -545,12 +557,13 @@
       },
       "tags": [
         "Robotics",
-        "Hardware"
+        "Hardware",
+        "Software"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.581462"
+      "last_scraped_at": "2025-08-25 17:56:57.540979"
     },
     {
       "name": "UW Reality Labs",
@@ -572,12 +585,13 @@
       },
       "tags": [
         "Software",
-        "AI"
+        "AI",
+        "Robotics"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:23.168644"
+      "last_scraped_at": "2025-08-25 17:56:57.743357"
     },
     {
       "name": "UWSiO",
@@ -593,12 +607,13 @@
       },
       "tags": [
         "Science",
-        "Sustainability"
+        "Sustainability",
+        "Academic"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:23.121516"
+      "last_scraped_at": "2025-08-25 17:56:57.916113"
     },
     {
       "name": "UW Vex U Robotics Team",
@@ -619,7 +634,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.981812"
+      "last_scraped_at": "2025-08-25 17:56:57.945669"
     },
     {
       "name": "WAT ARROW",
@@ -634,13 +649,14 @@
         ]
       },
       "tags": [
-        "Hardware",
-        "Engineering"
+        "Engineering",
+        "Robotics",
+        "Hardware"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.512476"
+      "last_scraped_at": "2025-08-25 17:56:57.873709"
     },
     {
       "name": "Wat Street",
@@ -659,12 +675,13 @@
       },
       "tags": [
         "Finance",
-        "Software"
+        "Software",
+        "Academic"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.766732"
+      "last_scraped_at": "2025-08-25 17:56:57.833838"
     },
     {
       "name": "Warrior Home",
@@ -689,7 +706,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:23.827407"
+      "last_scraped_at": "2025-08-25 17:56:58.858309"
     },
     {
       "name": "Waterloo Aerial Robotics Group (WARG)",
@@ -705,12 +722,13 @@
       },
       "tags": [
         "Robotics",
-        "Engineering"
+        "Engineering",
+        "Design"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.270076"
+      "last_scraped_at": "2025-08-25 17:56:58.293965"
     },
     {
       "name": "Waterloo RoboSoccer Team",
@@ -731,7 +749,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.847489"
+      "last_scraped_at": "2025-08-25 17:56:58.097305"
     },
     {
       "name": "Waterloo Rocketry Team",
@@ -747,12 +765,13 @@
       },
       "tags": [
         "Science",
+        "Engineering",
         "Robotics"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.579121"
+      "last_scraped_at": "2025-08-25 17:56:58.114108"
     },
     {
       "name": "Waterloop",
@@ -767,13 +786,14 @@
         ]
       },
       "tags": [
+        "Engineering",
         "Robotics",
-        "Engineering"
+        "Hardware"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.433566"
+      "last_scraped_at": "2025-08-25 17:56:57.294651"
     },
     {
       "name": "WATOLINK",
@@ -789,13 +809,13 @@
       },
       "tags": [
         "AI",
-        "Hardware",
-        "Science"
+        "Robotics",
+        "Hardware"
       ],
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:23.110816"
+      "last_scraped_at": "2025-08-25 17:56:58.511746"
     },
     {
       "name": "WATonomous",
@@ -805,11 +825,11 @@
         "website": [
           "https://www.watonomous.ca/#/"
         ],
-        "facebook": [
-          "https://www.facebook.com/WATonomous"
-        ],
         "email": [
           "info@watonomous.ca"
+        ],
+        "facebook": [
+          "https://www.facebook.com/WATonomous"
         ]
       },
       "tags": [
@@ -820,7 +840,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.292211"
+      "last_scraped_at": "2025-08-25 17:56:59.825777"
     },
     {
       "name": "WAT.ai",
@@ -841,7 +861,7 @@
       "is_active": true,
       "last_active": "Current",
       "source_url": "https://uwaterloo.ca/sedra-student-design-centre/directory-teams",
-      "scraped_at": "2025-08-25 15:46:22.331960"
+      "last_scraped_at": "2025-08-25 17:56:57.332710"
     }
   ]
 }

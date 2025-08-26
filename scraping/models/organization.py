@@ -31,7 +31,6 @@ class Organization(BaseModel):
     
     # Organization details
     faculty: Optional[str] = Field(None, description="Associated faculty")
-    category: Optional[str] = Field(None, description="Category within org type")
     tags: List[str] = Field(default_factory=list, description="Searchable tags")
     
     # Activity info
@@ -42,7 +41,7 @@ class Organization(BaseModel):
     
     # Scraping metadata
     source_url: str = Field(..., description="Where data was scraped from")
-    scraped_at: datetime = Field(default_factory=datetime.now)
+    last_scraped_at: datetime = Field(default_factory=datetime.now)
     
     class Config:
         use_enum_values = True
