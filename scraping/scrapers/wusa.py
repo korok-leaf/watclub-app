@@ -7,13 +7,6 @@ import logging
 from openai import AsyncOpenAI
 import json
 from dotenv import load_dotenv
-from playwright.async_api import async_playwright
-import aiofiles
-import os
-from urllib.parse import urlparse
-from pathlib import Path
-import instaloader
-import re
 
 load_dotenv()
 
@@ -30,8 +23,9 @@ class WUSAScraper(BaseScraper):
         self.base_url = "https://clubs.wusa.ca"
     
     async def scrape(self) -> List[Organization]:
-        """Main scraping: loop through pages, process clubs concurrently"""
+        """Main scraping: collect all club links across pages, then process concurrently"""
         all_organizations = []
+        all_club_links: List[str] = []
         page = 1
         
         async with aiohttp.ClientSession() as session:
@@ -45,10 +39,12 @@ class WUSAScraper(BaseScraper):
                     break
                 
                 logger.info(f"Found {len(club_links)} clubs on page {page}")
-                page_orgs = await self.process_clubs_concurrent(session, club_links)
-                all_organizations.extend(page_orgs)
-                
+                all_club_links.extend(club_links)
                 page += 1
+
+            if all_club_links:
+                logger.info(f"Processing {len(all_club_links)} clubs concurrently")
+                all_organizations = await self.process_clubs_concurrent(session, all_club_links)
         
         logger.info(f"Total organizations scraped: {len(all_organizations)}")
         return all_organizations
@@ -72,12 +68,6 @@ class WUSAScraper(BaseScraper):
         results = await asyncio.gather(*tasks, return_exceptions=True)
         
         organizations = [org for org in results if isinstance(org, Organization)]
-
-        # Scrape club images
-        for org in organizations:
-            if org.social_media:
-                image_path = await self.scrape_club_image(session, org.name, org.social_media)
-
         return organizations
     
     async def scrape_single_club(self, session: aiohttp.ClientSession, club_path: str) -> Organization:
@@ -141,7 +131,6 @@ class WUSAScraper(BaseScraper):
                 full_text_element = container.find(id='full-text')
                 if full_text_element:
                     description_for_llm = full_text_element.get_text(strip=True)
-
 
                 # Create contacts prompt for LLM
                 contacts_prompt = f"Extract contact information from: {' | '.join(contacts_for_llm)}" if contacts_for_llm else ""
@@ -257,168 +246,7 @@ Contact information to process:
                 "email": [],
                 "other_contacts": contacts_for_llm
             }
-    
-    async def scrape_club_image(self, session: aiohttp.ClientSession, club_name: str, social_media: dict) -> str:
-        """
-        Scrape club profile image using Instaloader for Instagram and Playwright for Facebook
-        Returns the public URL path for the frontend
-        """
-        # Check if image already exists first
-        safe_name = "".join(c if c.isalnum() or c in ('-', '_', ' ') else '' for c in club_name)
-        safe_name = safe_name.replace(' ', '-').lower().strip('-')
-        
-        # Use pathlib to find the project root and create the path
-        current_file = Path(__file__)
-        project_root = current_file.parent.parent.parent
-        image_dir = project_root / "watclub" / "public" / "wusa"
-        
-        # Check for existing files with common extensions
-        for ext in ['.jpg', '.jpeg', '.png', '.gif', '.webp']:
-            filepath = image_dir / f"{safe_name}{ext}"
-            if filepath.exists():
-                logger.info(f"Image already exists for {club_name}: {filepath.name}")
-                return f"/wusa/{filepath.name}"
-        
-        image_url = None
-        
-        # Try Instagram first with Instaloader
-        if 'instagram' in social_media and social_media['instagram']:
-            try:
-                instagram_url = social_media['instagram'][-1]
-                logger.info(f"Trying Instagram with Instaloader: {instagram_url}")
-                
-                # Extract username from Instagram URL
-                username = None
-                patterns = [
-                    r'instagram\.com/([^/?]+)',
-                    r'instagram\.com/([^/?]+)/',
-                    r'@([a-zA-Z0-9_.]+)'
-                ]
-                
-                for pattern in patterns:
-                    match = re.search(pattern, instagram_url)
-                    if match:
-                        username = match.group(1).split('/')[0].split('?')[0]
-                        break
-                
-                if username:
-                    L = instaloader.Instaloader()
-                    L.download_pictures = False
-                    L.download_videos = False
-                    L.download_video_thumbnails = False
-                    L.download_geotags = False
-                    L.download_comments = False
-                    L.save_metadata = False
-                    
-                    try:
-                        profile = instaloader.Profile.from_username(L.context, username)
-                        image_url = profile.profile_pic_url
-                        logger.info(f"Found Instagram image with Instaloader: {image_url[:100]}...")
-                    except instaloader.exceptions.ProfileNotExistsException:
-                        logger.warning(f"Instagram profile {username} does not exist")
-                    except instaloader.exceptions.ConnectionException:
-                        logger.error(f"Instagram connection error for {username}")
-                    except Exception as e:
-                        logger.error(f"Instaloader error for {username}: {e}")
-                
-            except Exception as e:
-                logger.error(f"Instagram scraping failed for {club_name}: {e}")
 
-        # Try Facebook if Instagram fails (keep Playwright for Facebook)
-        if not image_url and 'facebook' in social_media and social_media['facebook']:
-            try:
-                async with async_playwright() as p:
-                    browser = await p.chromium.launch(headless=True)
-                    page = await browser.new_page()
-                    
-                    await page.set_extra_http_headers({
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-                    })
-                    
-                    facebook_url = social_media['facebook'][-1]
-                    logger.info(f"Trying Facebook: {facebook_url}")
-                    
-                    await page.goto(facebook_url, wait_until='networkidle', timeout=15000)
-                    await page.wait_for_timeout(3000)
-                    
-                    selectors = [
-                        'img[data-imgperflogname*="profilePhoto"]',
-                        '[data-pagelet="ProfilePhoto"] img',
-                        '[data-pagelet="ProfilePhoto"] image', 
-                        'svg image[style*="profile"]',
-                        'img[alt*="profile picture"]',
-                        '[role="img"][style*="profile"] image',
-                        'image[data-imgperflogname*="profile"]'
-                    ]
-                    
-                    for selector in selectors:
-                        img_element = await page.query_selector(selector)
-                        if img_element:
-                            img_src = await img_element.get_attribute('src')
-                            if img_src:
-                                image_url = img_src
-                                logger.info(f"Found Facebook image: {image_url[:100]}...")
-                                break
-                    
-                    await browser.close()
-                    
-            except Exception as e:
-                logger.error(f"Facebook scraping failed for {club_name}: {e}")
-
-        if image_url:
-            return await self.download_and_save_club_image(session, image_url, club_name)
-        else:
-            logger.warning(f"No profile image found for {club_name}")
-            return None
-
-    async def download_and_save_club_image(self, session: aiohttp.ClientSession, image_url: str, club_name: str) -> str:
-        """Download and save club image to watclub/watclub/public/wusa/"""
-        try:
-            safe_name = "".join(c if c.isalnum() or c in ('-', '_', ' ') else '' for c in club_name)
-            safe_name = safe_name.replace(' ', '-').lower().strip('-')
-            
-            # Use pathlib to find the project root and create the path
-            current_file = Path(__file__)
-            project_root = current_file.parent.parent.parent
-            image_dir = project_root / "watclub" / "public" / "wusa"
-            image_dir.mkdir(parents=True, exist_ok=True)
-            
-            # Determine file extension from image URL
-            parsed_url = urlparse(image_url)
-            ext = os.path.splitext(parsed_url.path)[1]
-            
-            # Default to .jpg if no extension or unknown extension
-            if not ext or ext not in ['.jpg', '.jpeg', '.png', '.gif', '.webp']:
-                ext = '.jpg'
-            
-            filename = f"{safe_name}{ext}"
-            filepath = image_dir / filename
-            
-            # Double-check if file exists before downloading
-            if filepath.exists():
-                logger.info(f"Image already exists for {club_name}: {filename}")
-                return f"/wusa/{filename}"
-            
-            # Download the image
-            async with session.get(image_url) as response:
-                if response.status == 200:
-                    async with aiofiles.open(filepath, 'wb') as f:
-                        async for chunk in response.content.iter_chunked(8192):
-                            await f.write(chunk)
-                    
-                    logger.info(f"Saved image for {club_name}: {filename}")
-                    return f"/wusa/{filename}"
-                else:
-                    logger.error(f"Failed to download image: HTTP {response.status}")
-                    return None
-        
-        except Exception as e:
-            logger.error(f"Error downloading image for {club_name}: {e}")
-            return None
-                
-                
-                
-                
 
 async def main():
     """Test the WUSA scraper"""
@@ -436,4 +264,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-            

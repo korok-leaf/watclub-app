@@ -18,8 +18,7 @@ class BaseScraper(ABC):
     
     def save_data(self, data: list) -> None:
         """Save to JSON file with timestamp"""
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = self.data_dir / f"{timestamp}.json"
+        filename = self.data_dir / f"{self.name}_data.json"
         
         serializable_data = []
         for item in data:

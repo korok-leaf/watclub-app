@@ -2,13 +2,9 @@
 import asyncio
 import aiohttp
 import json
-import aiofiles
-import os
 from typing import List, Dict
 from bs4 import BeautifulSoup
 import logging
-from pathlib import Path
-from urllib.parse import urlparse
 from openai import AsyncOpenAI
 from dotenv import load_dotenv
 
@@ -88,9 +84,6 @@ class DesignScraper(BaseScraper):
             
             description = llm_result.get("description", "")
             social_media = llm_result.get("social_media", {})
-            
-            # Extract and download team image
-            image_path = await self.download_team_image(session, section, team_name)
             
             logger.info(f"Scraped design team: {team_name}")
             
@@ -194,69 +187,6 @@ Content to process:
                 "description": section_text[:500],  # Fallback to truncated text
                 "social_media": {}
             }
-
-    async def download_team_image(self, session: aiohttp.ClientSession, section: BeautifulSoup, team_name: str) -> str:
-        """Download team image from section and save to watclub/public/design/{name}"""
-        try:
-            # Find the first (and only) img tag in this section
-            img_tag = section.find('img')
-            if not img_tag:
-                logger.warning(f"No image found for team: {team_name}")
-                return None
-            
-            img_src = img_tag.get('src')
-            if not img_src:
-                logger.warning(f"No src attribute in img tag for team: {team_name}")
-                return None
-            
-            # Handle relative URLs
-            if img_src.startswith('/'):
-                img_src = f"https://uwaterloo.ca{img_src}"
-            elif not img_src.startswith('http'):
-                img_src = f"https://uwaterloo.ca/{img_src}"
-            
-            # Create safe filename
-            safe_name = "".join(c if c.isalnum() or c in ('-', '_', ' ') else '' for c in team_name)
-            safe_name = safe_name.replace(' ', '-').lower().strip('-')
-            
-            # Use pathlib to find the project root and create the path
-            current_file = Path(__file__)
-            project_root = current_file.parent.parent.parent
-            image_dir = project_root / "watclub" / "public" / "design"
-            image_dir.mkdir(parents=True, exist_ok=True)
-            
-            # Determine file extension from image URL
-            parsed_url = urlparse(img_src)
-            ext = os.path.splitext(parsed_url.path)[1]
-            
-            # Default to .jpg if no extension or unknown extension
-            if not ext or ext not in ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg']:
-                ext = '.jpg'
-            
-            filename = f"{safe_name}{ext}"
-            filepath = image_dir / filename
-            
-            # Check if file already exists
-            if filepath.exists():
-                logger.info(f"Image already exists for {team_name}: {filename}")
-                return f"/design/{filename}"
-            
-            # Download the image
-            async with session.get(img_src) as response:
-                if response.status == 200:
-                    async with aiofiles.open(filepath, 'wb') as f:
-                        async for chunk in response.content.iter_chunked(8192):
-                            await f.write(chunk)
-                    
-                    logger.info(f"Saved image for {team_name}: {filename}")
-                    return f"/design/{filename}"
-                else:
-                    logger.error(f"Failed to download image: HTTP {response.status}")
-                    return None
-        
-        except Exception as e:
-            logger.error(f"Error downloading image for {team_name}: {e}")
-            return None
 
 
 async def main():
