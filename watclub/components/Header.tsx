@@ -6,9 +6,16 @@ import { Button } from '@/components/ui/button'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { ThemeToggle } from '@/components/theme-toggle'
 import { SearchBar } from '@/components/SearchBar'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
+import { User, LogOut } from 'lucide-react'
 
 export default function Header() {
-  const { user, loading } = useAuth()
+  const { user, loading, signOut } = useAuth()
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b bg-background">
@@ -31,12 +38,28 @@ export default function Header() {
             {loading ? (
               <div className="h-10 w-10 animate-pulse rounded-full bg-muted" />
             ) : user ? (
-              <Avatar>
-                <AvatarImage src="/placeholder-logo.png" alt="User" />
-                <AvatarFallback>
-                  {user.email?.charAt(0).toUpperCase() || 'U'}
-                </AvatarFallback>
-              </Avatar>
+              <DropdownMenu modal={false}>
+                <DropdownMenuTrigger asChild>
+                  <Avatar className="cursor-pointer">
+                    <AvatarImage src="/placeholder-logo.png" alt="User" />
+                    <AvatarFallback>
+                      {user.email?.charAt(0).toUpperCase() || 'U'}
+                    </AvatarFallback>
+                  </Avatar>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="w-56">
+                  <DropdownMenuItem asChild>
+                    <Link href="/profile" className="flex items-center">
+                      <User className="mr-2 h-4 w-4" />
+                      Profile
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={signOut} className="flex items-center cursor-pointer">
+                    <LogOut className="mr-2 h-4 w-4" />
+                    Log out
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
             ) : (
               <>
                 <Button variant="ghost" asChild>
