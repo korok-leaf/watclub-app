@@ -63,7 +63,7 @@ export function ClubsProvider({ children }: { children: React.ReactNode }) {
       storeFields: ['id', 'name', 'description', 'orgType', 'reviewCount', 'avgRating', 'recommendPercentage'], // Fields to store
       searchOptions: {
         boost: { name: 2 }, // Prioritize name matches
-        fuzzy: 0.2, // Typo tolerance: allow up to 20% of the term length as typos
+        fuzzy: 0.3, // Typo tolerance: allow up to 30% of the term length as typos
         prefix: true, // Enable prefix search for autocomplete
       }
     })
@@ -79,7 +79,7 @@ export function ClubsProvider({ children }: { children: React.ReactNode }) {
     if (!searchQuery.trim() || !searchIndex) return clubs
     
     const results = searchIndex.search(searchQuery, {
-      fuzzy: 0.2,
+      fuzzy: 0.3,
       prefix: true,
       boost: { name: 2 }
     })
@@ -93,7 +93,7 @@ export function ClubsProvider({ children }: { children: React.ReactNode }) {
     if (!query.trim() || !searchIndex) return []
     
     const results = searchIndex.search(query, {
-      fuzzy: 0.2,
+      fuzzy: 0.3,
       prefix: true,
       boost: { name: 2 }
     })
