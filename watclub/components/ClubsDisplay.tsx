@@ -1,35 +1,39 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import ClubCard from './ClubCard'
 import { cn } from '@/lib/utils'
+import { useClubs } from '@/hooks/useClubs'
 
 const tabs = ['All', 'WUSA', 'Design', 'Faculty', 'Sports'] as const
 type TabType = typeof tabs[number]
 
-// Mock data - replace with actual API call
-const mockClubs = [
-  {
-    id: '1',
-    name: 'UW Blueprint',
-    description: 'A student organization that creates technology for social good. We partner with non-profits to build custom software solutions.',
-    reviewCount: 45,
-    avgRating: 4.8,
-    recommendPercentage: 96
-  },
-  {
-    id: '2',
-    name: 'WATonomous',
-    description: 'University of Waterloo\'s autonomous vehicle student design team. Building self-driving cars and competing internationally.',
-    reviewCount: 32,
-    avgRating: 4.6,
-    recommendPercentage: 91
-  },
-  // Add more mock data as needed
-]
-
 export default function ClubsDisplay() {
   const [activeTab, setActiveTab] = useState<TabType>('All')
+  const { clubs, loading, error } = useClubs()
+
+  // Filter clubs based on active tab
+  const filteredClubs = useMemo(() => {
+    if (activeTab === 'All') return clubs
+    
+    // Map tab names to org_type values
+    const tabToOrgType: Record<string, string> = {
+      'WUSA': 'wusa',
+      'Design': 'design',
+      'Faculty': 'faculty',
+      'Sports': 'sports'
+    }
+    
+    return clubs.filter(club => club.orgType === tabToOrgType[activeTab])
+  }, [clubs, activeTab])
+
+  if (error) {
+    return (
+      <div className="text-center py-8">
+        <p className="text-destructive">Error loading clubs: {error}</p>
+      </div>
+    )
+  }
 
   return (
     <div className="space-y-6">
@@ -56,18 +60,41 @@ export default function ClubsDisplay() {
       </div>
 
       {/* Clubs Grid */}
-      <div className="grid gap-4">
-        {mockClubs.map((club) => (
-          <ClubCard
-            key={club.id}
-            name={club.name}
-            description={club.description}
-            reviewCount={club.reviewCount}
-            avgRating={club.avgRating}
-            recommendPercentage={club.recommendPercentage}
-          />
-        ))}
-      </div>
+      {loading ? (
+        <div className="grid gap-4">
+          {/* Loading skeletons */}
+          {[...Array(6)].map((_, i) => (
+            <div key={i} className="rounded-lg border bg-card p-6 animate-pulse">
+              <div className="h-6 bg-muted rounded w-3/4 mb-2" />
+              <div className="h-4 bg-muted rounded w-full mb-1" />
+              <div className="h-4 bg-muted rounded w-5/6 mb-4" />
+              <div className="flex justify-between">
+                <div className="h-4 bg-muted rounded w-24" />
+                <div className="h-4 bg-muted rounded w-20" />
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="grid gap-4">
+          {filteredClubs.length > 0 ? (
+            filteredClubs.map((club) => (
+              <ClubCard
+                key={club.id}
+                name={club.name}
+                description={club.description}
+                reviewCount={club.reviewCount}
+                avgRating={club.avgRating}
+                recommendPercentage={club.recommendPercentage}
+              />
+            ))
+          ) : (
+            <p className="text-muted-foreground text-center py-8">
+              No clubs found in this category.
+            </p>
+          )}
+        </div>
+      )}
     </div>
   )
 }
