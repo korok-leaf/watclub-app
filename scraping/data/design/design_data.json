@@ -1,6 +1,6 @@
 {
   "scraper": "design",
-  "scraped_at": "2025-08-27T15:35:56.526294",
+  "scraped_at": "2025-08-28T01:01:38.176576",
   "count": 38,
   "data": [
     {
@@ -44,7 +44,8 @@
       },
       "tags": [
         "Hardware",
-        "Sustainability"
+        "Sustainability",
+        "Engineering"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -66,7 +67,10 @@
       },
       "tags": [
         "Engineering",
-        "Sustainability"
+        "Sustainability",
+        "Recreation",
+        "Design",
+        "Project Management"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -88,7 +92,9 @@
       },
       "tags": [
         "Engineering",
-        "Recreation"
+        "Recreation",
+        "Design",
+        "Teamwork"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -113,7 +119,8 @@
       },
       "tags": [
         "Sustainability",
-        "Hardware"
+        "Hardware",
+        "Engineering"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -133,7 +140,8 @@
       "tags": [
         "Sustainability",
         "Leadership",
-        "Advocacy"
+        "Advocacy",
+        "Volunteer"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -154,8 +162,9 @@
         ]
       },
       "tags": [
-        "Architecture",
-        "Design",
+        "Arts",
+        "Media",
+        "Software",
         "Technology"
       ],
       "is_active": true,
@@ -181,8 +190,9 @@
       },
       "tags": [
         "Science",
-        "Engineering",
-        "Robotics"
+        "Chemistry",
+        "Physics",
+        "Engineering"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -209,9 +219,10 @@
         ]
       },
       "tags": [
-        "Engineering",
         "Robotics",
-        "Sustainability"
+        "Sustainability",
+        "Engineering",
+        "Hardware"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -233,7 +244,8 @@
       },
       "tags": [
         "Hardware",
-        "Science"
+        "Science",
+        "Engineering"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -252,8 +264,9 @@
       },
       "tags": [
         "Engineering",
+        "Leadership",
         "Education",
-        "Competition"
+        "Operations"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -275,6 +288,8 @@
       },
       "tags": [
         "Science",
+        "Biology",
+        "Chemistry",
         "Engineering"
       ],
       "is_active": true,
@@ -296,9 +311,9 @@
         ]
       },
       "tags": [
-        "Healthcare",
         "AI",
-        "Robotics"
+        "Robotics",
+        "Public Health"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -324,7 +339,8 @@
       "tags": [
         "Sustainability",
         "Engineering",
-        "Outdoors"
+        "Outdoors",
+        "Climate Action"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -370,7 +386,8 @@
       "tags": [
         "Engineering",
         "Design",
-        "Competition"
+        "Competition",
+        "Hardware"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -392,7 +409,10 @@
       },
       "tags": [
         "Sustainability",
-        "Entrepreneurship"
+        "Entrepreneurship",
+        "Science",
+        "Biology",
+        "Nutrition"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -414,7 +434,8 @@
       },
       "tags": [
         "Sustainability",
-        "Engineering"
+        "Engineering",
+        "Climate Action"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -435,8 +456,10 @@
         ]
       },
       "tags": [
-        "Academic",
-        "Leadership"
+        "Leadership",
+        "Operations",
+        "Consulting",
+        "Entrepreneurship"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -458,7 +481,7 @@
       },
       "tags": [
         "Hardware",
-        "Academic"
+        "Software"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -481,7 +504,8 @@
       "tags": [
         "Science",
         "Robotics",
-        "Hardware"
+        "Hardware",
+        "Biology"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -529,7 +553,10 @@
       },
       "tags": [
         "Robotics",
-        "Science"
+        "Science",
+        "Hardware",
+        "Biology",
+        "Chemistry"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -552,7 +579,9 @@
       "tags": [
         "Science",
         "Hardware",
-        "Engineering"
+        "Engineering",
+        "Software",
+        "Robotics"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -577,7 +606,8 @@
       },
       "tags": [
         "Robotics",
-        "Hardware"
+        "Hardware",
+        "Software"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -629,7 +659,9 @@
       "tags": [
         "Science",
         "Sustainability",
-        "Academic"
+        "Hardware",
+        "Technology",
+        "Education"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -675,7 +707,7 @@
       "tags": [
         "Engineering",
         "Robotics",
-        "Design"
+        "Hardware"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -700,7 +732,8 @@
       },
       "tags": [
         "Finance",
-        "Software"
+        "Software",
+        "AI"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -725,7 +758,9 @@
       },
       "tags": [
         "Sustainability",
-        "Volunteer"
+        "Volunteer",
+        "Design",
+        "Climate Action"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -747,7 +782,8 @@
       },
       "tags": [
         "Robotics",
-        "Hardware"
+        "Hardware",
+        "Engineering"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -769,7 +805,8 @@
       },
       "tags": [
         "Robotics",
-        "AI"
+        "AI",
+        "Hardware"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -792,7 +829,7 @@
       "tags": [
         "Science",
         "Engineering",
-        "Robotics"
+        "Physics"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -813,9 +850,9 @@
         ]
       },
       "tags": [
-        "Engineering",
         "Robotics",
-        "Hardware"
+        "Hardware",
+        "Engineering"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -837,7 +874,9 @@
       },
       "tags": [
         "AI",
-        "Hardware"
+        "Hardware",
+        "Science",
+        "Neuroscience"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -863,7 +902,8 @@
       "tags": [
         "Robotics",
         "Software",
-        "AI"
+        "AI",
+        "Hardware"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -885,7 +925,8 @@
       },
       "tags": [
         "AI",
-        "Software"
+        "Software",
+        "Research"
       ],
       "is_active": true,
       "last_active": "Current",

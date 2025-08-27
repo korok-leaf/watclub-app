@@ -1,6 +1,6 @@
 {
   "scraper": "faculty",
-  "scraped_at": "2025-08-27T15:35:56.480404",
+  "scraped_at": "2025-08-28T01:01:38.491711",
   "count": 31,
   "data": [
     {
@@ -19,8 +19,10 @@
       },
       "faculty": "mathsoc",
       "tags": [
-        "Academic",
-        "Software"
+        "Software",
+        "AI",
+        "Web Development",
+        "Cybersecurity"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -43,8 +45,9 @@
       },
       "faculty": "mathsoc",
       "tags": [
-        "Academic",
-        "Leadership"
+        "Leadership",
+        "Mentorship",
+        "Networking"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -67,7 +70,7 @@
       },
       "faculty": "mathsoc",
       "tags": [
-        "Academic",
+        "Statistics",
         "Math"
       ],
       "is_active": true,
@@ -92,7 +95,9 @@
       "faculty": "mathsoc",
       "tags": [
         "Math",
-        "Finance"
+        "Finance",
+        "Mentorship",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -139,8 +144,7 @@
       },
       "faculty": "mathsoc",
       "tags": [
-        "Math",
-        "Academic"
+        "Math"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -163,9 +167,10 @@
       },
       "faculty": "mathsoc",
       "tags": [
-        "Academic",
         "Math",
-        "Software"
+        "Statistics",
+        "Software",
+        "AI"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -310,7 +315,10 @@
       "faculty": "mathsoc",
       "tags": [
         "Math",
-        "Advocacy"
+        "Advocacy",
+        "Cultural",
+        "Mentorship",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -334,7 +342,9 @@
       "faculty": "mathsoc",
       "tags": [
         "Software",
-        "Advocacy"
+        "Advocacy",
+        "Leadership",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -360,7 +370,8 @@
       "faculty": "mathsoc",
       "tags": [
         "Math",
-        "Leadership"
+        "Leadership",
+        "Event Planning"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -386,7 +397,8 @@
       "faculty": "scisoc",
       "tags": [
         "Science",
-        "Academic",
+        "Biology",
+        "Chemistry",
         "Mental Health"
       ],
       "is_active": true,
@@ -409,7 +421,7 @@
       },
       "faculty": "scisoc",
       "tags": [
-        "Academic",
+        "Biology",
         "Science"
       ],
       "is_active": true,
@@ -433,6 +445,7 @@
       "faculty": "scisoc",
       "tags": [
         "Science",
+        "Chemistry",
         "Academic"
       ],
       "is_active": true,
@@ -459,7 +472,8 @@
       "faculty": "scisoc",
       "tags": [
         "Science",
-        "Outdoors"
+        "Outdoors",
+        "Recreation"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -485,7 +499,7 @@
       "faculty": "scisoc",
       "tags": [
         "Science",
-        "Academic"
+        "Physics"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -508,7 +522,8 @@
       "faculty": "scisoc",
       "tags": [
         "Science",
-        "Business"
+        "Finance",
+        "Entrepreneurship"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -531,7 +546,9 @@
       "faculty": "scisoc",
       "tags": [
         "Science",
-        "Academic"
+        "Biology",
+        "Wellness",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -557,7 +574,8 @@
       "faculty": "scisoc",
       "tags": [
         "Science",
-        "Academic"
+        "Physics",
+        "Chemistry"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -581,7 +599,7 @@
       "faculty": "engsoc",
       "tags": [
         "Finance",
-        "Academic"
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -605,7 +623,7 @@
       "faculty": "engsoc",
       "tags": [
         "Media",
-        "Academic"
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -629,7 +647,7 @@
       "faculty": "engsoc",
       "tags": [
         "LGBTQ+",
-        "Cultural"
+        "Boardgames"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -655,7 +673,9 @@
       "faculty": "engsoc",
       "tags": [
         "Advocacy",
-        "Leadership"
+        "Leadership",
+        "Mentorship",
+        "Engineering"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -680,9 +700,10 @@
       },
       "faculty": "engsoc",
       "tags": [
-        "Academic",
         "Leadership",
-        "Advocacy"
+        "Mentorship",
+        "Advocacy",
+        "Engineering"
       ],
       "is_active": true,
       "last_active": "Current",
@@ -709,7 +730,8 @@
       "tags": [
         "Science",
         "Engineering",
-        "Cultural"
+        "Cultural",
+        "Robotics"
       ],
       "is_active": true,
       "last_active": "Current",
