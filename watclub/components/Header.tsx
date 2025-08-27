@@ -12,12 +12,12 @@ export default function Header() {
 
   return (
     <header className="border-b bg-background">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex h-16 items-center justify-between gap-4">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-[#FFD700] to-black bg-clip-text text-transparent">
-              watclub
+            <h1 className="text-2xl font-bold bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FF6B35] bg-clip-text text-transparent">
+              WatClub
             </h1>
           </Link>
 

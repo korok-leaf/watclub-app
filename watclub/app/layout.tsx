@@ -8,7 +8,10 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "WatClub",
-  description: "Discover clubs at University of Waterloo"
+  description: "Discover clubs at University of Waterloo",
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({

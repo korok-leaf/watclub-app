@@ -118,7 +118,7 @@ const ArcGalleryHero: React.FC<ArcGalleryHeroProps> = ({
             Discover Clubs at UWaterloo
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            Explore 200+ clubs, read reviews from fellow students, and share your experiences to help others find their community.
+            Explore 300+ clubs, read reviews from fellow students, and share your experiences to help others find their community.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/explore" className="w-full sm:w-auto">
