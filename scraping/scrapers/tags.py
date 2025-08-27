@@ -56,7 +56,7 @@ TAGS = [
     "Volunteer",
     "Advocacy",
     "Cultural",
-    "LGBTQ",
+    "LGBTQ+",
     "Leadership",
 ]
 
