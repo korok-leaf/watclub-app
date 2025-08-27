@@ -11,7 +11,7 @@ export async function GET() {
 
     const { data: clubs, error } = await supabase
       .from('clubs')
-      .select('id, name, description, org_type, total_reviews, total_recommends, avg_review')
+      .select('id, name, description, org_type, tags, total_reviews, total_recommends, avg_review')
       .order('name')
 
     if (error) {
@@ -28,6 +28,7 @@ export async function GET() {
       name: club.name,
       description: club.description,
       orgType: club.org_type,
+      tags: club.tags,
       reviewCount: club.total_reviews || 0,
       avgRating: club.avg_review || 0,
       recommendPercentage: club.total_reviews > 0 

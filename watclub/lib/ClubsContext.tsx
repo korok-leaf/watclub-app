@@ -11,6 +11,7 @@ interface Club {
   reviewCount: number
   avgRating: number
   recommendPercentage: number
+  tags: string[] // Add tags to the interface
 }
 
 interface ClubsContextType {
@@ -21,6 +22,8 @@ interface ClubsContextType {
   setSearchQuery: (query: string) => void
   searchResults: Club[]
   getTopSearchResults: (query: string, limit?: number) => Club[]
+  selectedTags: string[]
+  setSelectedTags: (tags: string[]) => void
 }
 
 const ClubsContext = createContext<ClubsContextType | undefined>(undefined)
@@ -30,6 +33,7 @@ export function ClubsProvider({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useState('')
+  const [selectedTags, setSelectedTags] = useState<string[]>([])
 
   useEffect(() => {
     const fetchClubs = async () => {
@@ -60,7 +64,7 @@ export function ClubsProvider({ children }: { children: React.ReactNode }) {
     
     const miniSearch = new MiniSearch<Club>({
       fields: ['name', 'description'], // Fields to search
-      storeFields: ['id', 'name', 'description', 'orgType', 'reviewCount', 'avgRating', 'recommendPercentage'], // Fields to store
+      storeFields: ['id', 'name', 'description', 'orgType', 'reviewCount', 'avgRating', 'recommendPercentage', 'tags'], // Add tags to store
       searchOptions: {
         boost: { name: 2 }, // Prioritize name matches
         fuzzy: 0.3, // Typo tolerance: allow up to 30% of the term length as typos
@@ -74,19 +78,32 @@ export function ClubsProvider({ children }: { children: React.ReactNode }) {
     return miniSearch
   }, [clubs])
 
-  // Get all search results
+  // Get all search results with tag filtering
   const searchResults = useMemo(() => {
-    if (!searchQuery.trim() || !searchIndex) return clubs
+    let results = clubs
     
-    const results = searchIndex.search(searchQuery, {
-      fuzzy: 0.3,
-      prefix: true,
-      boost: { name: 2 }
-    })
+    // Apply search query filter
+    if (searchQuery.trim() && searchIndex) {
+      const searchMatches = searchIndex.search(searchQuery, {
+        fuzzy: 0.3,
+        prefix: true,
+        boost: { name: 2 }
+      })
+      
+      results = searchMatches
+        .map(result => clubs.find(club => club.id === result.id)!)
+        .filter(Boolean)
+    }
     
-    // Map the search results back to club objects
-    return results.map(result => clubs.find(club => club.id === result.id)!).filter(Boolean)
-  }, [searchIndex, clubs, searchQuery])
+    // Apply tag filter
+    if (selectedTags.length > 0) {
+      results = results.filter(club => 
+        club.tags && selectedTags.some(tag => club.tags.includes(tag))
+      )
+    }
+    
+    return results
+  }, [searchIndex, clubs, searchQuery, selectedTags])
 
   // Get top N results for dropdown
   const getTopSearchResults = (query: string, limit = 5) => {
@@ -112,7 +129,9 @@ export function ClubsProvider({ children }: { children: React.ReactNode }) {
     searchQuery,
     setSearchQuery,
     searchResults,
-    getTopSearchResults
+    getTopSearchResults,
+    selectedTags,
+    setSelectedTags
   }
 
   return <ClubsContext.Provider value={value}>{children}</ClubsContext.Provider>
