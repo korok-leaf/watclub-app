@@ -1,6 +1,20 @@
+'use client'
+
+import { useEffect } from 'react'
+import { useRouter } from 'next/navigation'
+import { useAuth } from '@/lib/AuthContext'
 import ArcGalleryHero from "@/components/arc-gallery-hero"
 
 export default function Home() {
+  const { user, loading } = useAuth()
+  const router = useRouter()
+
+  useEffect(() => {
+    if (!loading && user) {
+      router.push('/explore')
+    }
+  }, [user, loading, router])
+
   const images = [
     "/design/watai.jpeg",
     "/design/watonomous.jpeg", 
@@ -13,9 +27,18 @@ export default function Home() {
     "/sports/uwdbc.avif",
     "/sports/badminton.png",
     "/wusa/human-vs-zombies.jpg"
-
   ]
 
+  // Show loading state while checking auth
+  if (loading) {
+    return (
+      <main className="relative min-h-screen bg-background flex items-center justify-center">
+        <div className="animate-pulse text-muted-foreground">Loading...</div>
+      </main>
+    )
+  }
+
+  // Only show hero if not logged in
   return (
     <main className="relative min-h-screen bg-background">
       <ArcGalleryHero

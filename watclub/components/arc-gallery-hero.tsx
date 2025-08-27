@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 type ArcGalleryHeroProps = {
   images: string[];
@@ -114,18 +115,22 @@ const ArcGalleryHero: React.FC<ArcGalleryHeroProps> = ({
       <div className="relative z-10 flex-1 flex items-center justify-center px-6 -mt-40 md:-mt-52 lg:-mt-64">
         <div className="text-center max-w-2xl px-6 opacity-0 animate-fade-in" style={{ animationDelay: '800ms', animationFillMode: 'forwards' }}>
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground">
-            Make v0.dev your new home
+            Discover Clubs at UWaterloo
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            Create stunning UI Designs in seconds.
+            Explore 200+ clubs, read reviews from fellow students, and share your experiences to help others find their community.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="w-full sm:w-auto px-6 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
-              Start generating
-            </button>
-            <button className="w-full sm:w-auto px-6 py-3 rounded-full border border-border hover:bg-accent hover:text-accent-foreground transition-all duration-200">
-              Learn more
-            </button>
+            <Link href="/explore" className="w-full sm:w-auto">
+              <button className="w-full px-6 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                Explore Clubs
+              </button>
+            </Link>
+            <Link href="/login" className="w-full sm:w-auto">
+              <button className="w-full px-6 py-3 rounded-full border border-border hover:bg-accent hover:text-accent-foreground transition-all duration-200">
+                Log in
+              </button>
+            </Link>
           </div>
         </div>
       </div>
