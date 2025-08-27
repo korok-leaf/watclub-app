@@ -10,11 +10,11 @@ type TabType = typeof tabs[number]
 
 export default function ClubsDisplay() {
   const [activeTab, setActiveTab] = useState<TabType>('All')
-  const { clubs, loading, error } = useClubsContext()
+  const { searchResults, loading, error } = useClubsContext() 
 
   // Filter clubs based on active tab
   const filteredClubs = useMemo(() => {
-    if (activeTab === 'All') return clubs
+    if (activeTab === 'All') return searchResults
     
     // Map tab names to org_type values
     const tabToOrgType: Record<string, string> = {
@@ -24,8 +24,8 @@ export default function ClubsDisplay() {
       'Sports': 'sports'
     }
     
-    return clubs.filter(club => club.orgType === tabToOrgType[activeTab])
-  }, [clubs, activeTab])
+    return searchResults.filter(club => club.orgType === tabToOrgType[activeTab]) // Filter searchResults
+  }, [searchResults, activeTab])
 
   if (error) {
     return (
