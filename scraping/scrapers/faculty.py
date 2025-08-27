@@ -7,6 +7,7 @@ import logging
 from bs4 import BeautifulSoup
 from openai import AsyncOpenAI
 from dotenv import load_dotenv
+import re
 
 load_dotenv()
 
@@ -15,6 +16,17 @@ from models.organization import Organization
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+def generate_slug(name: str) -> str:
+    """Convert club name to URL-friendly slug."""
+    # Convert to lowercase
+    slug = name.lower()
+    # Replace non-alphanumeric characters with hyphens
+    slug = re.sub(r'[^a-z0-9]+', '-', slug)
+    # Remove leading/trailing hyphens
+    slug = slug.strip('-')
+    return slug
 
 
 class FacultyScraper(BaseScraper):
@@ -56,6 +68,8 @@ class FacultyScraper(BaseScraper):
         logger.info(f"Starting to scrape {faculty_name}")
         if faculty_name in ["mathsoc", "engsoc"]:
             return await self.scrape_with_llm_parsing(faculty_name, base_url)
+        elif faculty_name == "scisoc":
+            return await self.scrape_scisoc(base_url)
         else:
             # TODO: Implement other faculty-specific scraping logic
             logger.info(f"Skipping {faculty_name} - not implemented yet")
@@ -90,6 +104,7 @@ class FacultyScraper(BaseScraper):
                             # Create organization
                             org = Organization(
                                 name=club_data['name'],
+                                slug=generate_slug(club_data['name']),
                                 org_type="faculty",
                                 description=club_data['description'],
                                 faculty=faculty_name,
@@ -199,6 +214,161 @@ Important guidelines:
         except Exception as e:
             logger.error(f"LLM parsing failed for {faculty_name}: {e}")
             return []
+
+    async def scrape_scisoc(self, base_url: str) -> List[Organization]:
+        """Scrape Science Society clubs using BeautifulSoup"""
+        organizations = []
+        
+        async with aiohttp.ClientSession() as session:
+            try:
+                # Fetch the page content
+                async with session.get(base_url) as response:
+                    if response.status != 200:
+                        logger.error(f"Failed to fetch {base_url}: HTTP {response.status}")
+                        return []
+                    
+                    html_content = await response.text()
+                    soup = BeautifulSoup(html_content, 'html.parser')
+                    
+                    # Find all club sections
+                    summaries = soup.find_all(class_='details__summary')
+                    contents = soup.find_all(class_='details__content')
+                    
+                    if len(summaries) != len(contents):
+                        logger.warning(f"Mismatched summaries ({len(summaries)}) and contents ({len(contents)})")
+                    
+                    # Process clubs concurrently
+                    tasks = []
+                    for summary, content in zip(summaries, contents):
+                        # Get club name from summary (all text recursively)
+                        club_name = summary.get_text(separator=' ', strip=True)
+                        
+                        # Get all text from content
+                        content_text = content.get_text(separator='\n', strip=True)
+                        
+                        # Create task for concurrent processing
+                        task = self.process_scisoc_club(club_name, content_text, base_url)
+                        tasks.append(task)
+                    
+                    # Execute all tasks concurrently
+                    results = await asyncio.gather(*tasks, return_exceptions=True)
+                    
+                    # Filter successful results
+                    for result in results:
+                        if isinstance(result, Organization):
+                            organizations.append(result)
+                        elif isinstance(result, Exception):
+                            logger.error(f"Error processing Science Society club: {result}")
+                
+            except Exception as e:
+                logger.error(f"Error scraping Science Society: {e}")
+        
+        logger.info(f"Scraped {len(organizations)} Science Society clubs")
+        return organizations
+    
+    async def process_scisoc_club(self, club_name: str, content_text: str, base_url: str) -> Organization:
+        """Process individual Science Society club with LLM"""
+        try:
+            llm_result = await self.process_scisoc_with_llm(club_name, content_text)
+            
+            return Organization(
+                name=club_name,
+                slug=generate_slug(club_name),
+                org_type="faculty",
+                description=llm_result.get("cleaned_description", ""),
+                faculty="scisoc",
+                social_media=llm_result.get("social_media", {}),
+                source_url=base_url,
+                last_active="Current"
+            )
+            
+        except Exception as e:
+            logger.error(f"Error processing Science Society club {club_name}: {e}")
+            raise
+    
+    async def process_scisoc_with_llm(self, club_name: str, content_text: str) -> Dict[str, any]:
+        """Use LLM to clean and extract information from Science Society club content"""
+        
+        prompt = f"""
+You are tasked with cleaning and formatting club information for {club_name}. Please:
+
+1. Clean the description text by fixing any spacing errors, but DO NOT change the wording or content
+2. Extract ALL social media links and contact information
+3. Return a JSON object with the following structure:
+
+{{
+    "cleaned_description": "cleaned description text with fixed spacing but same wording",
+    "social_media": {{
+        "instagram": ["list of instagram URLs"],
+        "facebook": ["list of facebook URLs"], 
+        "twitter": ["list of twitter/x URLs"],
+        "linkedin": ["list of linkedin URLs"],
+        "discord": ["list of discord URLs"],
+        "website": ["list of other website URLs"],
+        "youtube": ["list of youtube URLs"],
+        "email": ["list of email addresses"]
+    }}
+}}
+
+Important rules:
+- Convert ALL @usernames to full URLs for social platforms
+- Remove ALL contact information from the cleaned_description
+- Only include social_media categories that have actual content
+- Remove duplicates
+- If there are obvious typos in description and social media links, fix them
+- Extract email addresses even if they're written as "email: example@uwaterloo.ca"
+
+Club Name: {club_name}
+
+Content to process:
+{content_text}
+"""
+
+        try:
+            client = AsyncOpenAI()
+            
+            response = await client.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant that cleans and formats club information. Always respond with valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.0
+            )
+            
+            response_content = response.choices[0].message.content
+            
+            if not response_content or response_content.strip() == "":
+                logger.warning(f"Empty response from LLM for {club_name}")
+                raise ValueError("Empty response from LLM")
+            
+            # Clean JSON from markdown if present
+            if "```json" in response_content:
+                start = response_content.find("```json") + 7
+                end = response_content.find("```", start)
+                if end != -1:
+                    response_content = response_content[start:end].strip()
+            elif "```" in response_content:
+                start = response_content.find("```") + 3
+                end = response_content.find("```", start)
+                if end != -1:
+                    response_content = response_content[start:end].strip()
+            
+            result = json.loads(response_content)
+            return result
+            
+        except json.JSONDecodeError as e:
+            logger.error(f"JSON decode error for {club_name}: {e}. Response was: {response_content}")
+            return {
+                "cleaned_description": content_text,
+                "social_media": {}
+            }
+        except Exception as e:
+            logger.error(f"Error processing {club_name} with LLM: {str(e)}")
+            return {
+                "cleaned_description": content_text,
+                "social_media": {}
+            }
 
 
 async def main():

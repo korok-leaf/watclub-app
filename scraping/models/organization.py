@@ -17,6 +17,7 @@ class Organization(BaseModel):
     
     # Core fields
     name: str = Field(..., description="Organization name")
+    slug: str = Field(..., description="Organization slug")
     org_type: OrgType = Field(..., description="Type of organization")
     description: Optional[str] = Field(None, description="Organization description")
     

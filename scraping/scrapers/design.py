@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import logging
 from openai import AsyncOpenAI
 from dotenv import load_dotenv
+import re
 
 load_dotenv()
 
@@ -15,6 +16,17 @@ from models.organization import Organization
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+def generate_slug(name: str) -> str:
+    """Convert club name to URL-friendly slug."""
+    # Convert to lowercase
+    slug = name.lower()
+    # Replace non-alphanumeric characters with hyphens
+    slug = re.sub(r'[^a-z0-9]+', '-', slug)
+    # Remove leading/trailing hyphens
+    slug = slug.strip('-')
+    return slug
 
 
 class DesignScraper(BaseScraper):
@@ -89,6 +101,7 @@ class DesignScraper(BaseScraper):
             
             return Organization(
                 name=team_name,
+                slug=generate_slug(team_name),
                 org_type="design_team",
                 description=description,
                 social_media=social_media,

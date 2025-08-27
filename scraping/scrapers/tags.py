@@ -129,8 +129,8 @@ async def main(types):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--types", nargs="+", choices=["wusa", "design", "faculty"], 
-                       default=["wusa", "design", "faculty"])
+    parser.add_argument("--types", nargs="+", choices=["wusa", "design", "faculty", "sports"], 
+                       default=["wusa", "design", "faculty", "sports"])
     args = parser.parse_args()
     
     asyncio.run(main(args.types))

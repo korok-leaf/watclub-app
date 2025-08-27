@@ -1,10 +1,11 @@
 {
   "scraper": "wusa",
-  "scraped_at": "2025-08-25T18:02:15.057960",
-  "count": 162,
+  "scraped_at": "2025-08-27T15:35:56.449916",
+  "count": 163,
   "data": [
     {
       "name": "A Cappella Club",
+      "slug": "a-cappella-club",
       "org_type": "wusa",
       "description": "The UW A Cappella Club is the umbrella club of all a cappella groups at the University of Waterloo! UWACC was founded in 2008 originally with one ensemble and has since expanded to include many different groups including the AcaBellas, the Unaccompanied Minors, ACE, the Musical InterDudes, the Water Boys, and In Full Colour. The Water Boys is a lower-voice auditioned group. The Unaccompanied Minors is a mixed-voice auditioned group. The AcaBellas is an upper-voice auditioned group. A Cappella Ensemble (ACE) is a mixed non-auditioned group. The Musical InterDudes is a small mixed-voice auditioned group focused on musical comedy. In Full Colour is a mixed-voice auditioned competitive small group focused on storytelling. Typically, auditions are held at the start of term. During the term, social events are held as well as workshops run by club members and professional musicians. The term ends off with the End of Term (EOT) concert held at one of the theatres on campus. Groups typically practice 1-2 times a week and learn around a 10-15 minute choreographed set for the EOT concerts. Outside of the EOT concerts, there are numerous performance opportunities on campus and within the KW area where the groups get to interact with the community at large. For further details on JOINING or PERFORMANCE REQUESTS, please email the groups directly. We look forward to singing with you!",
       "social_media": {
@@ -59,15 +60,16 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/240",
-      "last_scraped_at": "2025-08-25 17:55:58.311519"
+      "last_scraped_at": "2025-08-27 15:10:42.128502"
     },
     {
       "name": "ACE - A Cappella Affiliate",
+      "slug": "ace-a-cappella-affiliate",
       "org_type": "wusa",
-      "description": "ACE is a mixed-voice, open a cappella group in the UW A Cappella Club running both in Waterloo and online remotely! We accept all members of all levels of musical experience. We provide musical development workshops and guide members through learning how to sing in an a cappella group, culminating in several gigs and online song productions at the end of each term! Find out more by visiting our Instagram and joining our discord server!",
+      "description": "ACE is a mixed-voice, open a cappella group in the UW A Cappella Club running both in Waterloo and online remotely! We accept all members of all levels of musical experience. We provide musical development workshops and guide members through learning how to sing in an a cappella group, culminating in several gigs and online song productions at the end of each term!",
       "social_media": {
         "instagram": [
-          "https://www.instagram.com/uw_ace"
+          "https://www.instagram.com/uw_ace/"
         ],
         "facebook": [
           "https://www.facebook.com/uwaterlooace"
@@ -86,10 +88,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/489",
-      "last_scraped_at": "2025-08-25 17:55:54.719126"
+      "last_scraped_at": "2025-08-27 15:10:36.519133"
     },
     {
       "name": "African Student Association (ASA)",
+      "slug": "african-student-association-asa",
       "org_type": "wusa",
       "description": "We are a group of students of African origin who hope to promote African culture and interaction. Membership is open to all students who wish to interact with African students and learn and experience our rich and diverse cultures. We also provide an environment for students to socialize and air their views on Africa. Africa is a very diverse continent with some countries consisting of more than 50 tribes! We have representatives from all regions of Africa giving us a broad background within the club. We organize a number of events where people can experience the warmth of the African sun and learn more about our continent. Please check our social media accounts for upcoming events.",
       "social_media": {
@@ -116,10 +119,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/6",
-      "last_scraped_at": "2025-08-25 17:55:54.255386"
+      "last_scraped_at": "2025-08-27 15:10:37.738030"
     },
     {
       "name": "AfroXDance Club",
+      "slug": "afroxdance-club",
       "org_type": "wusa",
       "description": "The Afro-Fusion dance club is aimed at bridging the gap between cultural and traditional African dance styles and other genres of dance; hip-hop, contemporary, jazz, salsa, etc. The club will serve as a creative space for dancers from all backgrounds who wish to learn more about African dance styles and connect with their African dance roots. Each class promises to be filled with fun and learning in addition to being a great total body workout!",
       "social_media": {
@@ -140,10 +144,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/225",
-      "last_scraped_at": "2025-08-25 17:55:53.557667"
+      "last_scraped_at": "2025-08-27 15:10:36.155311"
     },
     {
       "name": "Amnesty International",
+      "slug": "amnesty-international",
       "org_type": "wusa",
       "description": "Amnesty International is a non-profit organization that operates worldwide with over 8 million members around the world. This club will advocate for the protection of individuals and is focused on the promotion of human rights. UW’s amnesty international chapter strives to provide awareness to students, faculty, and alumni about the human rights violations that occur globally. By being a member, you would actively be working to take a stand against the abuse to one's freedom.",
       "social_media": {
@@ -161,10 +166,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/436",
-      "last_scraped_at": "2025-08-25 17:55:53.336003"
+      "last_scraped_at": "2025-08-27 15:10:35.856671"
     },
     {
       "name": "Animal Rights Society",
+      "slug": "animal-rights-society",
       "org_type": "wusa",
       "description": "We discuss animal rights related topics, advocate for animal rights on campus and in the Waterloo community and meet like-minded people. We run events such as vegan bake sales, fur-free pledges, vegan cooking classes, farm sanctuary trip, coffee giveaway, farmers market trip, weekly meetings, halloween candy giveaways, activism panel, vegan cheese giveaway, cruelty free booth, and any related events. Initiatives would include advocating for more vegan options on campus through the UW Food Services survey.",
       "social_media": {
@@ -177,15 +183,17 @@
       },
       "tags": [
         "Advocacy",
-        "Sustainability"
+        "Cultural",
+        "Volunteer"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/12",
-      "last_scraped_at": "2025-08-25 17:55:53.337733"
+      "last_scraped_at": "2025-08-27 15:10:35.793706"
     },
     {
       "name": "Animusic Ensembles",
+      "slug": "animusic-ensembles",
       "org_type": "wusa",
       "description": "Animusic Ensembles is a group of musicians dedicated to playing music originating from primarily anime and video game soundtracks. Our ensemble accepts all instrumentalists. Arrangements are created by members and performed by groups of varying size and instrumentation.",
       "social_media": {
@@ -206,10 +214,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/280",
-      "last_scraped_at": "2025-08-25 17:55:53.539703"
+      "last_scraped_at": "2025-08-27 15:10:37.660061"
     },
     {
       "name": "Ascend Canada Waterloo Chapter",
+      "slug": "ascend-canada-waterloo-chapter",
       "org_type": "wusa",
       "description": "Ascend was started to address the shortage of Asian leaders in Corporate America and broadened its horizons to Canada in 2012, with a mission to be the premier professional organization dedicated to enabling its members, business partners and the community to leverage the leadership and global business potential of Pan-Asians. With the support of 18 corporate sponsors such as TD, Deloitte, Manulife, Ascend looks to develop pan-Asian leadership potential across North America starting with when members are in school to provide career long relevance. Ascend will help set students up for long-term career success through mentoring and guidance, offering a platform to build connections with senior leaders across multiple industries and functions. Membership spans across various industries and multi-national companies and is open to individuals of all ethnic and business backgrounds.",
       "social_media": {
@@ -225,16 +234,16 @@
       },
       "tags": [
         "Leadership",
-        "Business",
-        "Advocacy"
+        "Business"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/302",
-      "last_scraped_at": "2025-08-25 17:55:54.693365"
+      "last_scraped_at": "2025-08-27 15:10:36.390878"
     },
     {
       "name": "Association of Caribbean Students",
+      "slug": "association-of-caribbean-students",
       "org_type": "wusa",
       "description": "The Association of Caribbean Students (ACS) at the University of Waterloo is a social club that is dedicated to the promotion of Caribbean culture and cultural unity in general within the University Community. Within ACS, students born in the Caribbean will be able to experience and enjoy an atmosphere in which they can relax and feel at home. Students not born in the Caribbean, but with Caribbean background will find a place where they can find out more about their ancestry, homeland and culture. Students with no Caribbean background will have the opportunity to discover more about a unique culture and participate in activities and events that they might not have otherwise been able to experience. The ACS provides entertainment and educational value to students of all backgrounds.",
       "social_media": {
@@ -253,15 +262,16 @@
       },
       "tags": [
         "Cultural",
-        "Advocacy"
+        "Arts"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/15",
-      "last_scraped_at": "2025-08-25 17:55:55.572445"
+      "last_scraped_at": "2025-08-27 15:10:36.882014"
     },
     {
       "name": "Association of Korean Canadian Scientists and Engineers",
+      "slug": "association-of-korean-canadian-scientists-and-engineers",
       "org_type": "wusa",
       "description": "AKCSE is a non-profit organization to support sharing scientific knowledge between Korean-Canadians and setting up connections between Korea and Canada for further development. Our organization promotes the application of science and technology for the general welfare of society, helps Korean-Canadian scientists and engineers develop their full career potential in both Canada and Korea, and serves the Korean community by delivering scientific and technological information. Although the target audience is focused around scientists and engineers, individuals of any faculty are welcome to join, as we hold academic and social events aimed to benefit all of the student body at the University of Waterloo.",
       "social_media": {},
@@ -272,10 +282,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/354",
-      "last_scraped_at": "2025-08-25 17:55:53.529136"
+      "last_scraped_at": "2025-08-27 15:10:35.995589"
     },
     {
       "name": "Aviation Society",
+      "slug": "aviation-society",
       "org_type": "wusa",
       "description": "The University of Waterloo Aviation Society aims to represent and provide opportunities for University of Waterloo Aviation Students, as well as foster a community for those interested in Aviation.",
       "social_media": {
@@ -293,10 +304,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/360",
-      "last_scraped_at": "2025-08-25 17:55:54.290124"
+      "last_scraped_at": "2025-08-27 15:10:36.132793"
     },
     {
       "name": "Breakers,UW",
+      "slug": "breakers-uw",
       "org_type": "wusa",
       "description": "The UW Breakers promotes hip hop culture and break dancing as a fun and exciting activity for students and others as a form of self-expression and as an opportunity to get to know one another. The club mainly hosts a weekly open practice that is open to all levels of dancers to learn and practice breaking. Occasionally, UW Breakers will host a dance battle for members who are interested in competition and this part of breaking culture.",
       "social_media": {
@@ -317,10 +329,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/23",
-      "last_scraped_at": "2025-08-25 17:55:54.905860"
+      "last_scraped_at": "2025-08-27 15:10:36.401594"
     },
     {
       "name": "Buddha's Light Community Club, UW",
+      "slug": "buddha-s-light-community-club-uw",
       "org_type": "wusa",
       "description": "To encourage the understanding of Buddhism, particularly Mahayana Buddhism and Humanistic Buddhism and to promote the application of the Buddhist principles of kindness, compassion, joy, and equanimity to our daily lives. To organize meetings and social gatherings to discuss Buddhism-related topics. To provide a friendly environment for spiritual development to the members of the University who are interested in learning Buddhism and meeting with other Buddhists. To provide an opportunity for students to improve their skills on event organization, leadership, newsletter publishing, and website development.",
       "social_media": {
@@ -338,10 +351,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/25",
-      "last_scraped_at": "2025-08-25 17:55:53.886496"
+      "last_scraped_at": "2025-08-27 15:10:36.555679"
     },
     {
       "name": "CUBE",
+      "slug": "cube",
       "org_type": "wusa",
       "description": "CUBE is a project-based club where students team up to design a solution for real-life problems in the form of an app, website, or other digital product. CUBE's mission is to help students gain UI/UX design experience and build unique, original projects that they can be proud of by providing mentorship and encouraging teamwork.",
       "social_media": {},
@@ -352,18 +366,19 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/565",
-      "last_scraped_at": "2025-08-25 17:55:53.367249"
+      "last_scraped_at": "2025-08-27 15:10:35.258449"
     },
     {
       "name": "Campus Association for Baháʼí Studies at UW (CABS)",
+      "slug": "campus-association-for-bah-studies-at-uw-cabs",
       "org_type": "wusa",
       "description": "Campus Association for Baha'i Studies (CABS) is the UWaterloo club associated with the Baha'i Faith, a religion founded by Baha'u'llah whose central purpose is to establish the oneness of humanity. The purpose of CABS is to gather friends of all backgrounds to deepen on the teachings of God and the history and philosophy of the Baha'i Faith; as university students, to learn how to be of service to humanity in all the different aspects of our lives. Examples of events we hold are devotionals and study sessions. Devotional gatherings consist of reading prayers and passages from religious texts in an informal and reverent atmosphere followed by thoughtful discussion. Study sessions are more structured spaces to explore the Baha'i perspective on varying subjects. They involve research, lively consultation and an open mind in order to redefine our understanding of our material and spiritual realities.",
       "social_media": {
         "instagram": [
-          "https://www.instagram.com/cabsuw"
+          "https://instagram.com/cabsuw"
         ],
         "facebook": [
-          "https://www.facebook.com/cabsuw"
+          "https://facebook.com/cabsuw"
         ],
         "email": [
           "uwat.cabs@gmail.com"
@@ -376,21 +391,22 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/28",
-      "last_scraped_at": "2025-08-25 17:55:55.613930"
+      "last_scraped_at": "2025-08-27 15:10:36.953675"
     },
     {
       "name": "Campus Compost, UW",
+      "slug": "campus-compost-uw",
       "org_type": "wusa",
       "description": "UW Campus Compost (UWCC) is a student-run club that collects organic materials from across campus through our composting program and processes it into compost for the community. We also advocate for waste reduction and other sustainable practices through social media, workshops, and volunteer events. Why did we start? UW Campus Compost was established in 2014 to bring compost bins to campus back when the University did not have an organic waste collection system. Before its establishment, much of the groundwork started in 2012 under the \"University of Waterloo Compost Coalition\", led by a team of Environment students. Since then, the University has started its own organic waste program which makes organics disposal even more convenient on campus. While we still conduct our compost operations, we have expanded our mission to include advocacy around sustainability through campaigns and events.",
       "social_media": {
         "instagram": [
-          "https://www.instagram.com/uwcampuscompost"
+          "https://instagram.com/uwcampuscompost"
         ],
         "facebook": [
-          "https://www.facebook.com/UWCampusCompost"
+          "https://facebook.com/UWCampusCompost"
         ],
         "linkedin": [
-          "https://www.linkedin.com/company/university-of-waterloo-campus-compost"
+          "https://www.linkedin.com/company/university-of-waterloo-campus-compost/"
         ],
         "website": [
           "https://uwcampuscompost.wixsite.com/uwcc",
@@ -404,10 +420,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/533",
-      "last_scraped_at": "2025-08-25 17:55:54.771306"
+      "last_scraped_at": "2025-08-27 15:10:38.250843"
     },
     {
       "name": "Campus Crusade for Cheese",
+      "slug": "campus-crusade-for-cheese",
       "org_type": "wusa",
       "description": "Fall 2025 weekly meetings: Tuesdays, TBD. The purpose of Cheese Club is to offer an outlet for students, faculty, staff, and Alumni who enjoy cheese or wish to enjoy cheese. We have activities such as eating cheese, talking about cheese, rating cheese, cheese related news, current cheese events, and more. Cheese plates may include other accompaniments, such as crackers and meats.",
       "social_media": {
@@ -425,10 +442,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/30",
-      "last_scraped_at": "2025-08-25 17:55:53.813683"
+      "last_scraped_at": "2025-08-27 15:10:36.382733"
     },
     {
       "name": "CariVybz Dance Company",
+      "slug": "carivybz-dance-company",
       "org_type": "wusa",
       "description": "The CariVybz Dance Company is a Caribbean Dance Club seeking to gather University of Waterloo students, staff, faculty, and members of the UWaterloo community to celebrate, cultivate, express and share the beautiful dance culture.",
       "social_media": {
@@ -446,10 +464,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/544",
-      "last_scraped_at": "2025-08-25 17:55:53.378809"
+      "last_scraped_at": "2025-08-27 15:10:35.781946"
     },
     {
       "name": "Chess Club, UW",
+      "slug": "chess-club-uw",
       "org_type": "wusa",
       "description": "Welcome to another great term at UW Chess Club. We wish to provide an environment where people throughout the Kitchener-Waterloo Region can enjoy the game and share their love for chess through discussions and strong tournaments for all levels. We provide a mentorship program for beginners who are intent on getting better as well as casual play with your friends and teachers. We are pleased to inform that we have established Kitchener-Waterloo Chess Club as our co-sponsor.",
       "social_media": {
@@ -458,16 +477,17 @@
         ]
       },
       "tags": [
-        "Recreation",
-        "Boardgames"
+        "Boardgames",
+        "Recreation"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/34",
-      "last_scraped_at": "2025-08-25 17:55:54.504204"
+      "last_scraped_at": "2025-08-27 15:10:36.977259"
     },
     {
       "name": "Chinese Christian Fellowship, UW",
+      "slug": "chinese-christian-fellowship-uw",
       "org_type": "wusa",
       "description": "The Chinese Christian Fellowship (CCF) is a campus group of culturally diverse Christians who meet together regularly to: be a visible and effective witness for Jesus Christ on this campus, provide an environment of mutual support that will enable students to discover their potential and the true meaning of life within the context of university as well as after graduation, encourage its members to practice genuine Christian love, and help students integrate into local churches.",
       "social_media": {
@@ -486,14 +506,15 @@
         "Volunteer"
       ],
       "is_active": true,
-      "last_active": "Spring 2025",
+      "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/36",
-      "last_scraped_at": "2025-08-25 17:55:55.120270"
+      "last_scraped_at": "2025-08-27 15:10:36.446243"
     },
     {
       "name": "Chinese Hip-Hop(Rap) Club",
+      "slug": "chinese-hip-hop-rap-club",
       "org_type": "wusa",
-      "description": "Chinese Hip-Hop Club provides a platform for students who are interested to communicate and make music together, no matter how skilled you are in that. As long as you are interested in this, come and join us!",
+      "description": "Chinese Hip-Hop Club provides a platform for students who are interested to communicate and make music together, no matter how skilled you are in that, as long as you are interested in this, come and join us!",
       "social_media": {},
       "tags": [
         "Music",
@@ -502,10 +523,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/523",
-      "last_scraped_at": "2025-08-25 17:55:54.002550"
+      "last_scraped_at": "2025-08-27 15:10:35.349773"
     },
     {
       "name": "Chinese Students Association (CSA), UW",
+      "slug": "chinese-students-association-csa-uw",
       "org_type": "wusa",
       "description": "The University of Waterloo Chinese Students’ Association (UWCSA) was established in 1974 with a vision of bringing awareness to the Chinese culture and community. After its establishment, UWCSA has expanded to serve hundreds of members. Being the largest Chinese cultural club at the University of Waterloo, we aim to connect and unite the diverse Chinese students at our institution, and in the process, contribute to multiculturalism throughout our university. UWCSA is widely renowned for its planning and execution of multiple successful events and activities each term. We host a variety of events, such as contests, outdoors events, and social nights to facilitate and foster communication between our members and the general student body. We also organize joint events with other clubs (including those outside of the University of Waterloo) to extend our culture to others. In the future, the members of UWCSA are hoping to grow with one another, creating an organization that is successful and beneficial to all students at the University of Waterloo.",
       "social_media": {
@@ -526,10 +548,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/40",
-      "last_scraped_at": "2025-08-25 17:55:54.241209"
+      "last_scraped_at": "2025-08-27 15:10:36.966376"
     },
     {
       "name": "Christian Orthodox Campus-Ministry Association",
+      "slug": "christian-orthodox-campus-ministry-association",
       "org_type": "wusa",
       "description": "OCF is charged with connecting Orthodox college students—and those interested in the Orthodox Christian faith—to Christ and His Church. OCF realizes this mission by: - Supporting members' experience and witness to the Orthodox Christian Church through community life, prayer, service to others, and study of the Faith - Providing a variety of thoughtful and innovative programming including College Conference and Real Break domestic and international service projects.",
       "social_media": {
@@ -547,10 +570,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/235",
-      "last_scraped_at": "2025-08-25 17:55:53.832796"
+      "last_scraped_at": "2025-08-27 15:10:37.564522"
     },
     {
       "name": "Club That Really Likes Anime (CTRL-A)",
+      "slug": "club-that-really-likes-anime-ctrl-a",
       "org_type": "wusa",
       "description": "CTRL-A is a social club that promotes interest in animation, predominantly of Japanese origin. Our club of 30+ years is open to anyone with an interest in anime, gaming, and any other related topics. We hold on-campus events, with general meetings traditionally held once a week, anime screenings several times a term, in addition to other special events, such as karaoke and conventions.",
       "social_media": {
@@ -571,16 +595,17 @@
         ]
       },
       "tags": [
-        "Media",
-        "Cultural"
+        "Cultural",
+        "Media"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/44",
-      "last_scraped_at": "2025-08-25 17:55:54.419652"
+      "last_scraped_at": "2025-08-27 15:10:36.864769"
     },
     {
       "name": "Concert Band, UW",
+      "slug": "concert-band-uw",
       "org_type": "wusa",
       "description": "UW Concert Band Club is a club for people who loved those concert band days in high school, or even elementary school! Our unauditioned concert band presents an opportunity for musicians from all faculties and programs to maintain their musical skills while having fun in a supportive atmosphere. We practice weekly in DC 1350 or 1351, check out our site below for more information about the current term or email us to get in the know!",
       "social_media": {
@@ -610,10 +635,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/47",
-      "last_scraped_at": "2025-08-25 17:55:54.343436"
+      "last_scraped_at": "2025-08-27 15:10:37.502478"
     },
     {
       "name": "Cooking Club, UW",
+      "slug": "cooking-club-uw",
       "org_type": "wusa",
       "description": "The Cooking Club serves up cooking classes, workshops, bake sales, potlucks, and other food-related adventures. We cover the full spectrum of foods from fancy pasta classes to quick and dirty tips to help you manage the necessary evil known as ‘cooking during midterms’. When we’re not in the kitchen or hosting our famous classes, we occasionally venture out to the real world to visit coffee roasters, picnic areas, strawberry fields, or bonfire pits. If we’re not doing any of the above, our members are usually busy trying to craft an amazing burger or a cupcake to help fuel the culinary debauchery! Join our Discord server and follow our Instagram to keep up with our events and become a part of the community!",
       "social_media": {
@@ -637,10 +663,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/48",
-      "last_scraped_at": "2025-08-25 17:55:54.559194"
+      "last_scraped_at": "2025-08-27 15:10:38.310612"
     },
     {
       "name": "Crafts 4 Charity",
+      "slug": "crafts-4-charity",
       "org_type": "wusa",
       "description": "We are a UW DIY campus club that seeks to spark creativity. Every term we host a couple of workshops teaching you how to make cute plushies, polymer clay charms, and more - we will provide the materials and instructions, all levels are welcome! We often sell our handmade crafts to raise money for various charities, so keep your eyes peeled for us on campus!",
       "social_media": {
@@ -655,10 +682,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/49",
-      "last_scraped_at": "2025-08-25 17:55:53.884314"
+      "last_scraped_at": "2025-08-27 15:10:36.781523"
     },
     {
       "name": "Creative Writing Club",
+      "slug": "creative-writing-club",
       "org_type": "wusa",
       "description": "The Creative Writing Club aims to provide a space for members of the University of Waterloo community to practice and share different forms of creative writing. Throughout the term, we will host writing and peer editing sessions, as well as reading nights where members can share works they are proud of. At the end of each term, we will host an awards night where members of the club can celebrate some of the best works written that term.",
       "social_media": {
@@ -678,10 +706,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/51",
-      "last_scraped_at": "2025-08-25 17:55:55.531082"
+      "last_scraped_at": "2025-08-27 15:10:37.360036"
     },
     {
       "name": "Creators Collective",
+      "slug": "creators-collective",
       "org_type": "wusa",
       "description": "Creators Collective is a club that supports students' creativity at the University of Waterloo! We hold an annual gallery and have a printed magazine showcasing all forms of student art as well as a market that provides a single source to find products and services provided by our own students. Creators Collective hosts events throughout the year that target to establish and create a sense of community between creators.",
       "social_media": {
@@ -703,12 +732,13 @@
         "Community"
       ],
       "is_active": true,
-      "last_active": "Spring 2025",
+      "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/462",
-      "last_scraped_at": "2025-08-25 17:55:55.901814"
+      "last_scraped_at": "2025-08-27 15:10:36.634120"
     },
     {
       "name": "Culture and Language Exchange Club, UW (UWCLEC)",
+      "slug": "culture-and-language-exchange-club-uw-uwclec",
       "org_type": "wusa",
       "description": "The purpose of this club is to promote the exchange of language and culture between students on campus by creating spaces for thoughtful engagement, practical application, and mutual learning opportunities. By engaging with one another in various contexts, students will be able to develop a well-rounded worldview as future global citizens. We hope to be a place where you can practice a language you’ve been learning, ask questions to native speakers, make new friends, and engage with the many different cultures and languages on campus. If we have enough tutors, we plan to continue hosting weekly language sessions (typically in-person). Club-wide events are TBD based on interest.",
       "social_media": {
@@ -729,12 +759,13 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/53",
-      "last_scraped_at": "2025-08-25 17:55:53.998357"
+      "last_scraped_at": "2025-08-27 15:10:37.161223"
     },
     {
       "name": "DJ Club, UW",
+      "slug": "dj-club-uw",
       "org_type": "wusa",
-      "description": "UWDJ Club is about bringing together the UW DJ community. It is about all forms of DJing. People who DJ, those who want to learn, and those who just like the music. Every week the DJ Club is planning to come together to share knowledge and expertise. We hope to bring turntables, mixer, and small PA into the lower atrium to play. The plan is to rotate between hip hop and electronic forms of music allowing various DJs in the UW community to share with one another.",
+      "description": "UWDJ Club is about bringing together the UW DJ community. It is about all forms of DJing. People who DJ, those who want to learn, and those who just like the music. Want to know more? Every week the DJ Club is planning to come together to share knowledge and expertise. We hope to bring turntables, mixer, and small PA into the lower atrium to play. The plan is to rotate between hip hop and electronic forms of music allowing various DJs in the UW community to share with one another.",
       "social_media": {
         "email": [
           "contact.uwdj@gmail.com"
@@ -747,10 +778,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/64",
-      "last_scraped_at": "2025-08-25 17:55:53.884799"
+      "last_scraped_at": "2025-08-27 15:10:35.857442"
     },
     {
       "name": "Debate Society, UW (Debating Association)",
+      "slug": "debate-society-uw-debating-association",
       "org_type": "wusa",
       "description": "Our purpose is to hone our skills for competitive debate, within the CUSID (Canadian University Society for Intercollegiate Debate) and beyond. We do this through lessons on improving debate and public speaking, attending/hosting intercollegiate debate tournaments, socials and other events.",
       "social_media": {
@@ -758,7 +790,7 @@
           "https://www.instagram.com/uwdebate"
         ],
         "facebook": [
-          "https://www.facebook.com/uwdebating"
+          "https://www.facebook.com/uwdebating/"
         ],
         "email": [
           "uwdebate@gmail.com"
@@ -766,15 +798,16 @@
       },
       "tags": [
         "Leadership",
-        "Academic"
+        "Advocacy"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/59",
-      "last_scraped_at": "2025-08-25 17:55:54.281205"
+      "last_scraped_at": "2025-08-27 15:10:35.995949"
     },
     {
       "name": "Deception Board Games Club",
+      "slug": "deception-board-games-club",
       "org_type": "wusa",
       "description": "We love playing deception games such as Avalon, Coup and Battlestar Galactica! Join our Facebook group to vote on when we meet up to play or send us an email with any questions.",
       "social_media": {
@@ -790,12 +823,13 @@
         "Recreation"
       ],
       "is_active": true,
-      "last_active": "Spring 2025",
+      "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/61",
-      "last_scraped_at": "2025-08-25 17:55:53.337882"
+      "last_scraped_at": "2025-08-27 15:10:35.399081"
     },
     {
       "name": "Eastern Orthodox Students Association (EOSA)",
+      "slug": "eastern-orthodox-students-association-eosa",
       "org_type": "wusa",
       "description": "EOSA is a club for the Eastern Orthodox Christian students of UW to find fellowship and grow spiritually on campus. We will meet for prayer, homilies, social gatherings and more, in the hope that we can (a) draw closer together in Christ, and (b) sanctify not just our academic activities but the rest of our lives as well.",
       "social_media": {},
@@ -806,10 +840,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/572",
-      "last_scraped_at": "2025-08-25 17:55:54.287887"
+      "last_scraped_at": "2025-08-27 15:10:35.979048"
     },
     {
       "name": "Egyptian Student Association",
+      "slug": "egyptian-student-association",
       "org_type": "wusa",
       "description": "Welcome to the Egyptian Student Association at WUSA! A vibrant community for Egyptian students and students with an interest in Egyptian culture, heritage and the rich history of a country with one of the 7 wonders of the world! Whether you're an Egyptian student looking for supportive community and environment or a student intrigued by the fascinating country, our association provides a welcoming space for all. Come be apart of the Egyptian Student Association, uniting us in the spirit of cultural appreciation and friendship. Explore Egypt with us, right here on campus!",
       "social_media": {},
@@ -819,10 +854,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/559",
-      "last_scraped_at": "2025-08-25 17:55:54.904228"
+      "last_scraped_at": "2025-08-27 15:10:36.460355"
     },
     {
       "name": "Fashion for Change",
+      "slug": "fashion-for-change",
       "org_type": "wusa",
       "description": "Fashion for Change is a non-profit organization that unites students at the University of Waterloo, Conestoga College and Wilfrid Laurier University to host the largest student-run charity fashion show in the K-W region. Over the past 10 years as a club, we have raised over $125,000 for charity! With over 130 executives and models yearly, our family is full of passionate students that use our talents to change the world! We use fashion, dance, film, music, and other mediums to promote artistic expression.",
       "social_media": {
@@ -838,15 +874,16 @@
       },
       "tags": [
         "Arts",
-        "Volunteer"
+        "Dance"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/76",
-      "last_scraped_at": "2025-08-25 17:55:54.185615"
+      "last_scraped_at": "2025-08-27 15:10:37.354787"
     },
     {
       "name": "Fighting Game Club (UWFGC)",
+      "slug": "fighting-game-club-uwfgc",
       "org_type": "wusa",
       "description": "The University of Waterloo Fighting Game Club caters to Fighting Game players of all kinds! We are a casual to a semi-competitive club that plays a wide variety of Fighting Games including Street Fighter, Tekken, Guilty Gear, Blazblue, UNICLR, and much more! Join our Discord for all the latest information.",
       "social_media": {
@@ -867,15 +904,16 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/78",
-      "last_scraped_at": "2025-08-25 17:55:53.337552"
+      "last_scraped_at": "2025-08-27 15:10:36.674226"
     },
     {
       "name": "Films, UW (Former Films Creator Club)",
+      "slug": "films-uw-former-films-creator-club",
       "org_type": "wusa",
       "description": "We are the University of Waterloo Film Club, the home to all things film. From film enthusiasts to script writers, cinematographers to editors, our mission is to unite the film community at UWaterloo. Whether you’re new to film or aspiring to work in the industry, we are open to everyone with all levels of interest. We host a variety of activities during our weekly meetings and special events throughout the semester. Film Production Workshops: Our workshops explore the technical side of the film production processes (storyboarding, shot composition, video editing, etc.) and different techniques used in the industry (ex. stop motion animation). Screenings: Sometimes we host film screenings for movies and shows that help introduce a production process or technique for next week’s film production workshop. Snacks will be provided :) Semester Guest Speaker: Get to know someone in the industry! Previous speakers include Curt Lobb, the editor for Blackberry (2023) and Tim Hamilton, the director of many comedic commercials including the infamous House Hippos commercial.",
       "social_media": {
         "instagram": [
-          "https://www.instagram.com/uwfilmclub_"
+          "https://www.instagram.com/uwfilmclub_/"
         ],
         "youtube": [
           "https://www.youtube.com/@theuwfcc"
@@ -891,18 +929,19 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/81",
-      "last_scraped_at": "2025-08-25 17:55:54.593633"
+      "last_scraped_at": "2025-08-27 15:10:38.237176"
     },
     {
       "name": "Finance Association (WIREX/Capital Markets), UW",
+      "slug": "finance-association-wirex-capital-markets-uw",
       "org_type": "wusa",
       "description": "UW Finance Association (UWFA) was formed in May 2011 as the continuation of two established finance clubs, WIREX and UW Capital Markets Group. UWFA aims to introduce new students to finance through the use of tutorials, guest speakers, information sessions and forums. UWFA supports the career development of all students through various workshops, events, and provides networking opportunities between members and industry professionals.",
       "social_media": {
-        "facebook": [
-          "http://www.facebook.com/uwfa"
-        ],
         "instagram": [
           "https://www.instagram.com/uwfinance"
+        ],
+        "facebook": [
+          "http://www.facebook.com/uwfa"
         ]
       },
       "tags": [
@@ -912,10 +951,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/82",
-      "last_scraped_at": "2025-08-25 17:55:54.058956"
+      "last_scraped_at": "2025-08-27 15:10:36.075746"
     },
     {
       "name": "Game Development Club",
+      "slug": "game-development-club",
       "org_type": "wusa",
       "description": "The University of Waterloo Game Development Club (UWGDC) is a club where students can create, test, and discuss games. We explore many types of games, from tabletop to digital. During weekly meetings, we host talks discussing game design topics ranging from Level Design to Accessibility. Additionally, we give tutorials for game development tools including Unity, Unreal 4 Engine, and Blender. Want to make a game? We have a friendly and welcoming space at the Games Institute to work on your project. Have a game made already, or in progress? We regularly play-test member-made games during club hours. Game developers of all skill levels are welcome!",
       "social_media": {
@@ -930,16 +970,18 @@
         ]
       },
       "tags": [
+        "Software",
         "Gaming",
-        "Software"
+        "Arts"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/261",
-      "last_scraped_at": "2025-08-25 17:55:54.946076"
+      "last_scraped_at": "2025-08-27 15:10:37.751343"
     },
     {
       "name": "Global Brigades - Business Brigades",
+      "slug": "global-brigades-business-brigades",
       "org_type": "wusa",
       "description": "Global Business Brigades UW, part of the Global Brigades family, is an international movement of university students and professionals building economic opportunities in the developing world. We work alongside promising entrepreneurs and experienced year-round staff to create financial opportunities in remote, rural, and under-resourced areas of Panama, Honduras, and Ghana. GBBUW is the first organization at the University of Waterloo to offer students the opportunity to volunteer abroad to consult businesses and entrepreneurs, develop community-led cooperative banks, and promote financial literacy.",
       "social_media": {
@@ -958,10 +1000,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/252",
-      "last_scraped_at": "2025-08-25 17:55:54.497431"
+      "last_scraped_at": "2025-08-27 15:10:36.208324"
     },
     {
       "name": "Global Brigades - Medical Brigades",
+      "slug": "global-brigades-medical-brigades",
       "org_type": "wusa",
       "description": "Global Brigades is the world’s largest student-led global health and sustainable development organization. Since 2004, Global Brigades has mobilized thousands of university students and professionals through nine skill-based service programs to improve quality of life in under-resourced communities through partner organizations in Honduras, Nicaragua, and Panama. Medical Brigades University of Waterloo Global Medical/Dental Global Brigades (UW GM/DB) is a non-profit club led by dedicated students interested in the fields of medicine, pharmacy, dentistry, and healthcare. This club is comprised of various Executive Members and General Members who volunteer locally and/or abroad to Honduras, Nicaragua, Panama, or Ghana to create sustainable, positive impacts on under-resourced communities, while undergoing a life-changing experience. Locally, we organize information sessions, fundraising events, collect hygiene supplies, and recruit brigaders. Then we travel abroad to help run mobile pharmacy/medical/dental clinics in under-resourced communities. Our mission is to empower under-resourced communities as well as the brigaders to resolve global health and economic disparities.",
       "social_media": {
@@ -983,10 +1026,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/323",
-      "last_scraped_at": "2025-08-25 17:55:54.463855"
+      "last_scraped_at": "2025-08-27 15:10:38.466071"
     },
     {
       "name": "Gujarati Students Association (GSA)",
+      "slug": "gujarati-students-association-gsa",
       "org_type": "wusa",
       "description": "The University of Waterloo’s Gujarati Student Association (GSA) is a club that aims to foster a community to curate cultural expression for the Waterloo body. This club intends to make Waterloo faculty members and students feel connected with each other through their ethnic groups. We want to promote Gujarati culture by organizing a variety of cultural events, workshops, and activities. This club aims to create a safe environment where everyone can feel comfortable and respected through enjoyment and interactions with others.",
       "social_media": {
@@ -998,16 +1042,16 @@
         ]
       },
       "tags": [
-        "Cultural",
-        "Advocacy"
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/439",
-      "last_scraped_at": "2025-08-25 17:55:53.497879"
+      "last_scraped_at": "2025-08-27 15:10:37.840399"
     },
     {
       "name": "HanVoice Waterloo",
+      "slug": "hanvoice-waterloo",
       "org_type": "wusa",
       "description": "HanVoice Canada is the largest Canadian non-profit organization focused on advancing the North Korean human rights cause by working with leading politicians and policy experts to promote the human rights agenda into legislation and political action. At HanVoice Waterloo, we seek to give a voice to the voiceless with on-the-ground advocacy efforts on behalf of the North Korean people, who remain voiceless and oppressed in the face of insurmountable odds. Whether inside, outside, or in transit from North Korea, we support the North Korean people in whatever way we can.",
       "social_media": {
@@ -1028,10 +1072,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/418",
-      "last_scraped_at": "2025-08-25 17:55:54.392559"
+      "last_scraped_at": "2025-08-27 15:10:37.459117"
     },
     {
       "name": "Her Campus Waterloo",
+      "slug": "her-campus-waterloo",
       "org_type": "wusa",
       "description": "Her Campus Waterloo is a chapter of Her Campus which \"is the #1 media site for college women, written entirely by the world’s top college journalists.\" We are an online magazine targeted towards female collegiates written by college journalists focused on a variety of topics ranging from entertainment, culture, food, sex and relationships, fashion, etc.! About Her Campus: https://www.hercampus.com/about-us",
       "social_media": {
@@ -1055,18 +1100,19 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/100",
-      "last_scraped_at": "2025-08-25 17:55:54.675605"
+      "last_scraped_at": "2025-08-27 15:10:37.768300"
     },
     {
       "name": "Hera.co",
+      "slug": "hera-co",
       "org_type": "wusa",
       "description": "We are a non-profit organization that aims to build a female supporting female community founded in 2021. We realize the importance of peer support and community bond for each individual’s road to success. That’s why we are founded here to support our future aspiring leaders. Our mission is to empower young women to grow the ambition, bravery, confidence, and self-leadership to pursue their passion.",
       "social_media": {
         "instagram": [
-          "https://instagram.com/itshera.co"
+          "https://www.instagram.com/itshera.co"
         ],
         "facebook": [
-          "https://facebook.com/teamheraco"
+          "https://www.facebook.com/teamheraco"
         ],
         "email": [
           "teamheraco@gmail.com"
@@ -1079,33 +1125,33 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/477",
-      "last_scraped_at": "2025-08-25 17:55:53.979649"
+      "last_scraped_at": "2025-08-27 15:10:37.154126"
     },
     {
       "name": "Hillel Waterloo",
+      "slug": "hillel-waterloo",
       "org_type": "wusa",
       "description": "Hillel Waterloo strives to inspire every Jewish student in Waterloo to make an enduring commitment to Jewish life, learning, and Israel. Through promoting Jewish identity, cultivating student leadership and embracing religious and political diversity in an inclusive environment, Hillel Waterloo will enrich the lives of students on campus. We embody this mission and vision through our on-campus activities which range in content from Israel engagement, education, and advocacy opportunities, to social interactions, to community service and social justice, and to Jewish educational encounters. In addition to our events, we also strive to connect students with other religious groups in the Waterloo community by running joint events. All of our events are open to Jews and non-Jews alike as well as individuals from all walks of life, all we ask is that they have an interest in what we are doing.",
       "social_media": {
         "instagram": [
           "http://www.instagram.com/hillel.waterloo.laurier"
         ],
-        "facebook": [],
         "email": [
           "waterloopresident@hillelontario.org"
         ]
       },
       "tags": [
         "Cultural",
-        "Advocacy",
-        "Leadership"
+        "Advocacy"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/390",
-      "last_scraped_at": "2025-08-25 17:55:54.694770"
+      "last_scraped_at": "2025-08-27 15:10:37.018798"
     },
     {
       "name": "Hindu Students Council at the University of Waterloo",
+      "slug": "hindu-students-council-at-the-university-of-waterloo",
       "org_type": "wusa",
       "description": "The Hindu Students' Council (HSC) is an international forum that provides opportunities to learn about Hindu heritage through various activities, events and projects. HSC presents ample opportunities for self-development at the spiritual and professional level. Our main goal is to provide a forum with which Hindus, on and off campus, can celebrate being Hindu and Hinduism through a variety of religious and cultural events. We work to provide these basic services to the University of Waterloo so that the Hindu community at UWaterloo, and those interested in Hinduism, may have the opportunity to take part and experience the rich and vibrant Hindu culture. But don’t be intimidated. Just because you’re not Hindu doesn’t mean that you can’t join HSC and take advantage of all the services and events that we offer. One of the main goals of the Hindu Students’ Council is to provide a forum for those who aren’t Hindu, giving them an opportunity to experience the culture, the food, and the teachings in a social environment. We always love seeing new faces and hearing different viewpoints and similarities with various ethnic groups. Everyone is welcome from all walks of life!",
       "social_media": {
@@ -1123,15 +1169,16 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/494",
-      "last_scraped_at": "2025-08-25 17:55:55.142593"
+      "last_scraped_at": "2025-08-27 15:10:37.596051"
     },
     {
       "name": "Hip Hop, UW",
+      "slug": "hip-hop-uw",
       "org_type": "wusa",
       "description": "The purpose of The University of Waterloo Hip Hop Club is to provide a fun, social environment where students can learn hip hop dance. Members of the club have the opportunity to grow as dancers by being exposed to different styles of hip hop dance, while meeting others who are passionate about dance. Practices help members to develop balance, coordination, strength and confidence. UWHH is open to anyone and everyone willing to learn. Students of any experience level are welcome! Members range from inexperienced dancers to dancers at the advanced level. No audition is required to be a part of the club. Any member may perform with UWHH at events and competitions throughout the term as long as they can commit to attending the practices.",
       "social_media": {
         "instagram": [
-          "https://www.instagram.com/uwhiphop"
+          "http://www.instagram.com/uwhiphop"
         ],
         "facebook": [
           "http://www.facebook.com/uwhiphop"
@@ -1150,10 +1197,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/102",
-      "last_scraped_at": "2025-08-25 17:55:54.700371"
+      "last_scraped_at": "2025-08-27 15:10:37.301359"
     },
     {
       "name": "Hong Kong Students' Association",
+      "slug": "hong-kong-students-association",
       "org_type": "wusa",
       "description": "UWHKSA is a club for those who are interested in Hong Kong culture. Our goal is to strengthen the Hong Kong community within the University of Waterloo and to promote Hong Kong culture and Cantonese.",
       "social_media": {
@@ -1170,10 +1218,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/257",
-      "last_scraped_at": "2025-08-25 17:55:53.961101"
+      "last_scraped_at": "2025-08-27 15:10:36.965359"
     },
     {
       "name": "Humans vs. Zombies Society",
+      "slug": "humans-vs-zombies-society",
       "org_type": "wusa",
       "description": "Humans vs. Zombies is a game of tag between two teams where Humans have to defend themselves with Nerf blasters and socks to survive as long as they can against a growing Zombie horde out to tag them. Humans vs. Zombies Society runs a weeklong game per term as well as weekend minigames and an annual open invitational game.",
       "social_media": {
@@ -1200,10 +1249,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/246",
-      "last_scraped_at": "2025-08-25 17:55:54.395667"
+      "last_scraped_at": "2025-08-27 15:10:37.597248"
     },
     {
       "name": "Hydroponics Club",
+      "slug": "hydroponics-club",
       "org_type": "wusa",
       "description": "The hydroponics club aims to further educate students and faculty about sustainable food systems through the participation of growing herbs and leafy greens in a vertical hydroponics rack on campus.",
       "social_media": {
@@ -1221,12 +1271,13 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/425",
-      "last_scraped_at": "2025-08-25 17:55:55.120082"
+      "last_scraped_at": "2025-08-27 15:10:36.240921"
     },
     {
       "name": "Improv Club, UW",
+      "slug": "improv-club-uw",
       "org_type": "wusa",
-      "description": "UW Improv meets every week for games, exercises, sports and warfare from the world of *improvisational drama*, made famous by Whose Line is it Anyway. Our objectives are fun, enjoyment and belly laughs-- no experience necessary, drop-ins welcome! Also available is a Performance Team, which is compiled at the beginning of every semester-- auditions take place during the first few weeks of a new semester.",
+      "description": "UW Improv meets every week for games, exercises, sports and warfare from the world of improvisational drama, made famous by Whose Line is it Anyway. Our objectives are fun, enjoyment and belly laughs-- no experience necessary, drop-ins welcome! Also available is a Performance Team, which is compiled at the beginning of every semester-- auditions take place during the first few weeks of a new semester.",
       "social_media": {
         "instagram": [
           "https://instagram.com/uwimprovisation/"
@@ -1248,10 +1299,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/106",
-      "last_scraped_at": "2025-08-25 17:55:54.460485"
+      "last_scraped_at": "2025-08-27 15:10:36.961101"
     },
     {
       "name": "Indian Cultural Association, UW",
+      "slug": "indian-cultural-association-uw",
       "org_type": "wusa",
       "description": "UW Indian Cultural Association is a club that aims to promote Indian culture to the staff and students at the University of Waterloo by organizing various cultural events and dance performances. This club aims to provide a comfortable space where students and staff of Indian origin and/or students interested in Indian culture can come together and enjoy each other's company.",
       "social_media": {
@@ -1272,10 +1324,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/107",
-      "last_scraped_at": "2025-08-25 17:55:54.351587"
+      "last_scraped_at": "2025-08-27 15:10:37.262235"
     },
     {
       "name": "Iranian Students' Association of Waterloo",
+      "slug": "iranian-students-association-of-waterloo",
       "org_type": "wusa",
       "description": "Iranian Students’ Association of Waterloo’s mission is to unite the Iranian students at the University of Waterloo and other universities through cultural events and gatherings. ISAW provides a non-political environment where all members support one another and share ideas to improve society to its full potential. ISAW respects and supports people from all nationalities, backgrounds, identities, and origins; as well as welcoming everyone to visit any of the year-long events to become familiar with the Persian culture and background.",
       "social_media": {
@@ -1298,10 +1351,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/293",
-      "last_scraped_at": "2025-08-25 17:55:55.413358"
+      "last_scraped_at": "2025-08-27 15:10:36.747235"
     },
     {
       "name": "Jamnetwork",
+      "slug": "jamnetwork",
       "org_type": "wusa",
       "description": "Attention University of Waterloo students... FINALLY, there's a space for musicians of all levels and backgrounds to come, relax, and get groovy. Whether you're a master jazz pianist, absolute beginner, or if you just want to learn how to play Wonderwall around a campfire, JamNetwork is the place to play. Come meet fellow music people and learn improv and theory skills along the way. (Don't worry - you don't need to know how to play Bohemian Rhapsody.) You can even just come watch and experience music. Everyone is welcome! With weekly drop-in meetings and field trips/community outings, we're all about expanding the music scene in Waterloo. So come one, come all, and let's make some magic together.",
       "social_media": {
@@ -1311,11 +1365,11 @@
         "facebook": [
           "https://www.facebook.com/JamNetworkUW/"
         ],
-        "discord": [
-          "https://discord.gg/aknHPe6U"
-        ],
         "youtube": [
           "https://www.youtube.com/@jamnetworkuw2339"
+        ],
+        "discord": [
+          "https://discord.gg/aknHPe6U"
         ],
         "email": [
           "jamnetworkuw@gmail.com"
@@ -1328,10 +1382,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/396",
-      "last_scraped_at": "2025-08-25 17:55:55.874388"
+      "last_scraped_at": "2025-08-27 15:10:37.832058"
     },
     {
       "name": "Karol Wojtyla Club",
+      "slug": "karol-wojtyla-club",
       "org_type": "wusa",
       "description": "We are of the conviction that the legacy and spirituality of Karol Wojtyla (Pope John Paul II) represents a strong moral and spiritual compass to guide and enhance the life goals of similarly minded young adults. The late pope’s unprecedented special relationship to young people in virtually every country of the world has inspired devotion in millions who, in turn, continue to instruct the next generation in his teachings. He is recognized as an agent of convicted and compassionate political transformation, and his teaching is a beacon of hope for forming loving, life-giving societies that celebrate what is truly good in all the world’s cultures. His three visits to Canada have left long-lasting impressions upon hundreds of thousands of Canadian young people, and the events and speeches from those visits continue to inspire. We are of the opinion that the body of literature and teaching that emanate from this great saint warrant special intention, and that his admirers merely need a structure in which to join others of like mind.",
       "social_media": {
@@ -1349,10 +1404,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/249",
-      "last_scraped_at": "2025-08-25 17:55:56.259262"
+      "last_scraped_at": "2025-08-27 15:10:37.710327"
     },
     {
       "name": "Kingdom Come",
+      "slug": "kingdom-come",
       "org_type": "wusa",
       "description": "We are a campus movement dedicated to helping students discover Jesus and mobilizing the next generation for the kingdom of God. Our primary focus is to help university and college students across Canada experience God’s love and forgiveness and to inspire them to influence others to become lifelong followers of Jesus. Stay updated on our events by following our Instagram. Learn more about Kingdom Come on our website or YouTube channel.",
       "social_media": {
@@ -1369,7 +1425,7 @@
           "https://discord.gg/6zpU2nUKvC"
         ],
         "website": [
-          "http://kingdomcome.ca"
+          "https://kingdomcome.ca"
         ],
         "email": [
           "kingdomcome.uw@gmail.com"
@@ -1380,12 +1436,13 @@
         "Advocacy"
       ],
       "is_active": true,
-      "last_active": "Spring 2025",
+      "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/328",
-      "last_scraped_at": "2025-08-25 17:55:54.837235"
+      "last_scraped_at": "2025-08-27 15:10:37.980470"
     },
     {
       "name": "Korean Catholic Gathering",
+      "slug": "korean-catholic-gathering",
       "org_type": "wusa",
       "description": "The University of Waterloo Korean Catholic Gathering (UWKCG) is a welcoming and vibrant community dedicated to fostering the spiritual growth and fellowship of Korean Catholic students on campus. Our mission is to provide a supportive environment where students can deepen their faith, engage in meaningful worship, and participate in community service. Our Activities: - Monthly Mass and Prayer Meetings: The club will hold a monthly Mass, prayer sessions, and spiritual reflections for its members. - Faith Formation: Students can participate in Bible studies, catechism classes, and discussions on Catholic teachings and traditions, with a focus on Korean cultural and linguistic aspects. - Social Events: The UWKCG organizes various social gatherings, retreats, and cultural celebrations to encourage fellowship among the members and promote Korean Catholic identity. Whether you are a lifelong Korean Catholic or exploring the faith for the first time, the UWKCG welcomes you to join our community, grow in your spiritual journey, and make lasting friendships. By restarting UWKCG, we hope to renew a tradition of faith and community that has been cherished by past members and create a welcoming space for new members to join.",
       "social_media": {
@@ -1400,10 +1457,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/115",
-      "last_scraped_at": "2025-08-25 17:55:54.631628"
+      "last_scraped_at": "2025-08-27 15:10:38.119339"
     },
     {
       "name": "Korean Christian Fellowship",
+      "slug": "korean-christian-fellowship",
       "org_type": "wusa",
       "description": "We are a community of students passionate about knowing God and participating in his work on campus and in the world. Together we pursue transformation through Scripture to lead and equip others to join in Jesus' extraordinary revolution. Whether you are a Christian, curious, or simply exploring who Jesus is, we would love to help you get plugged into our community! We have small groups, prayer times, and bible studies happening throughout the week and regular large groups on Fridays where we gather for a time of worship and fellowship.",
       "social_media": {
@@ -1424,10 +1482,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/116",
-      "last_scraped_at": "2025-08-25 17:55:54.885260"
+      "last_scraped_at": "2025-08-27 15:10:37.068129"
     },
     {
       "name": "Latin American Student Association (LASA)",
+      "slug": "latin-american-student-association-lasa",
       "org_type": "wusa",
       "description": "At the University of Waterloo, the Latin American Student Association (LASA) is dedicated to celebrating Latin American culture, fostering awareness and building connections within the Latin American community. We aim to strengthen the Latine student body at UW through engaging meetings, vibrant cultural events, active community involvement or simply a place to hang out and play games. ¡Todos son bienvenidos! LASA is open to anyone interested in Latin American culture, whether you identify with it or are simply curious. Join us!",
       "social_media": {
@@ -1437,15 +1496,16 @@
       },
       "tags": [
         "Cultural",
-        "Advocacy"
+        "Community"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/537",
-      "last_scraped_at": "2025-08-25 17:55:55.211299"
+      "last_scraped_at": "2025-08-27 15:10:36.637955"
     },
     {
       "name": "Law & Business Nexus (LBN)",
+      "slug": "law-business-nexus-lbn",
       "org_type": "wusa",
       "description": "Welcome to University of Waterloo’s first networking club in the Law and Business fields. We here at Law and Business Nexus provide students with opportunities to network with working professionals in these industries to showcase examples of possible careers available. We host events for students to meet with guest speakers and ask questions regarding their day-to-day activities, occupation and industry. Law and Business Nexus is the perfect club for students to discover, grow and foster their passion and interest in Law and Business.",
       "social_media": {
@@ -1463,10 +1523,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/555",
-      "last_scraped_at": "2025-08-25 17:55:54.473395"
+      "last_scraped_at": "2025-08-27 15:10:37.112597"
     },
     {
       "name": "Make-A-Wish UWaterloo Chapter",
+      "slug": "make-a-wish-uwaterloo-chapter",
       "org_type": "wusa",
       "description": "Make-A-Wish is a non-profit organization that was pioneered in Arizona, USA and has been ever since working effortlessly towards creating wishes for children with critical illnesses. It is the world’s leading children’s wish-granting organization and serves every community in Canada. Since 1983, Make-A-Wish Canada has granted over 36,000 wishes across the country and has been working efficiently to grant even more in the coming years. As Make-A-Wish foundation is a non-profit it relies on donations and grants which is what this club would aim for. Make-A-Wish UWaterloo Chapter is an affiliation of the Make-A-Wish foundation Canada and operates solely to raise funds via multiple fundraising/charity events. By being a part of this club you would not only be contributing your time and efforts towards a better cause but would also be a significant member of society by working towards a better future for all.",
       "social_media": {
@@ -1484,10 +1545,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/484",
-      "last_scraped_at": "2025-08-25 17:55:54.779438"
+      "last_scraped_at": "2025-08-27 15:10:37.579954"
     },
     {
       "name": "Malaysian and Singaporean Association",
+      "slug": "malaysian-and-singaporean-association",
       "org_type": "wusa",
       "description": "MSA aims to promote and celebrate the rich cultural heritage of Malaysia and Singapore, fostering a sense of belonging and camaraderie among individuals with an interest in these Southeast Asian nations.",
       "social_media": {},
@@ -1497,12 +1559,13 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/536",
-      "last_scraped_at": "2025-08-25 17:55:54.592049"
+      "last_scraped_at": "2025-08-27 15:10:36.755397"
     },
     {
       "name": "Mambo Club",
+      "slug": "mambo-club",
       "org_type": "wusa",
-      "description": "The objective of Mambo is to teach international salsa dancing to the UW community. We provide weekly lessons and practice sessions in a friendly, social, and relaxed environment where dance enthusiasts of all levels can participate. Check out www.mamboclub.ca for more details.",
+      "description": "The objective of Mambo is to teach international salsa dancing to the UW community. We provide weekly lessons and practice sessions in a friendly, social, and relaxed environment where dance enthusiasts of all levels can participate.",
       "social_media": {
         "facebook": [
           "https://www.facebook.com/uwmambo/"
@@ -1519,17 +1582,18 @@
       },
       "tags": [
         "Dance",
-        "Arts"
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/123",
-      "last_scraped_at": "2025-08-25 17:55:55.691595"
+      "last_scraped_at": "2025-08-27 15:10:37.418911"
     },
     {
       "name": "Mandarin Chinese Christian Fellowship",
+      "slug": "mandarin-chinese-christian-fellowship",
       "org_type": "wusa",
-      "description": "We worship God and do bible study in order to learn the word of God through speaker nights, praise and worship nights, movies, and Bible studies. Feel free to reach out to us on wx (zhouyuzhe0609) or Instagram!",
+      "description": "We worship God and do bible study in order to learn the word of God through speaker nights, praise and worship nights, movies, and Bible studies. Feel free to reach out to us on Instagram!",
       "social_media": {
         "instagram": [
           "https://instagram.com/uwmccf"
@@ -1545,24 +1609,26 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/125",
-      "last_scraped_at": "2025-08-25 17:55:53.825434"
+      "last_scraped_at": "2025-08-27 15:10:36.518626"
     },
     {
       "name": "Marketing Association, UW",
+      "slug": "marketing-association-uw",
       "org_type": "wusa",
       "description": "UWMA is Short for University of Waterloo Marketing Association. UWMA fosters student interest in marketing and self-branding alongside providing services to local ventures and individuals. With the help of our leaders, sponsors, and general members we are driving towards being a professional marketing group within the next few years.",
       "social_media": {},
       "tags": [
         "Business",
-        "Leadership"
+        "Entrepreneurship"
       ],
       "is_active": true,
-      "last_active": "Spring 2025",
+      "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/259",
-      "last_scraped_at": "2025-08-25 17:55:54.094928"
+      "last_scraped_at": "2025-08-27 15:10:36.732549"
     },
     {
       "name": "Mock Trial Club",
+      "slug": "mock-trial-club",
       "org_type": "wusa",
       "description": "Want to be part of a real-life Suits cast? Join our club today! We host and participate in mock trial court simulations, both recreationally and competitively. Come out and meet others interested in law, no matter your program. No experience is necessary!",
       "social_media": {
@@ -1575,20 +1641,21 @@
         "Recreation"
       ],
       "is_active": true,
-      "last_active": "Spring 2025",
+      "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/524",
-      "last_scraped_at": "2025-08-25 17:55:54.753980"
+      "last_scraped_at": "2025-08-27 15:10:36.276569"
     },
     {
       "name": "Model United Nations, UW",
+      "slug": "model-united-nations-uw",
       "org_type": "wusa",
       "description": "We discuss the political, social, and economic state of the world via student driven and focused debate. Using this debate, we endeavour to also expand the individual awareness of the world at large, and discover possible solutions to the issues plaguing the world and the people within. The University of Waterloo Model United Nations has at its core the goal of making its members into more aware and capable global citizens, through open debate and engagement on the issues of the world through the club's events and initiatives.",
       "social_media": {
-        "instagram": [
-          "https://www.instagram.com/uwmun/"
-        ],
         "facebook": [
           "https://www.facebook.com/uwmun/"
+        ],
+        "instagram": [
+          "https://www.instagram.com/uwmun/"
         ],
         "discord": [
           "https://discord.gg/8tmgQ5xFuD"
@@ -1598,16 +1665,17 @@
         ]
       },
       "tags": [
-        "Leadership",
-        "Advocacy"
+        "Advocacy",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/131",
-      "last_scraped_at": "2025-08-25 17:55:55.615360"
+      "last_scraped_at": "2025-08-27 15:10:38.020574"
     },
     {
       "name": "Musical Interdudes - A Cappella Affiliate",
+      "slug": "musical-interdudes-a-cappella-affiliate",
       "org_type": "wusa",
       "description": "The Musical InterDudes are a small-sized mixed-voice auditioned group with a focus on musical comedy. We consist of ✨boring✨ music practice, ✨terrible✨ socializing, and ✨fun✨ admin talk. We place a large emphasis on member input, and strive to find ways to incorporate members' ideas into the tear producing, knee-slap inducing, rolling on the floor laughing set we create for UWACC's end-of-term concert, gigs, and anything else you can imagine.",
       "social_media": {
@@ -1617,17 +1685,18 @@
       },
       "tags": [
         "Music",
-        "Theatre"
+        "Arts"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/244",
-      "last_scraped_at": "2025-08-25 17:55:54.225200"
+      "last_scraped_at": "2025-08-27 15:10:36.865907"
     },
     {
       "name": "Muslim Students Association - Orphan Sponsorship Program",
+      "slug": "muslim-students-association-orphan-sponsorship-program",
       "org_type": "wusa",
-      "description": "Our main goal is to raise awareness about local and international orphans and fundraise money which will be donated to orphan sponsorship organizations. We strive together towards our goal by arranging games nights, movie nights, and general fundraising activities to raise awareness for our club. We're always looking for enthusiastic people to join our team! Interested? Reach us through our social media.",
+      "description": "Our main goal is to raise awareness about local and international orphans and fundraise money which will be donated to orphan sponsorship organizations. We strive together towards our goal by arranging games nights, movie nights, and general fundraising activities to raise awareness for our club. We're always looking for enthusiastic people to join our team! Interested? Reach us through our social media or email us.",
       "social_media": {
         "email": [
           "uwmsa.orphans@gmail.com"
@@ -1640,10 +1709,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/419",
-      "last_scraped_at": "2025-08-25 17:55:54.393538"
+      "last_scraped_at": "2025-08-27 15:10:36.045106"
     },
     {
       "name": "Muslim Students' Association (MSA)",
+      "slug": "muslim-students-association-msa",
       "org_type": "wusa",
       "description": "The Muslim Students' Association (MSA) at the University of Waterloo seeks to create a community that is open and dynamic, which caters to the best interests of all Muslims on campus. Our main goals are to provide an Islamic environment for the Muslims at UW, and to raise awareness of Islam among non-Muslims. We achieve these goals by providing services and support for Muslims on campus, and by organizing lectures, conferences, and Islam Awareness Weeks each term for the general UW population.",
       "social_media": {
@@ -1670,10 +1740,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/133",
-      "last_scraped_at": "2025-08-25 17:55:55.742847"
+      "last_scraped_at": "2025-08-27 15:10:38.435129"
     },
     {
       "name": "Nepalese Students Association",
+      "slug": "nepalese-students-association",
       "org_type": "wusa",
       "description": "Welcome to the Nepalese Students Association, or the NSA! We are a passionate group of individuals looking to celebrate and spread Nepalese culture throughout the University by hosting a variety of events that will introduce anyone interested to Nepalese cuisine, art, and language. Through our club meetings and events, we hope to further explore the Nepalese Identity in all its forms, and introduce this identity to the larger UW community, as well as connect with local and international Nepalese representation.",
       "social_media": {},
@@ -1683,10 +1754,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/573",
-      "last_scraped_at": "2025-08-25 17:55:54.545329"
+      "last_scraped_at": "2025-08-27 15:10:36.633364"
     },
     {
       "name": "North African Student Association",
+      "slug": "north-african-student-association",
       "org_type": "wusa",
       "description": "Join Us: Whether you're from North Africa (Morocco, Egypt, Libya, Tunisia, Algeria, Mauritania) or have roots in the region, or are simply passionate about exploring diverse cultures, NASA welcomes you. Join our community and be part of a dynamic group that celebrates the beauty of North Africa while fostering unity and understanding.",
       "social_media": {},
@@ -1696,10 +1768,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/552",
-      "last_scraped_at": "2025-08-25 17:55:54.242414"
+      "last_scraped_at": "2025-08-27 15:10:36.875453"
     },
     {
       "name": "One Step At A Time",
+      "slug": "one-step-at-a-time",
       "org_type": "wusa",
       "description": "Decades of international and Canadian research demonstrate that youth in low-income communities face specific socioeconomic barriers that impact their academic success, financial stability, and professional achievements in adulthood. Keeping this in mind, our club aims to advocate change by focusing on underprivileged children. The primary goal of our club will be to partner with various community organizations to run a successful tutoring program with the goal in mind that these children can form a connection and have a mentor to empower them and help break the cycle.",
       "social_media": {},
@@ -1710,10 +1783,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/553",
-      "last_scraped_at": "2025-08-25 17:55:53.884555"
+      "last_scraped_at": "2025-08-27 15:10:36.208922"
     },
     {
       "name": "Pakistani Students' Association",
+      "slug": "pakistani-students-association",
       "org_type": "wusa",
       "description": "The Pakistani Student Association at the University of Waterloo is an organization that coordinates educational and social activities which promote Pakistani culture to the Waterloo community. Follow us on our social media pages!",
       "social_media": {
@@ -1736,10 +1810,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/143",
-      "last_scraped_at": "2025-08-25 17:55:54.884875"
+      "last_scraped_at": "2025-08-27 15:10:37.475422"
     },
     {
       "name": "Photography Club, UW",
+      "slug": "photography-club-uw",
       "org_type": "wusa",
       "description": "University of Waterloo Photography Club (UWPC) is a community of photographers who learn from and inspire each other. Our activities include workshops about fundamental and advanced photography techniques. We also arrange events including photo walks, exciting trips to neighboring cities and towns, and many more activities throughout each term. If you are interested in photography and wondering how to start, you are more than welcome to join our community. We have experienced photographers and executives to help you get started. And if you are an experienced photographer, come and join us. We provide event opportunities for those who want to put their skills to use, as well as equipment rentals and dark room services.",
       "social_media": {
@@ -1763,10 +1838,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/144",
-      "last_scraped_at": "2025-08-25 17:55:55.579595"
+      "last_scraped_at": "2025-08-27 15:10:38.169337"
     },
     {
       "name": "Pokemon Club",
+      "slug": "pokemon-club",
       "org_type": "wusa",
       "description": "The Pokémon TCG Club creates an environment in which Pokémon enthusiasts may come together to play against each other, trade/sell cards and compete in tournaments! No matter if you are already an experienced Pokémon TCG master, a completely new player, or someone that just likes Pokémon, we welcome anyone who is interested. Feel free to drop in if you would like to learn how to play, play against others or even just talk about Pokémon with others of the same interest!",
       "social_media": {
@@ -1776,15 +1852,16 @@
       },
       "tags": [
         "Gaming",
-        "Recreation"
+        "Boardgames"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/531",
-      "last_scraped_at": "2025-08-25 17:55:55.142351"
+      "last_scraped_at": "2025-08-27 15:10:36.873141"
     },
     {
       "name": "Polish Society of UW",
+      "slug": "polish-society-of-uw",
       "org_type": "wusa",
       "description": "The Polish Society of UW is a club that organizes events on campus to introduce and expose Polish culture to the University of Waterloo and surrounding areas.",
       "social_media": {
@@ -1801,10 +1878,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/286",
-      "last_scraped_at": "2025-08-25 17:55:54.851037"
+      "last_scraped_at": "2025-08-27 15:10:36.597756"
     },
     {
       "name": "Power to Change (Campus Crusade for Christ)",
+      "slug": "power-to-change-campus-crusade-for-christ",
       "org_type": "wusa",
       "description": "Power to Change is a Christian club who exists to serve the spiritual needs of students on campus. Anyone and everyone is welcome to our club--whether you are a Christian or not. We would love to hear your life story. The core of our ministry consists of engaging events, discussion groups, prayer meetings, bible studies, weekly meetings, conferences, and spring/summer mission’s trips.",
       "social_media": {
@@ -1825,10 +1903,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/149",
-      "last_scraped_at": "2025-08-25 17:55:54.677753"
+      "last_scraped_at": "2025-08-27 15:10:38.466635"
     },
     {
       "name": "Product Management Club",
+      "slug": "product-management-club",
       "org_type": "wusa",
       "description": "The vision of Product Management club is to foster product leadership and perspective among engineering-focused students regardless of the career path and help students break into product management.",
       "social_media": {
@@ -1852,16 +1931,17 @@
         ]
       },
       "tags": [
-        "Business",
-        "Leadership"
+        "Leadership",
+        "Business"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/262",
-      "last_scraped_at": "2025-08-25 17:55:54.694153"
+      "last_scraped_at": "2025-08-27 15:10:37.869599"
     },
     {
       "name": "Riichi Mahjong UW (RMUW)",
+      "slug": "riichi-mahjong-uw-rmuw",
       "org_type": "wusa",
       "description": "Our club aims to provide a space for players of all skill levels to come together and play mahjong, with a specific focus on Japanese Riichi mahjong. However, we welcome players of all backgrounds to learn more about mahjong in a casual setting, through regular in-person, and online meetings. Riichi Mahjong UW does not operate on a gambling-basis, but instead prioritizes enjoying mahjong in a welcoming environment. Beginners are welcome!",
       "social_media": {
@@ -1879,41 +1959,40 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/541",
-      "last_scraped_at": "2025-08-25 17:55:54.860750"
+      "last_scraped_at": "2025-08-27 15:10:37.344824"
     },
     {
       "name": "Romanian Student Association",
+      "slug": "romanian-student-association",
       "org_type": "wusa",
       "description": "Salut! The Romanian Student Association (RSA) at UW is dedicated to celebrating Romanian culture, building connections within the Romanian community and providing students with the opportunity to connect with others who share similar roots or interests in Romanian culture and customs. We host several social events throughout the year to celebrate important Romanian traditions like December 1st, Martisor in March and fun hangout socials such as movie nights and more. This is a great learning opportunity for every student looking to learn more about Romania and its people, regardless of their background. We look forward to inspiring and giving insight to students about our culture and traditions and welcome anyone to participate and become a member of the RSA. Join today!",
-      "social_media": {
-        "instagram": [
-          "https://www.instagram.com/UniversityofWaterlooRomanianStudentAssociation"
-        ]
-      },
+      "social_media": {},
       "tags": [
         "Cultural"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/554",
-      "last_scraped_at": "2025-08-25 17:55:55.083993"
+      "last_scraped_at": "2025-08-27 15:10:36.719210"
     },
     {
       "name": "Rubik's Cube Club (formerly twisty puzzles), UW",
+      "slug": "rubik-s-cube-club-formerly-twisty-puzzles-uw",
       "org_type": "wusa",
       "description": "This club's goal is to promote the awesomeness and furthered learning of all things associated with, and including, the Rubik's Cube (including the Rubik's Snake, Rubik's Magic, Rubik's 360, Rubik's Clock and the Megaminx, just to name a few).",
       "social_media": {},
       "tags": [
         "Recreation",
-        "Boardgames"
+        "Gaming"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/162",
-      "last_scraped_at": "2025-08-25 17:55:54.057990"
+      "last_scraped_at": "2025-08-27 15:10:36.674389"
     },
     {
       "name": "SMILE (Students for Mental health and Inner Life Enrichment)",
+      "slug": "smile-students-for-mental-health-and-inner-life-enrichment",
       "org_type": "wusa",
       "description": "The purpose of the SMILE Club is to foster mental health awareness, well-being, and community among UWaterloo students. We aim to provide easy and enjoyable access to mental health and psychoeducational resources.",
       "social_media": {},
@@ -1924,15 +2003,17 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/535",
-      "last_scraped_at": "2025-08-25 17:55:53.788637"
+      "last_scraped_at": "2025-08-27 15:10:36.561721"
     },
     {
       "name": "Serbian Student Association",
+      "slug": "serbian-student-association",
       "org_type": "wusa",
       "description": "The Serbian Student Association (SSA) allows Serbian students as well as other undergraduate students to come together and be open to the idea of networking, running potential fundraisers, and holding social gatherings where our culture can be shared and shown amongst other students. We look forward to inspiring and giving insight to students about our culture and traditions, and welcoming anyone to participate and become a member of the SSA.",
       "social_media": {
         "facebook": [
-          "https://www.facebook.com/groups/149628768878448/"
+          "https://www.facebook.com/groups/149628768878448/",
+          "https://www.facebook.com/University-of-Waterloo-Serbian-Student-Association"
         ],
         "twitter": [
           "https://twitter.com/uwserbianstudentassociation"
@@ -1945,10 +2026,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/237",
-      "last_scraped_at": "2025-08-25 17:55:55.712698"
+      "last_scraped_at": "2025-08-27 15:10:37.749385"
     },
     {
       "name": "Sikh Students Association (SSA)",
+      "slug": "sikh-students-association-ssa",
       "org_type": "wusa",
       "description": "The University of Waterloo Sikh Students Association (SSA) attempts to provide an environment on campus, and beyond, that helps to promote the Sikh religion by practicing its beliefs and traditions. The above is achieved through various discussion groups, weekly path sessions, kirtans, guest speakers, Q/A periods and a variety of religious/language classes provided by fellow students. As well, UW SSA attempts to participate in a wide range of multi-cultural activities both on campus, and within the Sikh community (such as trips to the Gurdwara, Vaisakhi, etc). In addition, our club organizes a number of intramural co-ed sports teams (Basketball and Volleyball, usually) and social functions (pool tournaments, bowling, etc.) and outings (dinners, horseback riding, skiing trips) that form the bulk of our time commitments. We hope to create a 'family' atmosphere by developing a hierarchy-less club that is devoted to providing an avenue for interaction amongst Sikh students at our University. UW SSA also provides educational help (study groups, old texts, exams, etc.) and holds one of the most successful on-campus events, 'Dastaar day', previously known as 'Turban Day' once a semester. This is an awareness day to teach the University community about the significance of the turban in Sikhism. We desire to produce conditions conducive to the further study, research and practice of Sikhism by our fellow Sikh students and all others interested in any aspect of the Sikh religion.",
       "social_media": {
@@ -1969,10 +2051,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/167",
-      "last_scraped_at": "2025-08-25 17:55:56.593932"
+      "last_scraped_at": "2025-08-27 15:10:37.922818"
     },
     {
       "name": "Smash, UW",
+      "slug": "smash-uw",
       "org_type": "wusa",
       "description": "We play super smash brother melee for the Nintendo GameCube.",
       "social_media": {
@@ -1987,10 +2070,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/170",
-      "last_scraped_at": "2025-08-25 17:55:54.654378"
+      "last_scraped_at": "2025-08-27 15:10:36.595629"
     },
     {
       "name": "Stocks Club",
+      "slug": "stocks-club",
       "org_type": "wusa",
       "description": "Join us every Monday for our Stocks Club weekly meetings, where we discuss stock market trends, investment strategies, and participate in hands-on activities to improve trading skills. These sessions are open to all levels, whether you're a beginner or a seasoned trader looking to deepen your knowledge.",
       "social_media": {
@@ -2008,12 +2092,13 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/468",
-      "last_scraped_at": "2025-08-25 17:55:54.911722"
+      "last_scraped_at": "2025-08-27 15:10:36.231641"
     },
     {
       "name": "TMA (Thaqalayn Muslim Association)",
+      "slug": "tma-thaqalayn-muslim-association",
       "org_type": "wusa",
-      "description": "The Thaqalayn Muslim Association was founded in early 2012. The club was formed by a group of Shia Ithna Asheri Muslim students in response to a lack of an official support network for the post-secondary Shia Muslim students in the Kitchener-Waterloo region. Although the headquarters of TMA Waterloo's activities is the University of Waterloo's main campus, the TMA aims to be accessible to all post-secondary students in the region. Thus, the TMA Waterloo’s purpose is to cater primarily, although not exclusively, to the needs of the Shia Ithna Asheri Muslim post-secondary students at the University of Waterloo, and the surrounding region, while simultaneously representing their collective voices and pursuing their ideals.",
+      "description": "The Thaqalayn Muslim Association was founded in early 2012. The club was formed by a group Shia Ithna Asheri Muslim students in response to a lack of an official support network for the post-secondary Shia Muslim students in the Kitchener-Waterloo region. Although the headquarters of TMA Waterloo's activities is the University of Waterloo's main campus, the TMA aims to be accessible to all post-secondary students in the region. Thus, the TMA Waterloo’s purpose is to cater primarily, although not exclusively, to the needs of the Shia Ithna Asheri Muslim post-secondary students at the University of Waterloo, and the surrounding region, while simultaneously representing their collective voices and pursuing their ideals.",
       "social_media": {
         "facebook": [
           "https://www.facebook.com/waterlootma"
@@ -2029,10 +2114,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/313",
-      "last_scraped_at": "2025-08-25 17:55:55.842023"
+      "last_scraped_at": "2025-08-27 15:10:37.367660"
     },
     {
       "name": "Tea and Culture Club",
+      "slug": "tea-and-culture-club",
       "org_type": "wusa",
       "description": "Just a place to drink tea, eat snacks, play games and have fun! Usually, we meet every week for 2 hours. Come on out and drink as much tea as you could possibly want. Fees are $4/session or $20/term. There will also be some special events with alternative pricing which you can find out through our Instagram or Discord listed below.",
       "social_media": {
@@ -2053,10 +2139,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/188",
-      "last_scraped_at": "2025-08-25 17:55:55.585337"
+      "last_scraped_at": "2025-08-27 15:10:36.503702"
     },
     {
       "name": "Teaching Students' Association",
+      "slug": "teaching-students-association",
       "org_type": "wusa",
       "description": "The Teaching Students' Association is an association to promote interaction amongst University of Waterloo Students interested in a career in teaching or teaching in general. The association allows students with such an interest to come together to network and socialize along with attending academic focused events to help motivate students with said interest in teaching.",
       "social_media": {},
@@ -2067,10 +2154,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/564",
-      "last_scraped_at": "2025-08-25 17:55:54.718707"
+      "last_scraped_at": "2025-08-27 15:10:36.080939"
     },
     {
       "name": "Tech+ UW",
+      "slug": "tech-uw",
       "org_type": "wusa",
       "description": "Tech+ UW's mission is to cultivate a more inclusive and diverse tech community at UWaterloo by making resources more accessible to the community and students in need. We connect UWaterloo students with experienced and passionate individuals from different domains in tech, and foster this community through events that bring everyone together.",
       "social_media": {
@@ -2097,10 +2185,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/449",
-      "last_scraped_at": "2025-08-25 17:55:55.967511"
+      "last_scraped_at": "2025-08-27 15:10:37.888075"
     },
     {
       "name": "The AcaBellas - A Cappella Affiliate",
+      "slug": "the-acabellas-a-cappella-affiliate",
       "org_type": "wusa",
       "description": "The AcaBellas are the University of Waterloo's premiere upper voice acapella group under the UW A Cappella Club (UWACC). We are out here serving the spiciest performances, with killer vocals and smooth choreography. In 2016, the Bellas competed for the first time at the International Championship of Collegiate A Cappella (ICCA) and placed 3rd in the Central Quarterfinals. You can check out our past performances and keep up with the Bellas through our Instagram.",
       "social_media": {
@@ -2121,10 +2210,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/243",
-      "last_scraped_at": "2025-08-25 17:55:55.688433"
+      "last_scraped_at": "2025-08-27 15:10:37.626547"
     },
     {
       "name": "The Circle K International Club of University of Waterloo”",
+      "slug": "the-circle-k-international-club-of-university-of-waterloo",
       "org_type": "wusa",
       "description": "The club will be a branch of an organization called Circle K International, which is a non-profit community service organization that offers different volunteering opportunities. Circle K International is a student-led collegiate service program. Volunteer placement will be decided by a general club consensus and will include a variety of different environments such as nursing homes, soup kitchens, charities, hospitals etc.",
       "social_media": {
@@ -2139,10 +2229,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/388",
-      "last_scraped_at": "2025-08-25 17:55:55.352693"
+      "last_scraped_at": "2025-08-27 15:10:36.752669"
     },
     {
       "name": "The Islamic Information Center of the University Waterloo (IICUW)",
+      "slug": "the-islamic-information-center-of-the-university-waterloo-iicuw",
       "org_type": "wusa",
       "description": "The purpose of the Islamic Information Center of the University of Waterloo (IICUW) is to promote awareness and understanding of Islam on campus and in the broader community. We are a sister club of the Muslim Student Association (MSA) and serve as a hub for knowledge and resources for new Muslims and those interested in learning about Islam. Our initiatives include weekly informational booths, major open events, and regular Dawah training workshops to help Muslims effectively share their faith. We also organize events for Islamic History Month, Islamic Awareness Week, Ramadan, Eid, World Hijab Day, and other significant occasions to engage with non-Muslims. Additionally, we support new Muslims/reverts through mentorship, targeted events, and revert packages. We regularly collaborate with the MSA and OSP to foster dialogue and dispel misconceptions about Islam. Our on-campus library provides books, pamphlets, and online resources covering a wide range of Islamic topics for Muslims at various levels of knowledge.",
       "social_media": {
@@ -2163,10 +2254,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/295",
-      "last_scraped_at": "2025-08-25 17:55:56.178082"
+      "last_scraped_at": "2025-08-27 15:10:37.992781"
     },
     {
       "name": "The Unaccompanied Minors - A Cappella Affiliate",
+      "slug": "the-unaccompanied-minors-a-cappella-affiliate",
       "org_type": "wusa",
       "description": "The Unaccompanied Minors are the University of Waterloo’s premier mixed, auditioned a cappella ensemble. The Minors consist of 16 to 26 musically talented students who have been singing, beatboxing, and rocking out to everything from top 40 hits to rock classics since 2009. Focusing on blend, musicality, and performance, the Minors have been spreading the aca-love wherever they go. From the Kitchener-Waterloo Area at campus events like TEDxUW, to the United States to compete at the International Championship of Collegiate A Cappella, the Minors have blown away audiences with their outstanding arrangements and enthusiasm. Interested in the group? Feel free to contact us!",
       "social_media": {},
@@ -2177,10 +2269,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/242",
-      "last_scraped_at": "2025-08-25 17:55:55.216631"
+      "last_scraped_at": "2025-08-27 15:10:37.298148"
     },
     {
       "name": "Turkish Students Association",
+      "slug": "turkish-students-association",
       "org_type": "wusa",
       "description": "The Turkish Students' Association of the University of Waterloo (TSA) aims to facilitate networking within the Turkish community, as well as those who speak Turkic languages. The club promotes Turkish culture among students in the Kitchener/Waterloo community by organizing cultural, educational, and/or entertaining events. We gather for social occasions not only to have fun, but also to share our passions, talents, and similarities while embracing the Turkish culture. The TSA welcomes all the different cultures and ethnicities who are interested in learning about and/or mixing within the Turkish culture!",
       "social_media": {},
@@ -2191,10 +2284,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/348",
-      "last_scraped_at": "2025-08-25 17:55:55.206543"
+      "last_scraped_at": "2025-08-27 15:10:36.636277"
     },
     {
       "name": "UW Board Games Club",
+      "slug": "uw-board-games-club",
       "org_type": "wusa",
       "description": "Welcome to the UW Board Games Club! We're a club that provides a relaxing, awesome, and friendly environment to learn and play new board games, while also meeting some cool new people.",
       "social_media": {
@@ -2215,10 +2309,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/464",
-      "last_scraped_at": "2025-08-25 17:55:55.431381"
+      "last_scraped_at": "2025-08-27 15:10:37.298576"
     },
     {
       "name": "UW Book Club",
+      "slug": "uw-book-club",
       "org_type": "wusa",
       "description": "A social club for people to gather and discuss various literary works of the written format, both fiction and non-fiction. And can include a variety of topics that include (but is not limited to): Science, science fiction, fantasy, suspense/thriller, romance, self-help, business/technology, etc.",
       "social_media": {
@@ -2230,15 +2325,17 @@
         ]
       },
       "tags": [
-        "Arts"
+        "Arts",
+        "Recreation"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/374",
-      "last_scraped_at": "2025-08-25 17:55:55.160750"
+      "last_scraped_at": "2025-08-27 15:10:36.901663"
     },
     {
       "name": "UW Builders Club",
+      "slug": "uw-builders-club",
       "org_type": "wusa",
       "description": "UW Builders Club invites all model kits enthusiasts – beginners and veterans alike - to share in the hobby of plastic model kit building, painting, and customization. This includes (but not limited to) mecha/Gundam or vehicle (e.g. cars, planes) model kits. Our goal is to build a community that can host build together sessions, tutorials, and workshops for members, and provide equipment and toolkits on loan or for purchase to serve the student community. Meetings occur weekly and everyone is welcome!",
       "social_media": {},
@@ -2249,34 +2346,36 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/569",
-      "last_scraped_at": "2025-08-25 17:55:52.965938"
+      "last_scraped_at": "2025-08-27 15:10:35.598844"
     },
     {
       "name": "UW Canadian Association for Global Health (UW CAGH)",
+      "slug": "uw-canadian-association-for-global-health-uw-cagh",
       "org_type": "wusa",
-      "description": "We are the University of Waterloo Student Chapter of the Canadian Association for Global Health (UW CAGH). We represent a student-led initiative designed to foster research and networking in global health among University of Waterloo students across all disciplines. Our goal is to engage with students interested in global health research or who may be considering a career in the field of global health, to open opportunities for professional development. UW CAGH runs termly general member meetings and multiple events over each term to engage members and students in global health topics. We also have a mentorship program that pairs members with graduate students and professionals for development and networking experience. We invite students from all faculties at UW to follow us on Instagram and to join our general member email list for all event, experience, and executive opportunities.",
+      "description": "We are the University of Waterloo Student Chapter of the Canadian Association for Global Health (UW CAGH). We represent a student-led initiative designed to foster research and networking in global health among University of Waterloo students across all disciplines. Our goal is to engage with students interested in global health research or who may be considering a career in the field of global health, to open opportunities for professional development. UW CAGH runs termly general member meetings and multiple events over each term to engage members and students in global health topics. We also have a mentorship program that pairs members with graduate students and professionals for development and networking experience. We invite students from all faculties at UW to join our general member email list for all event, experience, and executive opportunities: https://forms.gle/L3NNacJgPFVRz2Vt8",
       "social_media": {
         "instagram": [
           "https://www.instagram.com/cagh_uw/"
         ],
-        "email": [
-          "uwcagh@gmail.com"
-        ],
         "website": [
           "https://forms.gle/L3NNacJgPFVRz2Vt8"
+        ],
+        "email": [
+          "uwcagh@gmail.com"
         ]
       },
       "tags": [
-        "Advocacy",
-        "Leadership"
+        "Academic",
+        "Advocacy"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/258",
-      "last_scraped_at": "2025-08-25 17:55:55.362082"
+      "last_scraped_at": "2025-08-27 15:10:37.280640"
     },
     {
       "name": "UW Charity Knitting Circle",
+      "slug": "uw-charity-knitting-circle",
       "org_type": "wusa",
       "description": "The UW Charity Knitting Circle is a club where students can knit, crochet, or do other fibre arts together in a relaxing, social environment. The club also has the goal of creating blankets together as members to donate to charity. Knitters and crocheters at any level of experience, including those who have never knit or crochet before, are welcome to join and either learn a new craft or develop their existing skills. Yarn and tools are provided.",
       "social_media": {
@@ -2297,10 +2396,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/247",
-      "last_scraped_at": "2025-08-25 17:55:55.766337"
+      "last_scraped_at": "2025-08-27 15:10:37.785919"
     },
     {
       "name": "UW Chinese Instrumental Orchestra",
+      "slug": "uw-chinese-instrumental-orchestra",
       "org_type": "wusa",
       "description": "The UW Chinese Instrumental Orchestra Club welcomes everyone who’s passionate about traditional Chinese music and wish to play classical Chinese instruments as part of the orchestra. The goal of playing and promoting Chinese music is expected to be achieved through bi-weekly rehearsals, bi-weekly sectional tutoring, and performances. Players at all levels are welcomed to join!",
       "social_media": {
@@ -2315,10 +2415,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/373",
-      "last_scraped_at": "2025-08-25 17:55:55.211959"
+      "last_scraped_at": "2025-08-27 15:10:37.333231"
     },
     {
       "name": "UW Cuban Salsa Club",
+      "slug": "uw-cuban-salsa-club",
       "org_type": "wusa",
       "description": "UW Cuban Salsa club works closely with Laurier Salsa club and dedicates to spread the joy that Casino Rueda (Cuban Salsa) brings to all of us! Check out our Youtube videos showcasing our performances and our Twitter feed for more information!",
       "social_media": {
@@ -2342,10 +2443,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/283",
-      "last_scraped_at": "2025-08-25 17:55:55.651328"
+      "last_scraped_at": "2025-08-27 15:10:37.494813"
     },
     {
       "name": "UW Dhamaka",
+      "slug": "uw-dhamaka",
       "org_type": "wusa",
       "description": "UW Dhamaka is a club to bring together the community of Indian dancers and fuse Bollywood music and dance culture into the UW student body. The club aims to infuse the different cultural dance forms in Bollywood, such as bhangra, kathak, bolly-hop, and more.",
       "social_media": {
@@ -2366,10 +2468,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/488",
-      "last_scraped_at": "2025-08-25 17:55:55.807170"
+      "last_scraped_at": "2025-08-27 15:10:37.590997"
     },
     {
       "name": "UW Diabetes Association (UWDA)",
+      "slug": "uw-diabetes-association-uwda",
       "org_type": "wusa",
       "description": "The UW Diabetes Association (UWDA) aims to raise awareness of diabetes and provide support for students living with diabetes. We aim to provide a network of support for students on campus because we acknowledge the challenges of managing diabetes while transitioning to university. Students living with diabetes can get the chance to meet other students and share common experiences or learn helpful management tips. All students are welcome for the opportunity to learn more about diabetes or raise awareness regarding mental health, staying active, and healthy eating.",
       "social_media": {},
@@ -2380,15 +2483,16 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/497",
-      "last_scraped_at": "2025-08-25 17:55:55.379747"
+      "last_scraped_at": "2025-08-27 15:10:37.269490"
     },
     {
       "name": "UW EmpowerCycle",
+      "slug": "uw-empowercycle",
       "org_type": "wusa",
       "description": "Menstruation is often stigmatized across diverse cultures and communities and is associated with negative connotations. UW Empower Cycle is an organization that is committed to uplifting and empowering marginalized women in period poverty, which is a crucial public health concern. Period poverty refers to the inability of women to access menstrual products due to financial constraints. It is estimated that Canadian women spend up to $6,000 in their lifetime on menstrual hygiene products. At UW Empower Cycle, we believe that menstrual products should not be a luxury but a necessity. Periods are often used interchangeably with menstruation. Hence, the founders of UW Empower Cycle brought in this word to represent our club, as it combats the stigma and negative connotations that are often associated with menstruation.",
       "social_media": {
         "instagram": [
-          "https://www.instagram.com/uwempowercycle"
+          "https://www.instagram.com/uwempowercycle?igsh=MTU5Zm5sMG9oazJybw%3D%3D"
         ]
       },
       "tags": [
@@ -2398,10 +2502,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/473",
-      "last_scraped_at": "2025-08-25 17:55:55.771465"
+      "last_scraped_at": "2025-08-27 15:10:38.039802"
     },
     {
       "name": "UW Kpop Club",
+      "slug": "uw-kpop-club",
       "org_type": "wusa",
       "description": "UW Kpop Club was created to bring kpop fans together and share our common interest in Korean popular culture. It will be a safe place to discuss and share kpop related topics. Members will be able to participate in events to express their interest in kpop and meet fellow kpop fans at the University of Waterloo.",
       "social_media": {},
@@ -2412,10 +2517,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/461",
-      "last_scraped_at": "2025-08-25 17:55:55.036926"
+      "last_scraped_at": "2025-08-27 15:10:37.044432"
     },
     {
       "name": "UW Management Consulting Club",
+      "slug": "uw-management-consulting-club",
       "org_type": "wusa",
       "description": "The UW Management Consulting Club seeks to attract students and help them acquire the basic skills needed to succeed in pursuing opportunities in the consulting industry. Our club holds events that not only facilitate the networking process between UW students and recruiters at top consulting firms, but also prepare students to be successful in their interviews.",
       "social_media": {
@@ -2428,15 +2534,16 @@
       },
       "tags": [
         "Consulting",
-        "Business"
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/346",
-      "last_scraped_at": "2025-08-25 17:55:55.800323"
+      "last_scraped_at": "2025-08-27 15:10:37.579481"
     },
     {
       "name": "UW Mehfil",
+      "slug": "uw-mehfil",
       "org_type": "wusa",
       "description": "UW Mehfil is a dynamic platform where talents collide and melodies take centre stage. Whether you're an experienced classical musician or someone who revels in the beats of Bollywood, UW Mehfil invites you to share your unique talent. From classical renditions to impromptu Bollywood jam sessions, the club is a canvas for musical expression, providing a space for everyone to get lost in the world of Indian music.",
       "social_media": {},
@@ -2447,10 +2554,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/557",
-      "last_scraped_at": "2025-08-25 17:55:55.333277"
+      "last_scraped_at": "2025-08-27 15:10:37.388475"
     },
     {
       "name": "UW Operation Smile",
+      "slug": "uw-operation-smile",
       "org_type": "wusa",
       "description": "UW Operation Smile is a club affiliated with Operation Smile Canada, an organization that aims to raise awareness and provide medical assistance and surgeries to countries around the world for cleft lip and cleft palate. UW Operation Smile works to raise awareness of these conditions in the Kitchener-Waterloo region, and hosts a variety of fundraising events to help raise donations toward this cause.",
       "social_media": {
@@ -2468,10 +2576,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/444",
-      "last_scraped_at": "2025-08-25 17:55:55.673306"
+      "last_scraped_at": "2025-08-27 15:10:37.584401"
     },
     {
       "name": "UW Persian Student Association",
+      "slug": "uw-persian-student-association",
       "org_type": "wusa",
       "description": "The UW Persian Student Association is a cultural community dedicated to reconnecting with Persian heritage and sharing it with others. Whether you grew up in Canada and feel distanced from your roots, or you're simply curious and eager to explore the richness of Persian culture, this club is for you. The club hosts beginner-friendly sessions on speaking, reading, and writing in Persian (Farsi), perfect for anyone looking to improve or begin their language journey. Beyond language, we celebrate the diverse and vibrant aspects of Persian culture through events like Persian movie nights, artist and singer showcases, and traditional cultural games that offer a deeper understanding of our shared history and traditions. Furthermore, the club also hosts social gatherings, where students can connect over a cup of chai (tea), as well as Persian speaker nights and club trips + study sessions! Join us to connect, learn, and celebrate Persian identity in a welcoming and inclusive space. No background knowledge is required — just curiosity, interest for cultural expansion, and an open mind!",
       "social_media": {},
@@ -2481,10 +2590,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/579",
-      "last_scraped_at": "2025-08-25 17:55:56.194889"
+      "last_scraped_at": "2025-08-27 15:10:37.853433"
     },
     {
       "name": "UW Poker Studies Club",
+      "slug": "uw-poker-studies-club",
       "org_type": "wusa",
       "description": "The UW Poker Studies Club (UWPSC) offers a fun social environment to play and learn about No Limit Texas Hold'em. Tournaments are held twice a week, providing an opportunity for new players to try out the game, as well as a competitive experience for those interested in sharpening their skills. Prizes are awarded to top performing players each event, and those who do consistently well throughout the term may receive an invite to the end-of-term tournament, where larger prizes are available. For more information, head to uwpokerclub.com or check out our socials! (Our tournaments have no mandatory buy-in or wagers. The club operates entirely on a non-gambling basis.)",
       "social_media": {
@@ -2506,29 +2616,31 @@
       },
       "tags": [
         "Recreation",
-        "Gaming"
+        "Boardgames"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/340",
-      "last_scraped_at": "2025-08-25 17:55:56.317273"
+      "last_scraped_at": "2025-08-27 15:10:38.519933"
     },
     {
       "name": "UW Pre-Med Club",
+      "slug": "uw-pre-med-club",
       "org_type": "wusa",
       "description": "UW Pre-Med Club is an event-based club under the Federation of Students. We are a student-run organization that provides assistance and networking opportunities for those interested in medicine and medicine-related careers. The club holds various events that provide information on topics such as the medical school application process, the MCAT and its associated preparatory courses as well as ways to get involved around your school and community. The club is open to students of all faculties at the University of Waterloo.",
       "social_media": {},
       "tags": [
         "Academic",
-        "Science"
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/317",
-      "last_scraped_at": "2025-08-25 17:55:55.335708"
+      "last_scraped_at": "2025-08-27 15:10:37.462517"
     },
     {
       "name": "UW Quizbowl",
+      "slug": "uw-quizbowl",
       "org_type": "wusa",
       "description": "UW Quizbowl is a club where all lovers of trivia meet! There are casual meetings where students can play against their fellow students as well as inter-university competitions. A wide range of topics are covered in the questions read, including academic subjects (such as science, history, music, etc.) and pop-culture. If you like trivia, feel free to drop by! Check out our social media for more information!",
       "social_media": {
@@ -2552,10 +2664,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/368",
-      "last_scraped_at": "2025-08-25 17:55:56.219724"
+      "last_scraped_at": "2025-08-27 15:10:38.047938"
     },
     {
       "name": "UW Scrabble",
+      "slug": "uw-scrabble",
       "org_type": "wusa",
       "description": "The UW Scrabble Club is a club where Scrabble enthusiasts, casual players, and people who are interested in trying a new game can come together and play Scrabble.",
       "social_media": {
@@ -2573,10 +2686,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/566",
-      "last_scraped_at": "2025-08-25 17:55:55.630392"
+      "last_scraped_at": "2025-08-27 15:10:37.288405"
     },
     {
       "name": "UW Sew-Ciety",
+      "slug": "uw-sew-ciety",
       "org_type": "wusa",
       "description": "Love fashion but hate fast fashion? Interested in sewing, fixing, or upcycling your clothes? UW Sew-Ciety is all about bringing students together to sew new things and save their favourite pieces from ending up in the landfill. Whether you’re a total beginner or a sewing pro, we’re here to support you. Come see us at our on-campus location in St. Jerome's: SJ1-1013B. We host walk-in hours, clothing repairs, thrift flip workshops, and beginner-friendly sewing lessons. We prioritize creating a warm, welcoming space for you to learn and meet creative people who care about sustainability and making their wardrobe last. Whether you’re mending a button or creating something from scratch, we want to support your journey, help you grow your skills, and make sewing feel safe and accessible. We also understand sewing can be expensive, and not having the right equipment can make projects turn out poorly. That’s why we created this space, so you can use quality equipment without the pressure or financial burden, and feel encouraged and supported by fellow members and execs who genuinely care. Sustainable fashion shouldn’t cost a fortune, and you should never have to choose between dressing in a way that feels like you and making ethical choices. At Sew-Ciety, we believe in stitching those two values together, and creating something beautiful along the way :)",
       "social_media": {
@@ -2597,10 +2711,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/580",
-      "last_scraped_at": "2025-08-25 17:55:56.822438"
+      "last_scraped_at": "2025-08-27 15:10:39.122893"
     },
     {
       "name": "UW Stem Cell Club (Formerly UW One Match)",
+      "slug": "uw-stem-cell-club-formerly-uw-one-match",
       "org_type": "wusa",
       "description": "UW Stem Cell Club is a club focused on raising awareness about bone marrow stem cells, while working on increasing the number of registered stem cell donors in our nation, starting with the University of Waterloo.",
       "social_media": {
@@ -2615,10 +2730,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/139",
-      "last_scraped_at": "2025-08-25 17:55:55.510187"
+      "last_scraped_at": "2025-08-27 15:10:37.176814"
     },
     {
       "name": "UW Street Dance",
+      "slug": "uw-street-dance",
       "org_type": "wusa",
       "description": "We are a community of dancers who are passionate about the heart of dance and hip hop culture. Whether you are interested in fundamentals, popping, hip-hop, locking or breaking, come jam with us and enhance your skills and diversity. We focus a lot on freestyle dance and play a variety of beats during our sessions, allowing anyone to express themselves freely, while still be able to ask questions or gain greater insight on a certain groove or dance move. Our sessions will mainly focus on popping which is the technique of quickly contracting and relaxing muscles to create an intricate body movement. Popping also involves influences of hip hop, which will be practiced with grooves and rhythm. You do not need a background in dance to come, we are happy to session with you and teach you the skills that we have learned. Our club will differ from other HIP HOP clubs on campus through mainly focusing on freestyle dance sessions and not as heavily choreography based. If you want to expand your dance knowledge and be more free, come dance with us.",
       "social_media": {
@@ -2633,18 +2749,19 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/345",
-      "last_scraped_at": "2025-08-25 17:55:56.264652"
+      "last_scraped_at": "2025-08-27 15:10:38.417633"
     },
     {
       "name": "UW Supporting SickKids",
+      "slug": "uw-supporting-sickkids",
       "org_type": "wusa",
-      "description": "UW Supporting SickKids is dedicated to creating a practical impact within the Waterloo community and beyond all in hopes to aid the Hospital for Sick Children (SickKids) through a variety of different means. These means will go beyond financial support as the club will also contribute by sending gifts and letters to bring smiles on children's faces and supporting staff, parents, and patients along their journeys. The club will aim to work with members of all faculties to seek support and spread awareness. If you're interested and looking to get involved with local volunteering and fundraising, join our team!",
+      "description": "UW Supporting SickKids is dedicated to creating a practical impact within the Waterloo community and beyond all in hopes to aid the Hospital for Sick Children (SickKids) through a variety of different means. These means will go beyond financial support as the club will also contribute by sending gifts and letters to bring smiles on children's faces and supporting staff, parents, and patients along their journeys. The club will aim to work with members of all faculties to seek support and spread awareness. If you're interested and looking to get involved with local volunteering and fundraising, contact us today and join our team!",
       "social_media": {
-        "instagram": [
-          "https://www.instagram.com/UWSupportingSickKids"
-        ],
         "facebook": [
           "https://www.facebook.com/uwsupportingsickkids"
+        ],
+        "instagram": [
+          "https://www.instagram.com/UWSupportingSickKids"
         ],
         "twitter": [
           "https://twitter.com/UWSickKids"
@@ -2660,10 +2777,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/443",
-      "last_scraped_at": "2025-08-25 17:55:56.445309"
+      "last_scraped_at": "2025-08-27 15:10:38.529468"
     },
     {
       "name": "UW Tetris Club",
+      "slug": "uw-tetris-club",
       "org_type": "wusa",
       "description": "The goal of UW Tetris Club is to bring students together by enjoying the classic game of Tetris. Tetris is a fun, simple to learn game that can help students meet new friends and de-stress. Casual and/or competitive matches will be held weekly via Discord for students to bond over the exciting game of Tetris.",
       "social_media": {
@@ -2678,10 +2796,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/453",
-      "last_scraped_at": "2025-08-25 17:55:55.589406"
+      "last_scraped_at": "2025-08-27 15:10:37.301579"
     },
     {
       "name": "UW/UX",
+      "slug": "uw-ux",
       "org_type": "wusa",
       "description": "UW/UX is a student organization dedicated to fostering a friendly and inclusive design culture at Waterloo through our 3 pillars: Community, Discovery and Empowerment. We welcome designers of all backgrounds—UX, product, graphic, and beyond, to create a space that celebrates learning and creativity. Our three pillars: - Community: fostering a community that values inclusion and welcomes designers of all backgrounds - Discovery: building a space that encourages learning and growth, exploring new ideas in the world of design - Empowerment: empowering designers to make meaningful contributions to the world through creativity, collaboration, and thoughtful design.",
       "social_media": {},
@@ -2692,10 +2811,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/574",
-      "last_scraped_at": "2025-08-25 17:55:55.713177"
+      "last_scraped_at": "2025-08-27 15:10:37.954292"
     },
     {
       "name": "UWBobaTime",
+      "slug": "uwbobatime",
       "org_type": "wusa",
       "description": "The UW BoBaTime club aims to create an inclusive and safe space for all bubble tea drinkers! Join us to meet fellow bubble tea enthusiasts, and spend time relaxing while having a cup of boba on the side.",
       "social_media": {
@@ -2713,10 +2833,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/476",
-      "last_scraped_at": "2025-08-25 17:55:55.457226"
+      "last_scraped_at": "2025-08-27 15:10:37.854807"
     },
     {
       "name": "UWTSS - UW Taiwanese Student Society",
+      "slug": "uwtss-uw-taiwanese-student-society",
       "org_type": "wusa",
       "description": "UWTSS’ goal is to connect and share to everyone who is interested in learning more about our culture. Explore various topics such as Taiwanese food, pop culture, street market, and bubble tea!",
       "social_media": {
@@ -2736,10 +2857,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/406",
-      "last_scraped_at": "2025-08-25 17:55:55.996355"
+      "last_scraped_at": "2025-08-27 15:10:38.121075"
     },
     {
       "name": "UWU FC - University of Waterloo Undergraduate Furry Club",
+      "slug": "uwu-fc-university-of-waterloo-undergraduate-furry-club",
       "org_type": "wusa",
       "description": "The University of Waterloo Undergraduate Furry Club (UWU FC) aims to create a welcoming and inclusive space for students interested in the furry fandom. We bring together members of the UW community to explore various aspects of the fandom, including films, fursuiting, art, games, and more. The club encourages open-minded discussion, creative expression, and fostering connections between fandom members and anyone interested in the “fuzzy” appeal. Through regular interactive events, creative activities, and social gatherings, we aim to foster a vibrant and supportive community on campus.",
       "social_media": {
@@ -2757,10 +2879,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/576",
-      "last_scraped_at": "2025-08-25 17:55:56.008742"
+      "last_scraped_at": "2025-08-27 15:10:37.970406"
     },
     {
       "name": "UWVSA (University of Waterloo Vietnamese Student Association)",
+      "slug": "uwvsa-university-of-waterloo-vietnamese-student-association",
       "org_type": "wusa",
       "description": "To the University of Waterloo, we are your connection to Vietnamese culture, Vietnamese traditions, and the Vietnamese community. UW VSA strengthens the campus community through organizing social events, cultural events, and collaborations.",
       "social_media": {
@@ -2773,11 +2896,11 @@
         "twitter": [
           "https://twitter.com/uwvsa"
         ],
-        "discord": [
-          "https://discord.gg/w2uFPJguPF"
-        ],
         "youtube": [
           "https://www.youtube.com/user/uwvsa"
+        ],
+        "discord": [
+          "https://discord.gg/w2uFPJguPF"
         ],
         "email": [
           "uwvsa.team@gmail.com"
@@ -2790,10 +2913,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/251",
-      "last_scraped_at": "2025-08-25 17:55:56.689368"
+      "last_scraped_at": "2025-08-27 15:10:38.365903"
     },
     {
       "name": "UWaterloo Chai and Verse",
+      "slug": "uwaterloo-chai-and-verse",
       "org_type": "wusa",
       "description": "Chai and Verse strives to curate an inviting and intimate space for exploring and discussing poetry, folk tales, and other forms of literature and art, with a focus on South Asia. Everyone is welcome. We hope to be honoured by your presence.",
       "social_media": {
@@ -2811,10 +2935,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/512",
-      "last_scraped_at": "2025-08-25 17:55:55.860553"
+      "last_scraped_at": "2025-08-27 15:10:37.680424"
     },
     {
       "name": "UWaterloo Meditates",
+      "slug": "uwaterloo-meditates",
       "org_type": "wusa",
       "description": "UWaterloo Meditates is a meditation and breathwork club that brings stress management tools and techniques for personal and professional success through the scientific use of evidence-based breathing and meditation techniques, personal awareness seminars and community service projects. It's one of the coolest places to connect with yourself, make awesome friends, and, most importantly, have fun and be a part of an inclusive community!",
       "social_media": {},
@@ -2825,10 +2950,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/561",
-      "last_scraped_at": "2025-08-25 17:55:55.464581"
+      "last_scraped_at": "2025-08-27 15:10:37.901474"
     },
     {
       "name": "Unicef, UW",
+      "slug": "unicef-uw",
       "org_type": "wusa",
       "description": "UW UNICEF aims to support and bring awareness to UNICEF Canada’s initiatives around the world, as well as unite students to work together to educate, raise funds and bring forth everlasting change. UW UNICEF is part of the UNICEF on-campus initiative to help make a difference in our local community.",
       "social_media": {
@@ -2846,10 +2972,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/196",
-      "last_scraped_at": "2025-08-25 17:55:55.958233"
+      "last_scraped_at": "2025-08-27 15:10:38.097134"
     },
     {
       "name": "University of Waterloo Airsoft and Precision Sports Club (UWAPC)",
+      "slug": "university-of-waterloo-airsoft-and-precision-sports-club-uwapc",
       "org_type": "wusa",
       "description": "The Airsoft and Precision Sports Club aims to bring together people in the hobby (and to play airsoft)! Formed by a group of airsoft enthusiasts, we welcome beginners and experienced members alike, and to anyone who is interested in playing airsoft. We organize game days every month to play airsoft together at various fields, both indoor and outdoors. Check out our discord or instagram for more information!",
       "social_media": {
@@ -2867,10 +2994,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/567",
-      "last_scraped_at": "2025-08-25 17:55:55.995014"
+      "last_scraped_at": "2025-08-27 15:10:37.916320"
     },
     {
       "name": "University of Waterloo Bhangra",
+      "slug": "university-of-waterloo-bhangra",
       "org_type": "wusa",
       "description": "UWaterloo Bhangra is a club that aims to spread the love of the Bhangra dance form throughout the university in various different ways such as flash-mobs, regular recreational dance sessions, workshops and etc. UWaterloo Bhangra shall also aim to give students at Waterloo a chance to dance Bhangra at a competitive level, while representing the university amongst various other varsity-level Bhangra teams.",
       "social_media": {},
@@ -2881,15 +3009,16 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/465",
-      "last_scraped_at": "2025-08-25 17:55:55.671597"
+      "last_scraped_at": "2025-08-27 15:10:37.567584"
     },
     {
       "name": "University of Waterloo Canadian Association on Gerontology Student Connection (UWCAG)",
+      "slug": "university-of-waterloo-canadian-association-on-gerontology-student-connection-uwcag",
       "org_type": "wusa",
       "description": "The University of Waterloo Canadian Association on Gerontology Student Connection (UW CAG) is a club whose purpose is to promote interest in aging research. Our goal is to provide opportunities for undergraduate students to explore current aging research, learn more about careers in the field of gerontology, and engage in professional development.",
       "social_media": {
         "instagram": [
-          "https://www.instagram.com/uwcag"
+          "https://instagram.com/uwcag"
         ],
         "email": [
           "uwcag@clubs.wusa.ca"
@@ -2902,10 +3031,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/446",
-      "last_scraped_at": "2025-08-25 17:55:55.830090"
+      "last_scraped_at": "2025-08-27 15:10:37.785674"
     },
     {
       "name": "University of Waterloo Cantonese Chinese Christian Fellowship",
+      "slug": "university-of-waterloo-cantonese-chinese-christian-fellowship",
       "org_type": "wusa",
       "description": "UW Cantonese Chinese Christian Fellowship (UWcCCF) is a Christian group on campus with a focus in Cantonese and English speaking students. We aim to build a community of Christian believers on campus, equip members with biblical knowledge, and evangelize others at the University of Waterloo. UWcCCF consists of mostly Christians rooted in Cantonese culture or from a Hong Kong background, however, anyone is welcome to learn more about God, connect with brothers and sisters, and share their love to people around them. We run various interactive activities during our weekly meetings, such as Bible studies, worship, prayer nights, games and outreach services. Please browse our Facebook page to know more about us! We look forward to seeing you!",
       "social_media": {
@@ -2923,10 +3053,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/232",
-      "last_scraped_at": "2025-08-25 17:55:56.360640"
+      "last_scraped_at": "2025-08-27 15:10:38.282934"
     },
     {
       "name": "University of Waterloo Entomology Club",
+      "slug": "university-of-waterloo-entomology-club",
       "org_type": "wusa",
       "description": "The University of Waterloo Entomology Club is a club for those passionate about insects or interested in a bugs world! We work to deliver educational resources to appreciate the importance of insects to people, the environment, and other organisms. Our goal is to inspire those around us to connect with and respect the insect world!",
       "social_media": {
@@ -2939,15 +3070,16 @@
       },
       "tags": [
         "Science",
-        "Education"
+        "Outdoors"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/526",
-      "last_scraped_at": "2025-08-25 17:55:55.912229"
+      "last_scraped_at": "2025-08-27 15:10:37.955986"
     },
     {
       "name": "University of Waterloo Filipino Students' Association",
+      "slug": "university-of-waterloo-filipino-students-association",
       "org_type": "wusa",
       "description": "The University of Waterloo Filipino Students' Association is a club driven to help educate Filipinos and Filipinos-at-heart about the Filipino culture. Not only to gather for social occasions, but to create a tight-knit community sharing our many talents and resources. Get in touch with us!",
       "social_media": {
@@ -2967,10 +3099,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/80",
-      "last_scraped_at": "2025-08-25 17:55:56.244132"
+      "last_scraped_at": "2025-08-27 15:10:38.234060"
     },
     {
       "name": "University of Waterloo Japanese Students Association (UW JSA)",
+      "slug": "university-of-waterloo-japanese-students-association-uw-jsa",
       "org_type": "wusa",
       "description": "The University of Waterloo Japanese Student Association (JSA) is a club aimed to foster a community connecting students of Japanese background, bringing a deeper sense of home and family to our members. Our club provides a space to meet others with shared experiences, build lasting friendships, and support one another throughout university life. In addition to fostering this close-knit community, we also celebrate and share the rich Japanese culture through various events and activities. From traditional holiday gatherings and cultural workshops to casual social meetups, we strive to bring people together while introducing aspects of Japanese heritage to the broader campus. Join us to connect, create meaningful friendships, and be part of a supportive and vibrant community!",
       "social_media": {
@@ -2991,10 +3124,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/260",
-      "last_scraped_at": "2025-08-25 17:55:57.048318"
+      "last_scraped_at": "2025-08-27 15:10:38.784461"
     },
     {
       "name": "University of Waterloo Korean Students’ Association",
+      "slug": "university-of-waterloo-korean-students-association",
       "org_type": "wusa",
       "description": "University of Waterloo Korean Students’ Association (UWKSA) is a cultural organization that aims to connect the Korean community through our social and academic events. We also promote Korean culture to help create a more inclusive environment.",
       "social_media": {},
@@ -3004,10 +3138,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/513",
-      "last_scraped_at": "2025-08-25 17:55:55.536152"
+      "last_scraped_at": "2025-08-27 15:10:37.360322"
     },
     {
       "name": "University of Waterloo Moot Court",
+      "slug": "university-of-waterloo-moot-court",
       "org_type": "wusa",
       "description": "The University of Waterloo Moot Court is a club for students interested in building their verbal advocacy skills, knowledge of critical legal issues, and presentation abilities in a courtroom scenario. Members will have access to information sessions on the mooting process, networking opportunities with real legal professionals, and resources that will encourage them to succeed in moot competitions in their undergraduate careers and beyond.",
       "social_media": {
@@ -3025,10 +3160,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/392",
-      "last_scraped_at": "2025-08-25 17:55:56.085341"
+      "last_scraped_at": "2025-08-27 15:10:37.969443"
     },
     {
       "name": "University of Waterloo New Democratic Party",
+      "slug": "university-of-waterloo-new-democratic-party",
       "org_type": "wusa",
       "description": "The New Democratic Party Club of UWaterloo is aimed at creating a welcoming and inclusive space for progressive students to learn about and participate in Canadian politics, at all levels. We will strive to lessen the barrier of entry, which prevents so many Canadians from getting involved in politics. We will do this by bringing together students who have already begun their political journeys and those who want to get started on their own, as well as politicians and activists who have established a political space for themselves, to work together for their common goals.",
       "social_media": {
@@ -3049,10 +3185,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/522",
-      "last_scraped_at": "2025-08-25 17:55:56.652377"
+      "last_scraped_at": "2025-08-27 15:10:38.360860"
     },
     {
       "name": "University of Waterloo Rhythm Gaming Club",
+      "slug": "university-of-waterloo-rhythm-gaming-club",
       "org_type": "wusa",
       "description": "Our club connects rhythm game enthusiasts of all skill levels to discuss, play, and compete with each other. Everyone is welcome, regardless of prior experience or device you play rhythm games on (arcade, mobile, PC, etc.). We host events both online and in-person, with tournaments, social gatherings, controller showcases and more. Our community is vibrant and welcoming, and we're happy if you would like to join us!",
       "social_media": {},
@@ -3063,10 +3200,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/583",
-      "last_scraped_at": "2025-08-25 17:55:55.845423"
+      "last_scraped_at": "2025-08-27 15:10:37.576055"
     },
     {
       "name": "University of Waterloo Skateboarding Club",
+      "slug": "university-of-waterloo-skateboarding-club",
       "org_type": "wusa",
       "description": "Our club gathers UWaterloo students, staff, faculty, and the skateboarding community to build a vibrant skateboarding scene. We teach skateboarding/rollerblading/scootering etc basics and advanced tricks/skills, while fostering an inclusive environment. Equipment is provided. We offer Learn to Skate sessions, Tech Deck park building, skateboard assembly workshops, and experimental events exploring related sports like wakeboarding. Join us to learn new skills and become part of our dynamic skate community!",
       "social_media": {},
@@ -3077,24 +3215,26 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/577",
-      "last_scraped_at": "2025-08-25 17:55:55.796886"
+      "last_scraped_at": "2025-08-27 15:10:38.092941"
     },
     {
       "name": "University of Waterloo Zoology Club",
+      "slug": "university-of-waterloo-zoology-club",
       "org_type": "wusa",
       "description": "The zoology club is a community of animal-loving UW students. Through online engagement, educational campaigns, and group events, we are building a community of students that are passionate about everything animal related. We are eager to discuss and educate our UW peers on animal-related topics such as animal endangerment, local animals within our community, obscure animals you might not know about, and plenty more!",
       "social_media": {},
       "tags": [
-        "Science",
-        "Advocacy"
+        "Academic",
+        "Sustainability"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/499",
-      "last_scraped_at": "2025-08-25 17:55:55.892397"
+      "last_scraped_at": "2025-08-27 15:10:38.210750"
     },
     {
       "name": "University of Waterloo's Beauty Club (UWBC)",
+      "slug": "university-of-waterloo-s-beauty-club-uwbc",
       "org_type": "wusa",
       "description": "In a highly academic setting, we aim to create a community and exciting events that promote self-care, self-expression and creativity through makeup, skincare, and hair! Everyone is welcome no matter their gender, race, sexuality, skill level or skin concerns.",
       "social_media": {
@@ -3109,10 +3249,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/551",
-      "last_scraped_at": "2025-08-25 17:55:56.116939"
+      "last_scraped_at": "2025-08-27 15:10:37.874546"
     },
     {
       "name": "University of Waterloo’s Neuroscience Association (UWNSA)",
+      "slug": "university-of-waterloo-s-neuroscience-association-uwnsa",
       "org_type": "wusa",
       "description": "no description",
       "social_media": {},
@@ -3123,10 +3264,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/137",
-      "last_scraped_at": "2025-08-25 17:55:55.451657"
+      "last_scraped_at": "2025-08-27 15:10:37.220561"
     },
     {
       "name": "Visual Arts Club, UW",
+      "slug": "visual-arts-club-uw",
       "org_type": "wusa",
       "description": "Visual Arts Club welcomes all artists, designers, hobbyists, and those curious about art! We hold drawing sessions, explore different mediums and techniques, and hold themed events. All skill levels welcome! Meetings occur weekly.",
       "social_media": {
@@ -3149,10 +3291,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/204",
-      "last_scraped_at": "2025-08-25 17:55:56.338962"
+      "last_scraped_at": "2025-08-27 15:10:38.382510"
     },
     {
       "name": "Voices for Palestine",
+      "slug": "voices-for-palestine",
       "org_type": "wusa",
       "description": "Voices for Palestine is a student-led organization at the University of Waterloo dedicated to advocating for peace, justice, and freedom for Palestine. We engage in a diverse array of activities, all designed to foster understanding and solidarity. Our efforts range from awareness campaigns and peaceful demonstrations to speaker series and film screenings. These activities are designed to highlight the rich Palestinian culture, history, and the ongoing struggles faced by its people due to Israeli settler colonialism and occupation. In addition to political advocacy, we place a strong emphasis on cultural promotion. Through various events, including cultural showcases, we strive to bring the vibrant Palestinian culture to the forefront, enabling students of all backgrounds to engage with and appreciate it. As Voices for Palestine, we believe in global citizenship and the power of collective action, education, dialogue, and cultural exchange in fostering understanding and effecting change. We invite all students, regardless of their background, to join us in standing for a just and peaceful future for Palestine.",
       "social_media": {
@@ -3167,10 +3310,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/182",
-      "last_scraped_at": "2025-08-25 17:55:56.540618"
+      "last_scraped_at": "2025-08-27 15:10:38.768059"
     },
     {
       "name": "WaterBoo!",
+      "slug": "waterboo",
       "org_type": "wusa",
       "description": "Horror Club is a place where students can come together to enjoy the horror genre. Students can enjoy discussing the genre, experiencing it, and even developing their own horror-themed creations. Activities include watching horror movies, playing horror video games, reading horror stories, and anything else horror!",
       "social_media": {
@@ -3191,10 +3335,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/372",
-      "last_scraped_at": "2025-08-25 17:55:56.190445"
+      "last_scraped_at": "2025-08-27 15:10:38.271403"
     },
     {
       "name": "Waterloo Arab Student Association",
+      "slug": "waterloo-arab-student-association",
       "org_type": "wusa",
       "description": "The purpose of the club is to promote Arab heritage through cultural, social, and educational events. We aim to build a community that connects students of Arab origin and/or interested in Arab culture to foster mutual support. WASA intends to strengthen the Arab community in UWaterloo and address Arab affairs.",
       "social_media": {},
@@ -3205,21 +3350,22 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/375",
-      "last_scraped_at": "2025-08-25 17:55:55.904866"
+      "last_scraped_at": "2025-08-27 15:10:37.590256"
     },
     {
       "name": "Waterloo Hockey Club",
+      "slug": "waterloo-hockey-club",
       "org_type": "wusa",
       "description": "We are a group of hockey fans who enjoy getting together to take part in hockey related activities. Our club activities include getting together to watch livestreamed games on campus, going to see in-person hockey games, and playing fantasy hockey online throughout the semester. We welcome everyone from lifelong fans to those who are new and interested in getting involved in the sport. This club offers both a great way to socialize with new people and follow Canada's most popular sport.",
       "social_media": {
-        "instagram": [
-          "https://www.instagram.com/uwhockeyclub/"
+        "discord": [
+          "https://discord.gg/Y2Qexas8Av"
         ],
         "facebook": [
           "https://m.facebook.com/groups/1187601715440914/?ref=share"
         ],
-        "discord": [
-          "https://discord.gg/Y2Qexas8Av"
+        "instagram": [
+          "https://www.instagram.com/uwhockeyclub/"
         ],
         "email": [
           "waterloohockeyclub@clubs.wusa.ca"
@@ -3232,10 +3378,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/510",
-      "last_scraped_at": "2025-08-25 17:55:57.245051"
+      "last_scraped_at": "2025-08-27 15:10:38.585600"
     },
     {
       "name": "Waterloo Ismaili Students' Association",
+      "slug": "waterloo-ismaili-students-association",
       "org_type": "wusa",
       "description": "The Waterloo Ismaili Students Association (WISA) is a not-for-profit organization that primarily provides a venue for Ismaili Muslim students attending UW to congregate for daily prayers. The club emphasizes a strong sense of community and also holds educational, social, and sports events for our members, in which the greater community is often encouraged to participate.",
       "social_media": {},
@@ -3246,10 +3393,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/208",
-      "last_scraped_at": "2025-08-25 17:55:55.932946"
+      "last_scraped_at": "2025-08-27 15:10:37.763525"
     },
     {
       "name": "Waterloo Laadliyan",
+      "slug": "waterloo-laadliyan",
       "org_type": "wusa",
       "description": "The purpose of the club is to gather University of Waterloo students, staff, faculty, and members of the UWaterloo community at large to: Empower and inspire South Asian daughters, in alignment with the mission and principles of Laadliyan. As an official chapter of Laadliyan, we are dedicated to creating a space for South Asian women to come together, connect, and support one another in navigating the unique challenges and experiences they face. The name \"Laadliyan\" is derived from the Punjabi word \"Laadli,\" meaning “beloved daughter,” a term used by parents to express their deep love and affection for their daughters. Through this chapter, we seek to honour the inherent worth and strength of every South Asian daughter, helping them feel seen, valued, and empowered in every aspect of their lives.",
       "social_media": {},
@@ -3260,10 +3408,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/581",
-      "last_scraped_at": "2025-08-25 17:55:56.520277"
+      "last_scraped_at": "2025-08-27 15:10:38.580490"
     },
     {
       "name": "Waterloo Movie Watchers Club",
+      "slug": "waterloo-movie-watchers-club",
       "org_type": "wusa",
       "description": "The Waterloo Movie Watchers club provides a medium where members watch and share appreciation for various types of movies. We meet up once a week to watch a movie, critically analyze it, and discuss it within the group. We recognize the importance of movies as a factor influencing culture and civilization as a whole. We meet every week to watch a movie as an entertainment, as well as a social gathering.",
       "social_media": {
@@ -3281,24 +3430,27 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/279",
-      "last_scraped_at": "2025-08-25 17:55:56.418447"
+      "last_scraped_at": "2025-08-27 15:10:38.334143"
     },
     {
       "name": "Waterloo Quantum Club",
+      "slug": "waterloo-quantum-club",
       "org_type": "wusa",
       "description": "The Waterloo Quantum Club explores the frontiers of quantum technologies and their applications on a student level. Focused on Quantum Engineering, Quantum Computing, and Quantum Theory, we delve into the latest innovations, including hands-on sessions with tools like Qiskit, Pennylane, Q#, and Cirq along with guest speakers passing on the fire of exuberance to the students.",
       "social_media": {},
       "tags": [
         "Science",
-        "Software"
+        "Software",
+        "AI"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/575",
-      "last_scraped_at": "2025-08-25 17:55:55.919124"
+      "last_scraped_at": "2025-08-27 15:10:37.873714"
     },
     {
       "name": "Waterloo Real Estate Association",
+      "slug": "waterloo-real-estate-association",
       "org_type": "wusa",
       "description": "The Waterloo Real Estate Association (WREA) exists to provide students of all faculties with a platform to learn about the commercial real estate industry, network with like-minded peers and industry professionals, and develop the foundation for a successful career in this dynamic field. WREA has three key success factors: 1. To lift the veil on commercial real estate, showing students the viability of the field’s many rewarding careers, 2. Facilitate unique and inclusive events, allowing our members to build valuable connections with industry professionals, and 3. Host informative and interactive workshops/discussions to aid in bridging the gap between academia and industry.",
       "social_media": {},
@@ -3309,10 +3461,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/528",
-      "last_scraped_at": "2025-08-25 17:55:56.441238"
+      "last_scraped_at": "2025-08-27 15:10:38.176826"
     },
     {
       "name": "Waterloo Science Fiction & Fantasy Club (WATSFIC)",
+      "slug": "waterloo-science-fiction-fantasy-club-watsfic",
       "org_type": "wusa",
       "description": "WatSFiC is the University of Waterloo’s Science Fiction and Fantasy club. With roots in sci-fi literature, the club has since expanded to include all things science fiction, fantasy, and TTRPG. The club hosts many games of D&D 5e, Pathfinder, and Call of Cthulhu for all levels of players from beginner to master along with lesser known TTRPG systems. There are always books and movies to talk about or something to play!",
       "social_media": {
@@ -3336,12 +3489,13 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/211",
-      "last_scraped_at": "2025-08-25 17:55:57.808959"
+      "last_scraped_at": "2025-08-27 15:10:38.711916"
     },
     {
       "name": "Waterloo Snow Coalition",
+      "slug": "waterloo-snow-coalition",
       "org_type": "wusa",
-      "description": "The Waterloo Snow Coalition (WSC) enjoys and promotes every benefit of the university club experience! We host ski/snowboard trips and various other on and off campus events. We are a great club for 1st-years, grads, and exchange-students alike. We have a huge list of members and we expect even more to join our club throughout the winter each and every year during our amazing ski trips. Join our Instagram and Discord to stay up to date on our activities and sign up for events! We offer lots of opportunities for making new friends, getting new gear, and learning about skiing and snowboarding!",
+      "description": "The Waterloo Snow Coalition (WSC) enjoys and promotes every benefit of the university club experience! We host ski/snowboard trips and various other on and off campus events. We are a great club for 1st-years, grads, and exchange-students alike. We have a huge list of members and we expect even more to join our club throughout the winter each and every year during our amazing ski trips. We offer lots of opportunities for making new friends, getting new gear, and learning about skiing and snowboarding!",
       "social_media": {
         "instagram": [
           "https://www.instagram.com/waterloosnowco/"
@@ -3363,10 +3517,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/370",
-      "last_scraped_at": "2025-08-25 17:55:57.316398"
+      "last_scraped_at": "2025-08-27 15:10:39.000233"
     },
     {
       "name": "Waterloo Students and Microbiology (WatSAM)",
+      "slug": "waterloo-students-and-microbiology-watsam",
       "org_type": "wusa",
       "description": "Waterloo Students and Microbiology (WatSAM) was established to create an avenue for students from all six faculties to collaborate and network. This group is made up of students who are connected to microbiology and are dedicated to fostering the research and education of the study of microbial communities. WatSAM will educate and connect these students as well as facilitate their professional progress in the study of microbiomes. The purpose of the club is to gather University of Waterloo students, staff, faculty, and members of the UWaterloo community at large to a) foster interdisciplinary collaborations and relationships between students and Waterloo Centre for Microbial Research (WCMR) members b) connect and educate students, both graduate and undergraduate, in the diverse world of microbiology.",
       "social_media": {
@@ -3387,10 +3542,11 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/459",
-      "last_scraped_at": "2025-08-25 17:55:56.850610"
+      "last_scraped_at": "2025-08-27 15:10:39.002260"
     },
     {
       "name": "Women in Science, Technology, Engineering, and Mathematics (WiSTEM)",
+      "slug": "women-in-science-technology-engineering-and-mathematics-wistem",
       "org_type": "wusa",
       "description": "WiSTEM (Women in Science, Technology, Engineering, and Math) was founded in Spring 2013 by UW students who want to promote equality in STEM disciplines. Although we focus on the issue of gender imbalance, we encourage both males and females, grads and undergrads, and anyone with a connection to STEM to participate. Our activities are a mix of skills workshops, topical discussions, homework help, speakers, and special trips. We hope to deliver a regular programme of events spanning all STEM topics which promote collaboration, creativity, and open-mindedness to all students.",
       "social_media": {
@@ -3411,10 +3567,36 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/284",
-      "last_scraped_at": "2025-08-25 17:55:57.046971"
+      "last_scraped_at": "2025-08-27 15:10:38.988487"
+    },
+    {
+      "name": "Young Liberals, UW",
+      "slug": "young-liberals-uw",
+      "org_type": "wusa",
+      "description": "The Young Liberals of Canada is the organization for progressive, politically-minded youth. The University of Waterloo Young Liberals exists to help students, faculty, and citizens get informed and engaged in Canadian politics. Our mission is to inform and inspire the next generation of political leaders in the Kitchener-Waterloo region and across Canada, and connect Canadian youth with the political process. We strive to provide an inclusive environment where political opinions and ideas can be shared freely, and group members are given opportunities for active participation, personal growth, and leadership. We are affiliated with the Liberal Party of Canada, and believe in the liberal ideals of freedom, justice, and equal opportunity for all Canadians.",
+      "social_media": {
+        "facebook": [
+          "https://www.facebook.com/WaterlooYoungLiberals/"
+        ],
+        "twitter": [
+          "https://twitter.com/uwyoungliberals"
+        ],
+        "email": [
+          "waterloo@campus.oyl.org"
+        ]
+      },
+      "tags": [
+        "Advocacy",
+        "Leadership"
+      ],
+      "is_active": true,
+      "last_active": "Fall 2025",
+      "source_url": "https://clubs.wusa.ca/clubs/223",
+      "last_scraped_at": "2025-08-27 15:10:39.076478"
     },
     {
       "name": "Yugioh Club",
+      "slug": "yugioh-club",
       "org_type": "wusa",
       "description": "The UW Yu-Gi-Oh! Club is a place for current (and prospective) Yu-Gi-Oh! of all different skill levels to play, collect, and enjoy the card game as a whole. We plan on hosting tournaments (along with providing information about local game stores), for those that desire that competitive aspect as the game. We also have the resources in the form of training decks to teach the game from scratch to those who want to learn how to play. Additionally, we serve as an information and trading hub for all things Yu-Gi-Oh! TCG by providing new card information and discussions, rulings questions (with our in-house judges), and a mini trading forum. We aim to be a hub for the Yu-Gi-Oh! TCG, so come join our discord for more information.",
       "social_media": {
@@ -3435,10 +3617,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/424",
-      "last_scraped_at": "2025-08-25 17:55:57.784547"
+      "last_scraped_at": "2025-08-27 15:10:39.130023"
     },
     {
       "name": "osu! Club, UW",
+      "slug": "osu-club-uw",
       "org_type": "wusa",
       "description": "The purpose of the club is to provide an environment for members to play and discuss the rhythm game osu!. Bi-weekly meet-ups give members a place to play osu! in a multiplayer LAN setting or to simply hang out and relax. Termly tournaments and contests give players and mappers an opportunity to fuel their competitive spirit and test their abilities. We are a very welcoming community that encourages anybody interested in the game, regardless of skill level, to come check us out.",
       "social_media": {
@@ -3456,10 +3639,11 @@
       "is_active": true,
       "last_active": "Spring 2025",
       "source_url": "https://clubs.wusa.ca/clubs/367",
-      "last_scraped_at": "2025-08-25 17:55:57.543979"
+      "last_scraped_at": "2025-08-27 15:10:38.411817"
     },
     {
       "name": "uWaTNA",
+      "slug": "uwatna",
       "org_type": "wusa",
       "description": "The University of Waterloo Tamil Networking Association (UWATNA) is a student-led organization dedicated to promoting Tamil culture within the University of Waterloo community. Through a variety of initiatives, including networking opportunities, workshops, cultural showcases, and social events, we aim to foster connection, collaboration, and cultural appreciation. Our goal is to serve as a platform for students and community members to engage with and celebrate Tamil heritage while building meaningful relationships with like-minded individuals.",
       "social_media": {
@@ -3480,7 +3664,7 @@
       "is_active": true,
       "last_active": "Fall 2025",
       "source_url": "https://clubs.wusa.ca/clubs/297",
-      "last_scraped_at": "2025-08-25 17:55:56.727453"
+      "last_scraped_at": "2025-08-27 15:10:38.762138"
     }
   ]
 }
