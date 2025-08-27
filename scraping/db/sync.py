@@ -37,8 +37,8 @@ class SupabaseSync:
     async def sync_type(self, type_name: str):
         """Load JSON and sync to Supabase"""
         data_file = Path(f"data/{type_name}/{type_name}_data.json")
-        
-        with open(data_file) as f:
+
+        with open(data_file, encoding='utf-8') as f:
             data = json.load(f)
         
         clubs = data["data"]

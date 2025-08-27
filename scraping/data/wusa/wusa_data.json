@@ -1,6 +1,6 @@
 {
   "scraper": "wusa",
-  "scraped_at": "2025-08-27T15:35:56.449916",
+  "scraped_at": "2025-08-28T01:01:37.914616",
   "count": 163,
   "data": [
     {
@@ -113,8 +113,7 @@
         ]
       },
       "tags": [
-        "Cultural",
-        "Advocacy"
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -139,7 +138,8 @@
       },
       "tags": [
         "Dance",
-        "Cultural"
+        "Cultural",
+        "Fitness"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -161,7 +161,8 @@
       },
       "tags": [
         "Advocacy",
-        "Volunteer"
+        "Volunteer",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -183,8 +184,9 @@
       },
       "tags": [
         "Advocacy",
-        "Cultural",
-        "Volunteer"
+        "Volunteer",
+        "Sustainability",
+        "Nutrition"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -234,7 +236,9 @@
       },
       "tags": [
         "Leadership",
-        "Business"
+        "Mentorship",
+        "Entrepreneurship",
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -261,8 +265,7 @@
         ]
       },
       "tags": [
-        "Cultural",
-        "Arts"
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -277,7 +280,9 @@
       "social_media": {},
       "tags": [
         "Science",
-        "Academic"
+        "Engineering",
+        "Networking",
+        "Career Development"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -298,7 +303,7 @@
         ]
       },
       "tags": [
-        "Academic",
+        "Science",
         "Recreation"
       ],
       "is_active": true,
@@ -324,7 +329,8 @@
       },
       "tags": [
         "Dance",
-        "Arts"
+        "Arts",
+        "Recreation"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -346,7 +352,9 @@
       },
       "tags": [
         "Cultural",
-        "Wellness"
+        "Religious",
+        "Wellness",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -361,7 +369,10 @@
       "social_media": {},
       "tags": [
         "Software",
-        "Entrepreneurship"
+        "Web Development",
+        "Entrepreneurship",
+        "Mentorship",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -386,6 +397,7 @@
       },
       "tags": [
         "Cultural",
+        "Religious",
         "Advocacy"
       ],
       "is_active": true,
@@ -415,7 +427,8 @@
       },
       "tags": [
         "Sustainability",
-        "Volunteer"
+        "Volunteer",
+        "Advocacy"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -478,6 +491,7 @@
       },
       "tags": [
         "Boardgames",
+        "Mentorship",
         "Recreation"
       ],
       "is_active": true,
@@ -503,7 +517,7 @@
       },
       "tags": [
         "Cultural",
-        "Volunteer"
+        "Religious"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -542,8 +556,7 @@
         ]
       },
       "tags": [
-        "Cultural",
-        "Outdoors"
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -564,8 +577,9 @@
         ]
       },
       "tags": [
-        "Cultural",
-        "Volunteer"
+        "Religious",
+        "Volunteer",
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -596,7 +610,8 @@
       },
       "tags": [
         "Cultural",
-        "Media"
+        "Media",
+        "Esports"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -658,7 +673,8 @@
       },
       "tags": [
         "Recreation",
-        "Outdoors"
+        "Outdoors",
+        "Nutrition"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -729,7 +745,8 @@
       },
       "tags": [
         "Arts",
-        "Community"
+        "Media",
+        "Photography"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -754,6 +771,7 @@
       },
       "tags": [
         "Cultural",
+        "Mentorship",
         "Language"
       ],
       "is_active": true,
@@ -798,7 +816,8 @@
       },
       "tags": [
         "Leadership",
-        "Advocacy"
+        "Advocacy",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -834,8 +853,8 @@
       "description": "EOSA is a club for the Eastern Orthodox Christian students of UW to find fellowship and grow spiritually on campus. We will meet for prayer, homilies, social gatherings and more, in the hope that we can (a) draw closer together in Christ, and (b) sanctify not just our academic activities but the rest of our lives as well.",
       "social_media": {},
       "tags": [
-        "Cultural",
-        "Wellness"
+        "Religious",
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -874,7 +893,10 @@
       },
       "tags": [
         "Arts",
-        "Dance"
+        "Dance",
+        "Music",
+        "Theatre",
+        "Volunteer"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -898,8 +920,9 @@
         ]
       },
       "tags": [
-        "Gaming",
-        "Esports"
+        "Esports",
+        "PC Gaming",
+        "Console Gaming"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -924,7 +947,8 @@
       },
       "tags": [
         "Arts",
-        "Media"
+        "Media",
+        "Film"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -946,7 +970,10 @@
       },
       "tags": [
         "Finance",
-        "Business"
+        "Consulting",
+        "Entrepreneurship",
+        "Leadership",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -971,8 +998,9 @@
       },
       "tags": [
         "Software",
-        "Gaming",
-        "Arts"
+        "Arts",
+        "PC Gaming",
+        "Boardgames"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -993,9 +1021,10 @@
         ]
       },
       "tags": [
-        "Business",
         "Volunteer",
-        "Consulting"
+        "Consulting",
+        "Entrepreneurship",
+        "Finance"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1020,7 +1049,7 @@
       },
       "tags": [
         "Volunteer",
-        "Healthcare",
+        "Public Health",
         "Sustainability"
       ],
       "is_active": true,
@@ -1067,7 +1096,8 @@
       },
       "tags": [
         "Advocacy",
-        "Cultural"
+        "Cultural",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1095,7 +1125,8 @@
       },
       "tags": [
         "Media",
-        "Cultural"
+        "Cultural",
+        "Advocacy"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1120,7 +1151,8 @@
       },
       "tags": [
         "Leadership",
-        "Advocacy"
+        "Advocacy",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1142,7 +1174,9 @@
       },
       "tags": [
         "Cultural",
-        "Advocacy"
+        "Advocacy",
+        "Leadership",
+        "Religious"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1164,7 +1198,7 @@
       },
       "tags": [
         "Cultural",
-        "Advocacy"
+        "Religious"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1244,7 +1278,8 @@
       },
       "tags": [
         "Recreation",
-        "Outdoors"
+        "Outdoors",
+        "Sports"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1266,7 +1301,9 @@
       },
       "tags": [
         "Sustainability",
-        "Science"
+        "Science",
+        "Biology",
+        "Climate Action"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1399,6 +1436,7 @@
       },
       "tags": [
         "Cultural",
+        "Religious",
         "Leadership"
       ],
       "is_active": true,
@@ -1432,8 +1470,9 @@
         ]
       },
       "tags": [
-        "Volunteer",
-        "Advocacy"
+        "Religious",
+        "Leadership",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -1452,7 +1491,7 @@
       },
       "tags": [
         "Cultural",
-        "Volunteer"
+        "Religious"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1476,8 +1515,9 @@
         ]
       },
       "tags": [
+        "Religious",
         "Cultural",
-        "Leadership"
+        "Volunteer"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -1496,7 +1536,8 @@
       },
       "tags": [
         "Cultural",
-        "Community"
+        "Advocacy",
+        "Volunteer"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -1517,7 +1558,9 @@
         ]
       },
       "tags": [
-        "Business",
+        "Finance",
+        "Consulting",
+        "Entrepreneurship",
         "Leadership"
       ],
       "is_active": true,
@@ -1603,8 +1646,8 @@
         ]
       },
       "tags": [
-        "Cultural",
-        "Advocacy"
+        "Religious",
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -1618,8 +1661,9 @@
       "description": "UWMA is Short for University of Waterloo Marketing Association. UWMA fosters student interest in marketing and self-branding alongside providing services to local ventures and individuals. With the help of our leaders, sponsors, and general members we are driving towards being a professional marketing group within the next few years.",
       "social_media": {},
       "tags": [
-        "Business",
-        "Entrepreneurship"
+        "Marketing",
+        "Entrepreneurship",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -1638,7 +1682,8 @@
       },
       "tags": [
         "Leadership",
-        "Recreation"
+        "Recreation",
+        "Advocacy"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -1666,7 +1711,8 @@
       },
       "tags": [
         "Advocacy",
-        "Leadership"
+        "Leadership",
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1685,7 +1731,8 @@
       },
       "tags": [
         "Music",
-        "Arts"
+        "Arts",
+        "Theatre"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1704,7 +1751,9 @@
       },
       "tags": [
         "Volunteer",
-        "Advocacy"
+        "Advocacy",
+        "Cultural",
+        "Religious"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1735,7 +1784,8 @@
       },
       "tags": [
         "Cultural",
-        "Advocacy"
+        "Advocacy",
+        "Religious"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1778,7 +1828,9 @@
       "social_media": {},
       "tags": [
         "Volunteer",
-        "Advocacy"
+        "Advocacy",
+        "Mentorship",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1833,7 +1885,7 @@
       },
       "tags": [
         "Arts",
-        "Recreation"
+        "Photography"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1851,8 +1903,8 @@
         ]
       },
       "tags": [
-        "Gaming",
-        "Boardgames"
+        "Boardgames",
+        "Trading Card Games"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -1897,8 +1949,9 @@
         ]
       },
       "tags": [
-        "Wellness",
-        "Advocacy"
+        "Religious",
+        "Mentorship",
+        "Leadership"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -1931,8 +1984,9 @@
         ]
       },
       "tags": [
+        "Product Management",
         "Leadership",
-        "Business"
+        "Entrepreneurship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -1983,7 +2037,7 @@
       "social_media": {},
       "tags": [
         "Recreation",
-        "Gaming"
+        "Boardgames"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -2021,7 +2075,7 @@
       },
       "tags": [
         "Cultural",
-        "Leadership"
+        "Networking"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2046,7 +2100,10 @@
       },
       "tags": [
         "Cultural",
-        "Advocacy"
+        "Religious",
+        "Advocacy",
+        "Sports",
+        "Recreation"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2064,8 +2121,8 @@
         ]
       },
       "tags": [
-        "Gaming",
-        "Esports"
+        "Esports",
+        "Console Gaming"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2086,8 +2143,7 @@
         ]
       },
       "tags": [
-        "Finance",
-        "Business"
+        "Finance"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2109,7 +2165,8 @@
       },
       "tags": [
         "Cultural",
-        "Advocacy"
+        "Advocacy",
+        "Religious"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2148,8 +2205,8 @@
       "description": "The Teaching Students' Association is an association to promote interaction amongst University of Waterloo Students interested in a career in teaching or teaching in general. The association allows students with such an interest to come together to network and socialize along with attending academic focused events to help motivate students with said interest in teaching.",
       "social_media": {},
       "tags": [
-        "Academic",
-        "Leadership"
+        "Leadership",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2180,7 +2237,10 @@
       },
       "tags": [
         "Software",
-        "Leadership"
+        "Leadership",
+        "Advocacy",
+        "Mentorship",
+        "Diversity"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2224,7 +2284,9 @@
       },
       "tags": [
         "Volunteer",
-        "Leadership"
+        "Leadership",
+        "Mentorship",
+        "Advocacy"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2249,7 +2311,9 @@
       },
       "tags": [
         "Cultural",
-        "Advocacy"
+        "Advocacy",
+        "Religious",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2264,7 +2328,8 @@
       "social_media": {},
       "tags": [
         "Music",
-        "Arts"
+        "Arts",
+        "Performance"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2278,8 +2343,7 @@
       "description": "The Turkish Students' Association of the University of Waterloo (TSA) aims to facilitate networking within the Turkish community, as well as those who speak Turkic languages. The club promotes Turkish culture among students in the Kitchener/Waterloo community by organizing cultural, educational, and/or entertaining events. We gather for social occasions not only to have fun, but also to share our passions, talents, and similarities while embracing the Turkish culture. The TSA welcomes all the different cultures and ethnicities who are interested in learning about and/or mixing within the Turkish culture!",
       "social_media": {},
       "tags": [
-        "Cultural",
-        "Advocacy"
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2365,8 +2429,9 @@
         ]
       },
       "tags": [
-        "Academic",
-        "Advocacy"
+        "Public Health",
+        "Advocacy",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2463,7 +2528,8 @@
       },
       "tags": [
         "Dance",
-        "Cultural"
+        "Cultural",
+        "Music"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2477,8 +2543,11 @@
       "description": "The UW Diabetes Association (UWDA) aims to raise awareness of diabetes and provide support for students living with diabetes. We aim to provide a network of support for students on campus because we acknowledge the challenges of managing diabetes while transitioning to university. Students living with diabetes can get the chance to meet other students and share common experiences or learn helpful management tips. All students are welcome for the opportunity to learn more about diabetes or raise awareness regarding mental health, staying active, and healthy eating.",
       "social_media": {},
       "tags": [
+        "Public Health",
         "Wellness",
-        "Mental Health"
+        "Mental Health",
+        "Advocacy",
+        "Nutrition"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2497,7 +2566,8 @@
       },
       "tags": [
         "Advocacy",
-        "Volunteer"
+        "Volunteer",
+        "Public Health"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2512,7 +2582,8 @@
       "social_media": {},
       "tags": [
         "Cultural",
-        "Music"
+        "Music",
+        "Dance"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2534,7 +2605,8 @@
       },
       "tags": [
         "Consulting",
-        "Leadership"
+        "Leadership",
+        "Entrepreneurship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2571,7 +2643,8 @@
       },
       "tags": [
         "Volunteer",
-        "Advocacy"
+        "Advocacy",
+        "Public Health"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2585,7 +2658,8 @@
       "description": "The UW Persian Student Association is a cultural community dedicated to reconnecting with Persian heritage and sharing it with others. Whether you grew up in Canada and feel distanced from your roots, or you're simply curious and eager to explore the richness of Persian culture, this club is for you. The club hosts beginner-friendly sessions on speaking, reading, and writing in Persian (Farsi), perfect for anyone looking to improve or begin their language journey. Beyond language, we celebrate the diverse and vibrant aspects of Persian culture through events like Persian movie nights, artist and singer showcases, and traditional cultural games that offer a deeper understanding of our shared history and traditions. Furthermore, the club also hosts social gatherings, where students can connect over a cup of chai (tea), as well as Persian speaker nights and club trips + study sessions! Join us to connect, learn, and celebrate Persian identity in a welcoming and inclusive space. No background knowledge is required — just curiosity, interest for cultural expansion, and an open mind!",
       "social_media": {},
       "tags": [
-        "Cultural"
+        "Cultural",
+        "Language"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2630,8 +2704,10 @@
       "description": "UW Pre-Med Club is an event-based club under the Federation of Students. We are a student-run organization that provides assistance and networking opportunities for those interested in medicine and medicine-related careers. The club holds various events that provide information on topics such as the medical school application process, the MCAT and its associated preparatory courses as well as ways to get involved around your school and community. The club is open to students of all faculties at the University of Waterloo.",
       "social_media": {},
       "tags": [
-        "Academic",
-        "Leadership"
+        "Biology",
+        "Public Health",
+        "Leadership",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2725,7 +2801,8 @@
       },
       "tags": [
         "Volunteer",
-        "Advocacy"
+        "Advocacy",
+        "Public Health"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2772,7 +2849,8 @@
       },
       "tags": [
         "Volunteer",
-        "Advocacy"
+        "Advocacy",
+        "Public Health"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2790,8 +2868,9 @@
         ]
       },
       "tags": [
-        "Gaming",
-        "Recreation"
+        "Esports",
+        "Recreation",
+        "PC Gaming"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2806,6 +2885,7 @@
       "social_media": {},
       "tags": [
         "Arts",
+        "Product Management",
         "Leadership"
       ],
       "is_active": true,
@@ -2874,7 +2954,8 @@
       },
       "tags": [
         "Arts",
-        "Cultural"
+        "Cultural",
+        "Media"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -2907,8 +2988,7 @@
         ]
       },
       "tags": [
-        "Cultural",
-        "Advocacy"
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -2989,7 +3069,8 @@
       },
       "tags": [
         "Recreation",
-        "Outdoors"
+        "Outdoors",
+        "Sports"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -3025,8 +3106,9 @@
         ]
       },
       "tags": [
-        "Academic",
-        "Wellness"
+        "Public Health",
+        "Wellness",
+        "Mental Health"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3048,7 +3130,7 @@
       },
       "tags": [
         "Cultural",
-        "Volunteer"
+        "Religious"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3070,6 +3152,7 @@
       },
       "tags": [
         "Science",
+        "Biology",
         "Outdoors"
       ],
       "is_active": true,
@@ -3118,8 +3201,7 @@
         ]
       },
       "tags": [
-        "Cultural",
-        "Community"
+        "Cultural"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3194,7 +3276,7 @@
       "description": "Our club connects rhythm game enthusiasts of all skill levels to discuss, play, and compete with each other. Everyone is welcome, regardless of prior experience or device you play rhythm games on (arcade, mobile, PC, etc.). We host events both online and in-person, with tournaments, social gatherings, controller showcases and more. Our community is vibrant and welcoming, and we're happy if you would like to join us!",
       "social_media": {},
       "tags": [
-        "Gaming",
+        "Rhythm Games",
         "Esports"
       ],
       "is_active": true,
@@ -3210,7 +3292,8 @@
       "social_media": {},
       "tags": [
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Outdoors"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3224,8 +3307,9 @@
       "description": "The zoology club is a community of animal-loving UW students. Through online engagement, educational campaigns, and group events, we are building a community of students that are passionate about everything animal related. We are eager to discuss and educate our UW peers on animal-related topics such as animal endangerment, local animals within our community, obscure animals you might not know about, and plenty more!",
       "social_media": {},
       "tags": [
-        "Academic",
-        "Sustainability"
+        "Biology",
+        "Sustainability",
+        "Advocacy"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3259,7 +3343,8 @@
       "social_media": {},
       "tags": [
         "Science",
-        "Academic"
+        "Biology",
+        "Mental Health"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3330,7 +3415,9 @@
       },
       "tags": [
         "Media",
-        "Gaming"
+        "PC Gaming",
+        "Console Gaming",
+        "Arts"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3388,7 +3475,8 @@
       "social_media": {},
       "tags": [
         "Cultural",
-        "Sports"
+        "Religious",
+        "Community"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -3403,7 +3491,9 @@
       "social_media": {},
       "tags": [
         "Cultural",
-        "Advocacy"
+        "Advocacy",
+        "Leadership",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3425,7 +3515,8 @@
       },
       "tags": [
         "Arts",
-        "Recreation"
+        "Recreation",
+        "Media"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3441,7 +3532,8 @@
       "tags": [
         "Science",
         "Software",
-        "AI"
+        "AI",
+        "Physics"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3455,8 +3547,11 @@
       "description": "The Waterloo Real Estate Association (WREA) exists to provide students of all faculties with a platform to learn about the commercial real estate industry, network with like-minded peers and industry professionals, and develop the foundation for a successful career in this dynamic field. WREA has three key success factors: 1. To lift the veil on commercial real estate, showing students the viability of the field’s many rewarding careers, 2. Facilitate unique and inclusive events, allowing our members to build valuable connections with industry professionals, and 3. Host informative and interactive workshops/discussions to aid in bridging the gap between academia and industry.",
       "social_media": {},
       "tags": [
-        "Business",
-        "Finance"
+        "Finance",
+        "Entrepreneurship",
+        "Consulting",
+        "Leadership",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3483,8 +3578,9 @@
         ]
       },
       "tags": [
-        "Gaming",
-        "Boardgames"
+        "TTRPGs",
+        "Boardgames",
+        "Arts"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -3512,7 +3608,8 @@
       },
       "tags": [
         "Recreation",
-        "Outdoors"
+        "Outdoors",
+        "Sports"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3537,7 +3634,7 @@
       },
       "tags": [
         "Science",
-        "Academic"
+        "Biology"
       ],
       "is_active": true,
       "last_active": "Fall 2025",
@@ -3562,7 +3659,12 @@
       },
       "tags": [
         "Advocacy",
-        "Science"
+        "Science",
+        "Math",
+        "Software",
+        "Engineering",
+        "Leadership",
+        "Mentorship"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3611,8 +3713,7 @@
         ]
       },
       "tags": [
-        "Gaming",
-        "Boardgames"
+        "Trading Card Games"
       ],
       "is_active": true,
       "last_active": "Spring 2025",
@@ -3633,8 +3734,8 @@
         ]
       },
       "tags": [
-        "Gaming",
-        "Esports"
+        "Esports",
+        "Rhythm Games"
       ],
       "is_active": true,
       "last_active": "Spring 2025",

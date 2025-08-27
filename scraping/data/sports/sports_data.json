@@ -1,6 +1,6 @@
 {
   "scraper": "sports",
-  "scraped_at": "2025-08-27T15:36:01.240025",
+  "scraped_at": "2025-08-28T01:01:37.924415",
   "count": 38,
   "data": [
     {
@@ -49,7 +49,9 @@
       },
       "tags": [
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Outdoors",
+        "Fitness"
       ],
       "membership_info": "Approximately $35.00 + tax per player. This fee is per semester. *All clubs memberships require a prerequisite base athletics membership. Currently enrolled, on-campus students already have this prerequisite membership during the Fall and Winter semesters. For all other community participants and students attending classes in the summer months, a monthly base membership is required for purchase before enrolling into a club*",
       "is_active": true,
@@ -76,7 +78,8 @@
       },
       "tags": [
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Fitness"
       ],
       "meeting_info": {
         "schedule": "Mondays 8-10 PM, Wednesdays 8-9:30 PM",
@@ -107,7 +110,8 @@
       "tags": [
         "Sports",
         "Recreation",
-        "Outdoors"
+        "Outdoors",
+        "Fitness"
       ],
       "meeting_info": {
         "schedule": "Tuesdays 8AM: Open Rec swim, Wednesdays 5:30 PM: Bike rides, Fridays 4:30 PM: Run",
@@ -134,7 +138,8 @@
       },
       "tags": [
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Fitness"
       ],
       "meeting_info": {
         "schedule": "Mondays 8-10 PM, Friday 9-10 PM",
@@ -169,7 +174,9 @@
       },
       "tags": [
         "Sports",
-        "Wellness"
+        "Martial Arts",
+        "Wellness",
+        "Fitness"
       ],
       "membership_info": "$30.00 + HST / term *All clubs memberships require a prerequisite base athletics membership. Currently enrolled already have this prerequisite membership.",
       "is_active": true,
@@ -198,7 +205,8 @@
       },
       "tags": [
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Fitness"
       ],
       "meeting_info": {
         "schedule": "Beginner: Thursdays: 5 - 6 PM, Intermediate & Advanced: Mondays: 5-7:30 PM, Thursdays 6 - 8 PM",
@@ -225,8 +233,10 @@
         ]
       },
       "tags": [
+        "Martial Arts",
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Fitness"
       ],
       "meeting_info": {
         "schedule": "Tuesday: 5:00-7:00pm, Thursdays: 5:00-7:00pm, Sundays: 4:30-6:00pm",
@@ -262,9 +272,10 @@
         ]
       },
       "tags": [
+        "Martial Arts",
         "Sports",
-        "Recreation",
-        "Leadership"
+        "Leadership",
+        "Recreation"
       ],
       "membership_info": "$40.00 + HST / term. All clubs memberships require a prerequisite base athletics membership. Currently enrolled students already have this prerequisite membership.",
       "is_active": true,
@@ -290,7 +301,8 @@
       },
       "tags": [
         "Sports",
-        "Cultural"
+        "Cultural",
+        "Martial Arts"
       ],
       "membership_info": "$50.00 + HST / term",
       "is_active": true,
@@ -318,6 +330,7 @@
         ]
       },
       "tags": [
+        "Martial Arts",
         "Sports",
         "Wellness"
       ],
@@ -342,7 +355,8 @@
       },
       "tags": [
         "Sports",
-        "Recreation"
+        "Martial Arts",
+        "Fitness"
       ],
       "membership_info": "$55.00 + HST / Term *All clubs memberships require a prerequisite base athletics membership. Currently enrolled, on-campus students already have this prerequisite membership.",
       "is_active": true,
@@ -366,6 +380,7 @@
       },
       "tags": [
         "Sports",
+        "Fitness",
         "Recreation"
       ],
       "meeting_info": {
@@ -864,7 +879,8 @@
       },
       "tags": [
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Fitness"
       ],
       "meeting_info": {
         "schedule": "Monday 8-9 PM, Saturday 1-2 PM",
@@ -894,7 +910,8 @@
       },
       "tags": [
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Outdoors"
       ],
       "meeting_info": {
         "schedule": "Sunday 7:00pm - 9:00pm (Training), Monday 8:00pm - 10:30pm (General), Wednesday 8:30pm - 10:30pm (General), Friday 6:00pm - 9:00pm (Advanced), Saturday 9:30am - 1:00pm (Advanced)",
@@ -925,7 +942,8 @@
       },
       "tags": [
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Outdoors"
       ],
       "meeting_info": {
         "schedule": "Times will vary, but ride schedule is provided in the Discord server.",
@@ -955,7 +973,8 @@
       },
       "tags": [
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Outdoors"
       ],
       "meeting_info": {
         "schedule": "Tuesdays 6:30-7:30 PM. Times will vary, but a schedule is provided."
@@ -985,7 +1004,9 @@
       },
       "tags": [
         "Sports",
-        "Recreation"
+        "Recreation",
+        "Fitness",
+        "Running"
       ],
       "meeting_info": {
         "schedule": "Mondays, Wednesday, Friday: 7 PM; Thursday: 6 PM",
@@ -1015,7 +1036,8 @@
       },
       "tags": [
         "Recreation",
-        "Sports"
+        "Sports",
+        "Fitness"
       ],
       "meeting_info": {
         "schedule": "Wednesdays from 4:00pm - 6:00pm",
@@ -1042,6 +1064,7 @@
       },
       "tags": [
         "Sports",
+        "Fitness",
         "Recreation"
       ],
       "membership_info": "For $10 per Term you get access to all strength club events and exclusive strength club equipment at PAC including a Power bar, Oly bar, mag grips and more!",
@@ -1063,7 +1086,9 @@
       },
       "tags": [
         "Esports",
-        "Gaming"
+        "PC Gaming",
+        "Console Gaming",
+        "Volunteer"
       ],
       "is_active": true,
       "last_active": "Fall 2025",

@@ -13,51 +13,74 @@ logging.basicConfig(level=logging.INFO)
 load_dotenv()
 
 TAGS = [
-    # Academic
-    "Academic",
-    "Science", 
+    # Academic 
+    "Science",
     "Math",
-    
+    "Biology",
+    "Chemistry",
+    "Physics",
+    "Statistics",
+
     # Tech
     "Software",
     "AI",
     "Robotics",
     "Hardware",
-    
+    "Web Development",
+    "Cybersecurity",
+    "Cloud",
+
     # Business
-    "Business",
     "Finance",
     "Consulting",
     "Entrepreneurship",
-    
+    "Marketing",
+    "Product Management",
+    "Operations",
+
     # Environment & Health
     "Sustainability",
     "Wellness",
     "Mental Health",
-    
+    "Public Health",
+    "Climate Action",
+    "Nutrition",
+
     # Sports & Recreation
     "Sports",
     "Recreation",
     "Outdoors",
-    
+    "Fitness",
+    "Martial Arts",
+    "Running",
+    "Badminton",
+
     # Arts & Media
     "Arts",
     "Music",
     "Dance",
     "Theatre",
     "Media",
-    
+    "Photography",
+
     # Gaming
-    "Gaming",
     "Esports",
     "Boardgames",
-    
+    "TTRPGs",
+    "PC Gaming",
+    "Console Gaming",
+    "Trading Card Games",
+    "Rhythm Games",
+
     # Community & Culture
     "Volunteer",
     "Advocacy",
     "Cultural",
     "LGBTQ+",
     "Leadership",
+    "Mentorship",
+    "Religious"
+
 ]
 
 def save_data(type_name, clubs):
@@ -68,13 +91,13 @@ def save_data(type_name, clubs):
         "count": len(clubs),
         "data": clubs
     }
-    
-    with open(data_dir / f"{type_name}_data.json", 'w') as f:
+
+    with open(data_dir / f"{type_name}_data.json", 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
     
 async def tag_club(client, club):
     prompt = f"""
-Assign 1-3 tags to this University of Waterloo club.
+Assign all relevant tags to this University of Waterloo club.
 Allowed tags: {', '.join(TAGS)}
 
 Guidelines:
@@ -85,7 +108,7 @@ Guidelines:
 
 Club: {json.dumps(club)}
 
-Return JSON only: {{"tags": ["Tag1", "Tag2"]}}
+Return JSON only, eg: {{"tags": ["Tag1", "Tag2", ...]}}
 """
     
     response = await client.chat.completions.create(
@@ -109,8 +132,8 @@ async def process_type(type_name):
     if not data_file.exists():
         print(f"No data for {type_name}")
         return
-    
-    with open(data_file) as f:
+
+    with open(data_file, encoding='utf-8') as f:
         data = json.load(f)
     
     clubs = data["data"]
