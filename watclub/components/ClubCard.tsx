@@ -21,7 +21,7 @@ export default function ClubCard({
       
       {/* Truncated description */}
       <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
-        {description}
+        {description.slice(0, 150) + '...'}
       </p>
       
       {/* Stats */}

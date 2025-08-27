@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Inter } from 'next/font/google'
 import { AuthProvider } from '@/lib/AuthContext'
 import { ThemeProvider } from '@/components/theme-provider'
+import { ClubsProvider } from '@/lib/ClubsContext'
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -29,7 +30,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <AuthProvider>
-            {children}
+            <ClubsProvider>
+              {children}
+            </ClubsProvider>
           </AuthProvider>
         </ThemeProvider>
       </body>

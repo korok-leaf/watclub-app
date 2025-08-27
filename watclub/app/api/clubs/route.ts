@@ -26,7 +26,7 @@ export async function GET() {
     const transformedClubs = clubs?.map(club => ({
       id: club.id,
       name: club.name,
-      description: club.description?.slice(0, 150) + '...',
+      description: club.description,
       orgType: club.org_type,
       reviewCount: club.total_reviews || 0,
       avgRating: club.avg_review || 0,

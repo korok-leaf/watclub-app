@@ -3,14 +3,14 @@
 import { useState, useMemo } from 'react'
 import ClubCard from './ClubCard'
 import { cn } from '@/lib/utils'
-import { useClubs } from '@/hooks/useClubs'
+import { useClubsContext } from '@/lib/ClubsContext'
 
 const tabs = ['All', 'WUSA', 'Design', 'Faculty', 'Sports'] as const
 type TabType = typeof tabs[number]
 
 export default function ClubsDisplay() {
   const [activeTab, setActiveTab] = useState<TabType>('All')
-  const { clubs, loading, error } = useClubs()
+  const { clubs, loading, error } = useClubsContext()
 
   // Filter clubs based on active tab
   const filteredClubs = useMemo(() => {
