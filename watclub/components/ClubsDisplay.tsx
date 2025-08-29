@@ -81,6 +81,7 @@ export default function ClubsDisplay() {
             filteredClubs.map((club) => (
               <ClubCard
                 key={club.id}
+                id={club.id}
                 name={club.name}
                 description={club.description}
                 reviewCount={club.reviewCount}
