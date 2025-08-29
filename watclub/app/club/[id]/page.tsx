@@ -1,6 +1,17 @@
 "use client"
 
-import { use } from 'react'
+import { use, useEffect, useState } from 'react'
+
+interface ClubData {
+  id: number
+  name: string
+  description: string
+  orgType: string
+  tags: string[]
+  reviewCount: number
+  avgRating: number
+  recommendPercentage: number
+}
 
 interface ClubDetailPageProps {
   params: Promise<{
@@ -10,60 +21,100 @@ interface ClubDetailPageProps {
 
 export default function ClubDetailPage({ params }: ClubDetailPageProps) {
   const { id } = use(params)
+  const [club, setClub] = useState<ClubData | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
 
-  // Mock data - replace with actual data fetching later
-  const mockClub = {
-    id: id,
-    name: "Sample Club",
-    description: "This is a detailed description of the club. It includes information about what the club does, when they meet, and what activities they organize. This would normally come from your database based on the club ID.",
-    category: "Academic",
-    faculty: "Engineering",
-    memberCount: 45,
-    founded: "2020",
-    meetingTime: "Thursdays 6:00 PM",
-    location: "Engineering 7 Room 6440",
-    website: "https://example.com",
-    email: "contact@sampleclub.com",
-    socialMedia: {
-      instagram: "@sampleclub",
-      discord: "discord.gg/sampleclub"
-    },
-    images: [
-      "/placeholder.svg",
-      "/placeholder.svg",
-      "/placeholder.svg"
-    ]
+  useEffect(() => {
+    const fetchClub = async () => {
+      try {
+        setLoading(true)
+        const response = await fetch('/api/club', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ id }),
+        })
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch club data')
+        }
+
+        const data = await response.json()
+        setClub(data.club)
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'An error occurred')
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchClub()
+  }, [id])
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 py-8">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="bg-white rounded-lg shadow-md p-8">
+            <div className="animate-pulse">
+              <div className="h-8 bg-gray-300 rounded mb-4"></div>
+              <div className="h-4 bg-gray-300 rounded mb-2"></div>
+              <div className="h-4 bg-gray-300 rounded mb-2"></div>
+              <div className="h-4 bg-gray-300 rounded w-2/3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
   }
 
-  const mockReviews = [
-    {
-      id: 1,
-      author: "Student A",
-      rating: 5,
-      date: "2024-01-15",
-      comment: "Great club! Very welcoming community and lots of interesting projects to work on."
-    },
-    {
-      id: 2,
-      author: "Student B",
-      rating: 4,
-      date: "2024-01-10",
-      comment: "Good learning opportunities. The meetings are well organized and informative."
-    },
-    {
-      id: 3,
-      author: "Student C",
-      rating: 5,
-      date: "2024-01-05",
-      comment: "Amazing experience! Met lots of like-minded people and learned so much."
-    }
-  ]
+  if (error) {
+    return (
+      <div className="min-h-screen bg-gray-50 py-8">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="bg-white rounded-lg shadow-md p-8">
+            <div className="text-center">
+              <h1 className="text-2xl font-bold text-gray-900 mb-4">Error</h1>
+              <p className="text-gray-600">{error}</p>
+              <button 
+                onClick={() => window.history.back()}
+                className="mt-4 text-blue-600 hover:text-blue-800"
+              >
+                ← Back to Clubs
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  if (!club) {
+    return (
+      <div className="min-h-screen bg-gray-50 py-8">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="bg-white rounded-lg shadow-md p-8">
+            <div className="text-center">
+              <h1 className="text-2xl font-bold text-gray-900 mb-4">Club Not Found</h1>
+              <p className="text-gray-600">The club you're looking for doesn't exist.</p>
+              <button 
+                onClick={() => window.history.back()}
+                className="mt-4 text-blue-600 hover:text-blue-800"
+              >
+                ← Back to Clubs
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   const renderStars = (rating: number) => {
-    return "★".repeat(rating) + "☆".repeat(5 - rating)
+    return "★".repeat(Math.round(rating)) + "☆".repeat(5 - Math.round(rating))
   }
-
-  const averageRating = mockReviews.reduce((sum, review) => sum + review.rating, 0) / mockReviews.length
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -81,25 +132,21 @@ export default function ClubDetailPage({ params }: ClubDetailPageProps) {
         {/* Club Header */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
           <div className="bg-blue-600 px-6 py-8 text-white">
-            <h1 className="text-3xl font-bold mb-2">{mockClub.name}</h1>
+            <h1 className="text-3xl font-bold mb-2">{club.name}</h1>
             <div className="flex flex-wrap gap-4 text-blue-100">
-              <span className="bg-blue-700 px-3 py-1 rounded-full text-sm">{mockClub.category}</span>
-              <span className="bg-blue-700 px-3 py-1 rounded-full text-sm">{mockClub.faculty}</span>
+              <span className="bg-blue-700 px-3 py-1 rounded-full text-sm capitalize">{club.orgType}</span>
+              {club.tags.map((tag, index) => (
+                <span key={index} className="bg-blue-700 px-3 py-1 rounded-full text-sm">{tag}</span>
+              ))}
             </div>
           </div>
           
-          {/* Club Images */}
+          {/* Placeholder for club images - replace with actual images when available */}
           <div className="p-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-              {mockClub.images.map((image, index) => (
-                <div key={index} className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
-                  <img 
-                    src={image} 
-                    alt={`${mockClub.name} image ${index + 1}`}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              ))}
+              <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+                <span className="text-gray-500">No images available</span>
+              </div>
             </div>
           </div>
         </div>
@@ -111,7 +158,7 @@ export default function ClubDetailPage({ params }: ClubDetailPageProps) {
             {/* Description */}
             <div className="bg-white rounded-lg shadow-md p-6 mb-6">
               <h2 className="text-2xl font-bold mb-4">About This Club</h2>
-              <p className="text-gray-700 leading-relaxed">{mockClub.description}</p>
+              <p className="text-gray-700 leading-relaxed">{club.description}</p>
             </div>
 
             {/* Reviews Section */}
@@ -119,38 +166,34 @@ export default function ClubDetailPage({ params }: ClubDetailPageProps) {
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-2xl font-bold">Reviews</h2>
                 <div className="flex items-center gap-2">
-                  <span className="text-2xl">{renderStars(Math.round(averageRating))}</span>
-                  <span className="text-gray-600">({mockReviews.length} reviews)</span>
+                  <span className="text-2xl">{renderStars(club.avgRating)}</span>
+                  <span className="text-gray-600">({club.reviewCount} reviews)</span>
                 </div>
               </div>
 
-              {/* Individual Reviews */}
-              <div className="space-y-4">
-                {mockReviews.map((review) => (
-                  <div key={review.id} className="border-b border-gray-200 pb-4 last:border-b-0">
-                    <div className="flex items-center justify-between mb-2">
-                      <div className="flex items-center gap-3">
-                        <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-bold">
-                          {review.author.charAt(0)}
-                        </div>
-                        <span className="font-medium">{review.author}</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-yellow-500">{renderStars(review.rating)}</span>
-                        <span className="text-gray-500 text-sm">{review.date}</span>
-                      </div>
+              {club.reviewCount > 0 ? (
+                <div className="space-y-4">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-blue-600">{club.avgRating.toFixed(1)}</div>
+                      <div className="text-sm text-gray-600">Average Rating</div>
                     </div>
-                    <p className="text-gray-700 ml-11">{review.comment}</p>
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-green-600">{club.recommendPercentage}%</div>
+                      <div className="text-sm text-gray-600">Would Recommend</div>
+                    </div>
                   </div>
-                ))}
-              </div>
-
-              {/* Add Review Button */}
-              <div className="mt-6 pt-4 border-t border-gray-200">
-                <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-200">
-                  Write a Review
-                </button>
-              </div>
+                  {/* Add individual reviews here when available */}
+                  <p className="text-gray-500 italic">Individual reviews will be displayed here when available.</p>
+                </div>
+              ) : (
+                <div className="text-center py-8">
+                  <p className="text-gray-500 mb-4">No reviews yet. Be the first to review this club!</p>
+                  <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
+                    Write a Review
+                  </button>
+                </div>
+              )}
             </div>
           </div>
 
@@ -161,48 +204,31 @@ export default function ClubDetailPage({ params }: ClubDetailPageProps) {
               <h3 className="text-xl font-bold mb-4">Club Information</h3>
               <div className="space-y-3">
                 <div>
-                  <span className="font-medium text-gray-700">Members:</span>
-                  <span className="ml-2">{mockClub.memberCount}</span>
+                  <span className="font-medium text-gray-700">Organization Type:</span>
+                  <span className="ml-2 capitalize">{club.orgType}</span>
                 </div>
                 <div>
-                  <span className="font-medium text-gray-700">Founded:</span>
-                  <span className="ml-2">{mockClub.founded}</span>
+                  <span className="font-medium text-gray-700">Tags:</span>
+                  <div className="ml-2 flex flex-wrap gap-1 mt-1">
+                    {club.tags.map((tag, index) => (
+                      <span key={index} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
                 <div>
-                  <span className="font-medium text-gray-700">Meeting Time:</span>
-                  <span className="ml-2">{mockClub.meetingTime}</span>
-                </div>
-                <div>
-                  <span className="font-medium text-gray-700">Location:</span>
-                  <span className="ml-2">{mockClub.location}</span>
+                  <span className="font-medium text-gray-700">Reviews:</span>
+                  <span className="ml-2">{club.reviewCount}</span>
                 </div>
               </div>
             </div>
 
-            {/* Contact Info */}
+            {/* Contact Info - Placeholder */}
             <div className="bg-white rounded-lg shadow-md p-6 mb-6">
               <h3 className="text-xl font-bold mb-4">Contact</h3>
               <div className="space-y-3">
-                <div>
-                  <span className="font-medium text-gray-700">Website:</span>
-                  <a href={mockClub.website} className="ml-2 text-blue-600 hover:underline block">
-                    {mockClub.website}
-                  </a>
-                </div>
-                <div>
-                  <span className="font-medium text-gray-700">Email:</span>
-                  <a href={`mailto:${mockClub.email}`} className="ml-2 text-blue-600 hover:underline block">
-                    {mockClub.email}
-                  </a>
-                </div>
-                <div>
-                  <span className="font-medium text-gray-700">Instagram:</span>
-                  <span className="ml-2">{mockClub.socialMedia.instagram}</span>
-                </div>
-                <div>
-                  <span className="font-medium text-gray-700">Discord:</span>
-                  <span className="ml-2">{mockClub.socialMedia.discord}</span>
-                </div>
+                <p className="text-gray-500 italic">Contact information will be available soon.</p>
               </div>
             </div>
 
@@ -212,7 +238,7 @@ export default function ClubDetailPage({ params }: ClubDetailPageProps) {
                 Join This Club
               </button>
               <p className="text-gray-600 text-sm mt-2 text-center">
-                Connect with {mockClub.memberCount} other members
+                Connect with other members
               </p>
             </div>
           </div>
