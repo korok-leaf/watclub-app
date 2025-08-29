@@ -1,6 +1,9 @@
 'use client'
 
+import { useRouter } from 'next/navigation'
+
 interface ClubCardProps {
+  id: string
   name: string
   description: string
   reviewCount: number
@@ -9,14 +12,24 @@ interface ClubCardProps {
 }
 
 export default function ClubCard({
+  id,
   name,
   description,
   reviewCount,
   avgRating,
   recommendPercentage
 }: ClubCardProps) {
+  const router = useRouter()
+
+  const handleClick = () => {
+    router.push(`/club/${id}`)
+  }
+
   return (
-    <div className="rounded-lg border bg-card p-6 hover:shadow-lg transition-all cursor-pointer">
+    <div 
+      onClick={handleClick}
+      className="rounded-lg border bg-card p-6 hover:shadow-lg transition-all cursor-pointer hover:scale-[1.02] active:scale-[0.98]"
+    >
       <h3 className="text-lg font-semibold mb-2">{name}</h3>
       
       {/* Truncated description */}
